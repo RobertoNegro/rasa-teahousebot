@@ -1,0 +1,495 @@
+## search and then filter
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* search{"category": "Black Teas"}
+    - slot{"category": "Black Teas"}
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"category": "Black Teas"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", null, null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", null, null, null, null, null, 5]}
+* search_affirm
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", null, null, null, null, null, 10]}
+* filter{"origin": "China"}
+    - slot{"origin": "China"}
+    - action_filter
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", "China", null, null, null, null, 0]}
+    - followup{"name": "action_suggest"}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", "China", null, null, null, null, 5]}
+* search_deny
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## search generic and then category specified
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* search
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"requested_slot": "category"}
+* form: search{"category": "green tea"}
+    - slot{"category": "green tea"}
+    - form: form_action_search
+    - slot{"category": "green tea"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["green tea", null, null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["green tea", null, null, null, null, null, 5]}
+* thanks_goodbye
+    - utter_thanks_goodbye
+
+## search generic, then unknown category, then category specified
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* search
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"requested_slot": "category"}
+* form: search
+    - form: form_action_search
+    - slot{"requested_slot": "category"}
+* form: search{"category": "unknown"}
+    - slot{"category": "unknown"}
+    - form: form_action_search
+    - slot{"category": null}
+    - slot{"requested_slot": "category"}
+* form: search{"category": "Oolong"}
+    - slot{"category": "Oolong"}
+    - form: form_action_search
+    - slot{"category": "Oolong"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Oolong", null, null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Oolong", null, null, null, null, null, 5]}
+* search_affirm
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Oolong", null, null, null, null, null, 10]}
+* search_deny
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## double search, filter, another search
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* search{"category": "White Teas"}
+    - slot{"category": "White Teas"}
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"category": "White Teas"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["White Teas", null, null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["White Teas", null, null, null, null, null, 5]}
+* search{"category": "Green Teas", "origin": "China"}
+    - slot{"category": "Green Teas"}
+    - slot{"origin": "China"}
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"category": "Green Teas"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", "China", null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", "China", null, null, null, null, 5]}
+* filter{"new": "brand new"}
+    - slot{"new": "brand new"}
+    - action_filter
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", "China", null, null, null, "brand new", 0]}
+    - followup{"name": "action_suggest"}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", "China", null, null, null, "brand new", 5]}
+* search{"category": "Black Teas"}
+    - slot{"category": "Black Teas"}
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"category": "Black Teas"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", null, null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Black Teas", null, null, null, null, null, 5]}
+* search_deny
+    - utter_can_i_help_you_again
+* thanks_goodbye
+    - utter_thanks_goodbye
+
+## search, then details, then preparation, then search_affirm to continue search
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* search{"category": "Green Teas"}
+    - slot{"category": "Green Teas"}
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"category": "Green Teas"}
+    - slot{"category": "Green Teas"}
+    - slot{"category": null}
+    - slot{"origin": null}
+    - slot{"organic": null}
+    - slot{"christmas": null}
+    - slot{"availability": null}
+    - slot{"new": null}
+    - slot{"unfeat_search_settings": ["Green Teas", null, null, null, null, null, 0]}
+    - form: followup{"name": "action_suggest"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", null, null, null, null, null, 5]}
+* search_affirm
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", null, null, null, null, null, 10]}
+* details{"name": "earl green green tee"}
+    - slot{"name": "earl green green tee"}
+    - form_action_details
+    - form{"name": "form_action_details"}
+    - slot{"name": "earl green green tee"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* preparation
+    - form_action_preparation
+    - form{"name": "form_action_preparation"}
+    - slot{"name": "earl green green tee"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* search_affirm
+    - action_suggest
+    - slot{"name": null}
+    - slot{"unfeat_search_settings": ["Green Teas", null, null, null, null, null, 15]}
+* thanks_goodbye
+    - utter_thanks_goodbye
+
+## preparation no name, name given, details of it
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* preparation
+    - form_action_preparation
+    - form{"name": "form_action_preparation"}
+    - slot{"requested_slot": "name"}
+* form: preparation{"name": "kimono green tea"}
+    - slot{"name": "kimono green tea"}
+    - form: form_action_preparation
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* details
+    - form_action_details
+    - form{"name": "form_action_details"}
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## details no name, name given, preparation of it
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* details
+    - form_action_details
+    - form{"name": "form_action_details"}
+    - slot{"requested_slot": "name"}
+* form: details{"name": "kimono green tea"}
+    - slot{"name": "kimono green tea"}
+    - form: form_action_details
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* preparation
+    - form_action_preparation
+    - form{"name": "form_action_preparation"}
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## cost and then ingredients
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* cost
+    - form_action_cost
+    - form{"name": "form_action_cost"}
+    - slot{"requested_slot": "name"}
+* form: cost{"name": "kimono green tea"}
+    - slot{"name": "kimono green tea"}
+    - form: form_action_cost
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* ingredients
+    - form_action_ingredients
+    - form{"name": "form_action_ingredients"}
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## ingredients and then availability
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* ingredients
+    - form_action_ingredients
+    - form{"name": "form_action_ingredients"}
+    - slot{"requested_slot": "name"}
+* form: ingredients{"name": "kimono green tea"}
+    - slot{"name": "kimono green tea"}
+    - form: form_action_ingredients
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* availability
+    - form_action_availability
+    - form{"name": "form_action_availability"}
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## availability and then similar_products
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* availability
+    - form_action_availability
+    - form{"name": "form_action_availability"}
+    - slot{"requested_slot": "name"}
+* form: availability{"name": "kimono green tea"}
+    - slot{"name": "kimono green tea"}
+    - form: form_action_availability
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* similar_products
+    - form_action_similar_products
+    - form{"name": "form_action_similar_products"}
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## similar_products and then cost
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* similar_products
+    - form_action_similar_products
+    - form{"name": "form_action_similar_products"}
+    - slot{"requested_slot": "name"}
+* form: similar_products{"name": "kimono green tea"}
+    - slot{"name": "kimono green tea"}
+    - form: form_action_similar_products
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* cost
+    - form_action_cost
+    - form{"name": "form_action_cost"}
+    - slot{"name": "kimono green tea"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - utter_can_i_help_you_again
+* goodbye
+    - utter_goodbye
+
+## stop search
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* search
+    - form_action_search
+    - form{"name": "form_action_search"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye
+    
+## stop details
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* details
+    - form_action_details
+    - form{"name": "form_action_details"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye
+    
+## stop preparation
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* preparation
+    - form_action_preparation
+    - form{"name": "form_action_preparation"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye
+    
+## stop cost
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* cost
+    - form_action_cost
+    - form{"name": "form_action_cost"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye
+    
+## stop ingredients
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* ingredients
+    - form_action_ingredients
+    - form{"name": "form_action_ingredients"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye
+    
+## stop availability
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* availability
+    - form_action_availability
+    - form{"name": "form_action_availability"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye
+    
+## stop similar_products
+* greet
+    - utter_greet
+    - utter_how_can_i_help_you
+* similar_products
+    - form_action_similar_products
+    - form{"name": "form_action_similar_products"}
+    - slot{"requested_slot": "category"}
+* search_deny
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* goodbye
+    - utter_goodbye

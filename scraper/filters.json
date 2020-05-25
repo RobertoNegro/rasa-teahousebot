@@ -1,0 +1,17 @@
+{
+  "q_stock=available": "Available",
+  "q_stock=notAvailable": "Not available",
+  "q_8950=1": "Ceylon",
+  "q_8950=2": "China",
+  "q_8950=3": "India",
+  "q_8950=5": "Taiwan",
+  "q_8950=6": "Korea",
+  "q_8950=7": "Tanzania",
+  "q_8950=8": "South africa",
+  "q_8956=0": "Organic",
+  "q_8956=1": "Not organic",
+  "q_26843=0": "Christmas",
+  "q_26843=1": "Not christmas",
+  "novita=true": "New",
+  "novita=false": "Not new"
+}

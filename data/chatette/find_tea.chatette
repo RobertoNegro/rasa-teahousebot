@@ -1,0 +1,160 @@
+%[search](1000)
+    ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    i want ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    [i?] would like ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    i'm looking for ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    find ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    can you find ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    help me find ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    can i have ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    [which|what] types of ~[adjective?] ~[search_tea] do you ~[sell]
+    [can you|can?] [tell|show] [me?] [which|what] ~[adjective?] ~[search_tea] do you ~[sell] ~[please?]
+    [can you|can?] show me [only?] ~[article?] ~[adjective?] ~[search_tea] do you ~[sell] ~[please?]
+    [can you|can?] [tell|give] me ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    i want ~[article?] ~[adjective?] ~[search_tea] ~[please?]
+    do you ~[sell] ~[article?] ~[adjective?] ~[search_tea]
+    are you ~[selling] ~[article?] ~[adjective?] ~[search_tea]
+
+~[search_tea]
+    ~[adjective2?] @[origin#adj?origin] @[christmas#adj?christmas] ~[category_or_generic] ~[from_origin?!origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[category_or_generic] @[christmas#noun?!christmas]
+    ~[adjective2?] @[origin#adj?origin] ~[category_or_generic] ~[from_origin?!origin]
+    ~[adjective2?] ~[category_or_generic]
+
+~[category_or_generic]
+    @[category]
+    ~[tea]
+
+%[filter](1000)
+    ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    i want ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    [i?] would like ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    i'm looking for ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    find ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    can you find ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    help me find ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    can i have ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    [which|what] types of ~[adjective?] ~[generic_tea_with_filter] do you ~[sell]
+    [can you|can?] [tell|show] me [which|what] ~[adjective?]  ~[generic_tea_with_filter] do you ~[sell] ~[please?]
+    show me [only?] ~[article?] ~[adjective?]  ~[generic_tea_with_filter] do you ~[sell] ~[please?]
+    [tell|give] me ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    i want ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    do you ~[sell] ~[article?] ~[adjective?] ~[generic_tea_with_filter]
+    are you ~[selling] ~[article?] ~[adjective?] ~[generic_tea_with_filter]
+    which are ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+    [filter|show me|show?] only [those?] ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
+
+~[generic_tea_with_filter]
+    ~[adjective2] @[origin#adj?origin] @[christmas#adj?christmas] ~[tea] ~[from_origin?!origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[origin#adj] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[origin#adj?origin] @[christmas#adj] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] ~[from_origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin] @[christmas#noun]
+
+%[search_affirm](100)
+    ~[affirm]
+    [tell|show] [me?] [more?] ~[tea?] ~[please?]
+    [i?] [want|am looking for] [more?] ~[tea?] ~[please?]
+    continue ~[please?]
+    [find|search] [for?] others n~[please?]
+
+%[search_deny](50)
+    ~[deny]
+    stop
+    halt
+    cancel
+    finish
+    denied
+    deny
+
+@[new]
+    [brand ?]new = New
+    newly [introduced|produced] = New
+    latest = New
+
+@[christmas#adj]
+    christmas = Christmas
+    non christmas = Not christmas
+
+@[christmas#noun]
+    [that are?] [for christmas|from the christmas selection] = Christmas
+    [not for christmas|not from the christmas selection] = Not christmas
+
+@[organic]
+    organic = Organic
+    not organic = Not organic
+
+@[origin#adj]
+    chinese = China
+    indian = India
+    taiwanese = Taiwan
+    korean = Korea
+    tanzanian = Tanzania
+    [south ?]african = South africa
+
+@[origin#noun]
+    ceylon = Ceylon
+    china = China
+    india = India
+    taiwan = Taiwan
+    korea = Korea
+    tanzania = Tanzania
+    [south ?]africa = South africa
+
+@[availability]
+    available = Available
+    not available = Not available
+
+~[category_or_tea]
+    @[category?cat]~[tea?!cat]
+
+@[category]
+    black ~[tea] = Black Teas
+    oolong ~[tea?] = Oolong
+    green ~[tea] = Green Teas
+    white ~[tea] = White Teas
+    gold ~[tea] [selections|selection?] = Gold Tea Selection
+    fruit [infusion|infusions] = Fruit Infusions
+    rooibos ~[tea?] = Rooibos
+    herbal ~[tea] = Herbal Teas
+    matcha = Matcha and Flower Teas
+    flowers ~[tea] = Matcha and Flower Teas
+    matcha [and?] flowers ~[tea] = Matcha and Flower Teas
+
+~[from_origin]
+    [that are from|from?] @[origin#noun]
+    that are @[origin#adj]
+
+~[tea]
+    tea
+    teas
+
+~[article]
+    a
+    an
+    some
+
+~[adjective]
+    good
+    tasty
+    relaxing
+
+~[adjective2]
+    @[organic]
+    @[new]
+
+
+~[sell]
+    sell
+    have
+    own
+    produce
+    make
+
+~[selling]
+    selling
+    owning
+    producing
+    making

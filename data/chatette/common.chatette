@@ -1,0 +1,147 @@
+%[&goodbye](50)
+    ~[ok?] ~[bye]
+    ~[ok?] ~[leaving]
+    ~[ok?] ~[leaving] ~[bye]
+
+%[&thanks](50)
+    ~[ok?] ~[thanks]
+
+%[&thanks_goodbye](50)
+    ~[ok?] ~[thanks] ~[bye]
+    ~[ok?] ~[bye] ~[thanks]
+    ~[ok?] ~[thanks] ~[leaving]
+    ~[ok?] ~[leaving] ~[thanks] ~[bye]
+    ~[ok?] ~[leaving] ~[bye] ~[thanks]
+
+%[&greet](50)
+    ~[hi]
+    ~[greetings]
+    ~[hi] ~[greetings]
+    ~[hi] ~[whats up]
+    ~[hi] ~[greetings] ~[whats up]
+    ~[greetings] ~[whats up]
+
+~[deny]
+    ~[no] ~[thanks_or_please?]
+    ~[adv_superlative?] ~[no] ~[thanks_or_please?] ~[its not ok?]
+    ~[please?] ~[adv_superlative?] ~[no] ~[its not ok?]
+    ~[adv_superlative?] ~[its not ok]
+    cancel
+    deny
+    interrupt
+    exit
+    [i?] was wrong [sorry?]
+
+~[affirm]
+    ~[yes]
+    ~[adv_superlative?] ~[yes] ~[yes?] ~[thanks_or_please?]
+    ~[adv_superlative?] ~[yes?] ~[that is good] ~[yes?]
+
+~[adv_superlative]
+    absolutely
+    definitely
+
+~[yes]
+    yes
+    indeed
+    of course
+    right
+    sure
+    affirmative
+    agreed
+    correct
+    yep
+    yes sir
+    [that?] sounds good
+    i'm ok with that
+    proceed
+
+~[that is good]
+    that is good
+    i want that
+    that is fine
+    that is correct
+    that is what i want
+    you understood me
+    that is right
+    its fine
+    good
+
+~[hi]
+    hey
+    hello
+    hi
+    [hey|hi|hello] [there|bot]
+
+~[greetings]
+    greetings
+    good [day|morning|evening|afternoon|night]
+    morning
+
+~[whats up]
+    how are you
+    whats up
+    how are you doing
+    how is it going
+    are you there
+    how are things going
+    are you around
+
+~[thanks_or_please]
+    ~[please]
+    ~[thanks]
+
+~[please]
+    please
+
+~[ok]
+    ok
+    okay
+    fine
+    [all?] right
+    agreed
+    very well
+    roger
+
+~[thanks]
+    thanks
+    you rock
+    thank you [very much?]
+    ~[ok] thank you
+    thanks [for helping|so much]
+
+~[bye]
+    bye
+    goodbye
+    stop
+    die
+    kill [yourself?]
+
+~[leaving]
+    see you [around|soon|later]
+    [i'm?] leaving [now?]
+    talk [to?] you [soon|later]
+    [have|got] to go
+    [heading|going] out
+
+~[no]
+    no
+    nope
+    not [really|right?]
+    that's not right
+    incorrect
+    don't do that
+    i don't think so
+    no way
+
+~[its not ok]
+    i don't want that
+    didnt meant that
+    dont mean that
+    that's not what i want
+    that's not correct
+    that's wrong
+    it's not good
+    that is wrong
+    its not ok
+    its not correct

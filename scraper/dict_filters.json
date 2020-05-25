@@ -1,0 +1,24 @@
+{
+  "q_stock": {
+    "available": "Available",
+    "notAvailable": "Not available"
+  },
+  "q_8950": {
+    "1": "Ceylon",
+    "2": "China",
+    "3": "India",
+    "5": "Taiwan",
+    "6": "Korea",
+    "7": "Tanzania",
+    "8": "South africa"
+  },
+  "q_8956": {
+    "0": "Organic"
+  },
+  "q_26843": {
+    "0": "Christmas"
+  },
+  "novita": {
+    "true": "New"
+  }
+}

@@ -1,0 +1,3966 @@
+<!-- Generated using Chatette v1.6.2 -->
+
+## intent:goodbye
+- Agreed going out bye
+- Agreed goodbye
+- Agreed heading out
+- All right bye
+- Bye
+- Die
+- Fine die
+- Fine see you soon stop
+- Going out
+- Goodbye
+- Heading out goodbye
+- I'm leaving now
+- Kill
+- Ok heading out stop
+- Okay i'm leaving
+- Right i'm leaving now bye
+- Roger have to go kill
+- Roger leaving now
+- Roger talk you later bye
+- See you around bye
+- See you later
+- See you soon
+- See you soon bye
+- Stop
+- Talk to you soon
+- Talk you later bye
+- Very well kill yourself
+- Very well see you later
+- Very well see you soon
+- agreed talk to you later
+- all right goodbye
+- all right got to go stop
+- all right stop
+- bye
+- fine have to go
+- goodbye
+- got to go stop
+- have to go
+- have to go bye
+- heading out
+- leaving now
+- ok kill yourself
+- ok see you around bye
+- roger see you later
+- see you around
+- see you soon bye
+- stop
+- talk to you later die
+- very well die
+- very well goodbye
+
+## intent:thanks
+- Agreed thank you
+- Agreed thanks
+- Agreed thanks for helping
+- All right thanks for helping
+- Fine thanks
+- Ok thank you
+- Okay roger thank you
+- Okay thanks
+- Right thanks so much
+- Roger right thank you
+- Thank you
+- Thank you very much
+- Thanks
+- Thanks for helping
+- Thanks so much
+- Very well thanks for helping
+- Very well you rock
+- You rock
+- agreed agreed thank you
+- agreed thanks
+- agreed thanks so much
+- agreed you rock
+- all right ok thank you
+- all right thanks
+- fine thank you
+- fine thanks for helping
+- fine you rock
+- ok thank you very much
+- ok thanks
+- ok thanks so much
+- ok you rock
+- okay thanks so much
+- right thank you
+- right thanks
+- roger fine thank you
+- roger okay thank you
+- roger thank you very much
+- roger thanks
+- roger thanks so much
+- roger you rock
+- thank you very much
+- thanks
+- thanks for helping
+- thanks so much
+- very well fine thank you
+- very well ok thank you
+- very well thank you
+- very well thanks
+- very well you rock
+- you rock
+
+## intent:thanks_goodbye
+- Agreed agreed thank you have to go
+- Agreed i'm leaving now kill you rock
+- All right going out die thank you
+- All right going out thanks goodbye
+- All right thanks i'm leaving now
+- Bye thanks for helping
+- Fine you rock die
+- I'm leaving now thanks stop
+- Okay bye thanks for helping
+- Okay heading out goodbye agreed thank you
+- Right thank you talk you later
+- Roger thank you stop
+- See you soon fine thank you die
+- Talk to you soon thanks for helping stop
+- Talk you later bye thank you very much
+- Thank you very much goodbye
+- Thanks goodbye
+- Thanks i'm leaving now
+- Thanks so much talk to you soon
+- Thanks talk you soon
+- You rock have to go
+- agreed going out thanks so much die
+- all right bye you rock
+- all right going out stop thank you very much
+- bye fine thank you
+- bye thanks
+- bye you rock
+- fine i'm leaving now thanks kill
+- fine thank you very much goodbye
+- fine thank you very much i'm leaving
+- fine thanks stop
+- going out bye thanks so much
+- got to go stop thank you
+- ok agreed thank you kill yourself
+- okay i'm leaving now goodbye thanks
+- okay thanks so much talk to you later
+- right i'm leaving you rock stop
+- right thanks for helping stop
+- roger kill yourself you rock
+- roger talk you later thanks for helping goodbye
+- see you around thanks kill
+- see you later thank you very much goodbye
+- stop thanks
+- thank you kill
+- thanks for helping heading out
+- thanks for helping kill yourself
+- thanks so much stop
+- thanks talk you later
+- very well going out die you rock
+- very well got to go bye thanks
+
+## intent:greet
+- Good afternoon
+- Good morning
+- Good morning how are you
+- Greetings
+- Greetings how is it going
+- Hello
+- Hello bot are you around
+- Hello bot good evening
+- Hello greetings
+- Hello how are you doing
+- Hello morning
+- Hello morning how is it going
+- Hey
+- Hey are you there
+- Hey greetings
+- Hey how are you doing
+- Hey morning how are you doing
+- Hi
+- Hi good day how is it going
+- Hi greetings
+- Hi how are you doing
+- Hi there are you around
+- Hi whats up
+- Morning
+- Morning how are things going
+- Morning how are you
+- Morning how are you doing
+- Morning how is it going
+- good afternoon how are things going
+- good day
+- good morning
+- good night are you there
+- greetings
+- greetings whats up
+- hello
+- hello are you around
+- hello good morning how are you
+- hello greetings how are things going
+- hello greetings whats up
+- hey bot
+- hey bot greetings how are you
+- hey good morning how are you doing
+- hey good night
+- hey good night are you there
+- hey greetings how are you
+- hey there whats up
+- hi
+- hi morning how are you doing
+- morning
+- morning how are you
+
+## intent:search
+- a good [newly produced](new) [indian](origin) tea please
+- a good [organic](organic) [christmas](christmas) tea
+- a good teas please
+- a [latest](new) teas please
+- a [new](new) [christmas](christmas) teas please
+- a [newly produced](new) [taiwanese](origin) [matcha](category)
+- a [organic](organic) [matcha flowers teas](category)
+- a relaxing [not organic](organic) [non christmas](christmas) [matcha and flowers teas](category) please
+- a relaxing [taiwanese](origin) teas
+- a relaxing [tanzanian](origin) [non christmas](christmas) [gold tea](category) please
+- a [southafrican](origin) teas please
+- a tasty [gold tea](category) please
+- a tasty [matcha](category) that are [tanzanian](origin) [that are from the christmas selection](christmas)
+- a tasty [not organic](organic) [green tea](category)
+- a tasty [organic](organic) [taiwanese](origin) teas please
+- a tasty [tanzanian](origin) [non christmas](christmas) tea
+- a tea [not for christmas](christmas)
+- a teas
+- a teas please
+- an [brandnew](new) teas that are [chinese](origin)
+- an [gold tea](category) that are [korean](origin)
+- an good [brandnew](new) [rooibos teas](category) please
+- an good [chinese](origin) teas
+- an good [fruit infusion](category)
+- an good [not organic](organic) tea that are [tanzanian](origin) [not from the christmas selection](christmas)
+- an good [organic](organic) [christmas](christmas) teas
+- an [non christmas](christmas) [green tea](category)
+- an [not organic](organic) [chinese](origin) teas
+- an [not organic](organic) [herbal teas](category) please
+- an [not organic](organic) tea please
+- an [organic](organic) tea [from the christmas selection](christmas)
+- an relaxing [korean](origin) tea please
+- an relaxing [newly produced](new) [christmas](christmas) [green teas](category)
+- an relaxing [newly produced](new) [herbal tea](category) please
+- an relaxing [non christmas](christmas) [white teas](category)
+- an relaxing tea that are [taiwanese](origin)
+- an [tanzanian](origin) [fruit infusion](category)
+- an tasty [brandnew](new) [fruit infusion](category) [korea](origin) please
+- an tasty [non christmas](christmas) [matcha and flowers tea](category)
+- an tasty [tanzanian](origin) [christmas](christmas) [herbal teas](category) please
+- an tasty teas
+- an tasty teas [not for christmas](christmas) please
+- an tea
+- an teas [not from the christmas selection](christmas)
+- are you making a [chinese](origin) [rooibos](category)
+- are you making a [organic](organic) [non christmas](christmas) tea
+- are you making a tasty tea [india](origin)
+- are you making an good [brandnew](new) [non christmas](christmas) [oolong tea](category)
+- are you making an [organic](organic) [fruit infusion](category) [that are for christmas](christmas)
+- are you making an [southafrican](origin) teas
+- are you making [christmas](christmas) [white teas](category) that are [korean](origin)
+- are you making good [black teas](category) that are [tanzanian](origin)
+- are you making good [newly introduced](new) [gold tea](category)
+- are you making good [organic](organic) tea [that are for christmas](christmas)
+- are you making some [organic](organic) tea that are [korean](origin) [not from the christmas selection](christmas)
+- are you making some tasty [not organic](organic) [indian](origin) [fruit infusion](category)
+- are you making some tea [that are from the christmas selection](christmas)
+- are you making [taiwanese](origin) [green teas](category)
+- are you making tasty [african](origin) tea
+- are you owning a [black tea](category) [that are for christmas](christmas)
+- are you owning a [black teas](category) that are [tanzanian](origin)
+- are you owning a [christmas](christmas) tea
+- are you owning a good [newly produced](new) [tanzanian](origin) [matcha and flowers teas](category)
+- are you owning a good [organic](organic) [christmas](christmas) [fruit infusions](category)
+- are you owning an good [christmas](christmas) teas
+- are you owning an [newly introduced](new) teas that are from [china](origin) [that are for christmas](christmas)
+- are you owning an [not organic](organic) [korean](origin) [green tea](category)
+- are you owning an tea [africa](origin)
+- are you owning [brandnew](new) [tanzanian](origin) [white teas](category)
+- are you owning good [herbal tea](category) that are from [tanzania](origin)
+- are you owning good [newly produced](new) [taiwanese](origin) [black teas](category) [not for christmas](christmas)
+- are you owning [indian](origin) [rooibos](category) [that are from the christmas selection](christmas)
+- are you owning [not organic](organic) [rooibos](category)
+- are you owning [not organic](organic) tea that are [chinese](origin)
+- are you owning [organic](organic) teas that are [indian](origin)
+- are you owning some [indian](origin) [christmas](christmas) [fruit infusions](category)
+- are you owning some relaxing [not organic](organic) tea
+- are you owning some tasty [non christmas](christmas) teas
+- are you owning some teas
+- are you owning tasty [christmas](christmas) [black tea](category) that are [indian](origin)
+- are you owning tasty [latest](new) teas
+- are you owning tasty [organic](organic) [tanzanian](origin) tea
+- are you producing a [herbal teas](category)
+- are you producing a relaxing [not organic](organic) teas [tanzania](origin) [that are from the christmas selection](christmas)
+- are you producing a tasty [christmas](christmas) teas that are [taiwanese](origin)
+- are you producing an good [not organic](organic) [green tea](category)
+- are you producing an tasty [not organic](organic) [tanzanian](origin) [black teas](category)
+- are you producing an tasty [organic](organic) teas that are [korean](origin)
+- are you producing [chinese](origin) teas
+- are you producing [christmas](christmas) [matcha flowers teas](category)
+- are you producing good [rooibos tea](category)
+- are you producing [green tea](category) that are [southafrican](origin)
+- are you producing relaxing [non christmas](christmas) tea
+- are you producing some [brandnew](new) [flowers tea](category) [that are from the christmas selection](christmas)
+- are you producing some good [flowers teas](category) [from the christmas selection](christmas)
+- are you producing some [non christmas](christmas) teas [southafrica](origin)
+- are you producing some tea
+- are you producing some teas [that are from the christmas selection](christmas)
+- are you producing tasty [newly introduced](new) [christmas](christmas) tea that are [taiwanese](origin)
+- are you producing tasty [rooibos tea](category) that are [tanzanian](origin)
+- are you producing tasty tea
+- are you producing tea [that are for christmas](christmas)
+- are you producing tea that are [indian](origin)
+- are you selling a good [chinese](origin) [green teas](category) [from the christmas selection](christmas)
+- are you selling a good [newly produced](new) [taiwanese](origin) [white teas](category) [for christmas](christmas)
+- are you selling an good [fruit infusions](category)
+- are you selling an good tea that are [indian](origin)
+- are you selling an [non christmas](christmas) [green teas](category)
+- are you selling an relaxing [organic](organic) [matcha flowers teas](category)
+- are you selling an tasty [brandnew](new) [white tea](category) that are [korean](origin)
+- are you selling [matcha](category) that are [tanzanian](origin)
+- are you selling [not organic](organic) teas that are [chinese](origin) [from the christmas selection](christmas)
+- are you selling relaxing [newly introduced](new) [matcha and flowers tea](category)
+- are you selling some good [newly introduced](new) [chinese](origin) [non christmas](christmas) [gold teas](category)
+- are you selling some good teas from [tanzania](origin)
+- are you selling some [latest](new) tea
+- are you selling some [newly introduced](new) [matcha flowers tea](category)
+- are you selling some relaxing [newly produced](new) [flowers tea](category) [china](origin)
+- are you selling some relaxing [non christmas](christmas) teas
+- are you selling some tasty [latest](new) [flowers tea](category) [tanzania](origin)
+- are you selling tasty [brandnew](new) [christmas](christmas) [oolong](category)
+- are you selling tasty [flowers tea](category)
+- are you selling tasty [tanzanian](origin) [matcha](category)
+- are you selling tasty tea
+- [brandnew](new) [chinese](origin) [rooibos](category) please
+- [brandnew](new) [rooibos](category) [ceylon](origin) please
+- can give me a [tanzanian](origin) [black tea](category) please
+- can give me an good [organic](organic) [gold teas](category) please
+- can give me an [indian](origin) [gold tea](category) [for christmas](christmas)
+- can give me an tasty [not organic](organic) [non christmas](christmas) teas please
+- can give me an teas from [southafrica](origin) [for christmas](christmas) please
+- can give me [latest](new) [tanzanian](origin) tea please
+- can give me [non christmas](christmas) tea
+- can give me [organic](organic) [herbal teas](category) from [taiwan](origin) please
+- can give me relaxing [brandnew](new) [tanzanian](origin) [non christmas](christmas) [rooibos](category) please
+- can i have a good [matcha flowers teas](category) that are [chinese](origin)
+- can i have a good [newly introduced](new) teas [not from the christmas selection](christmas) please
+- can i have a [korean](origin) [christmas](christmas) [herbal teas](category)
+- can i have a [matcha](category) [for christmas](christmas) please
+- can i have a [newly produced](new) [gold tea selection](category) that are from [china](origin) [not for christmas](christmas) please
+- can i have a [non christmas](christmas) teas
+- can i have a relaxing [brandnew](new) [green tea](category) [ceylon](origin)
+- can i have a relaxing [chinese](origin) [rooibos tea](category) please
+- can i have a relaxing [latest](new) [non christmas](christmas) [herbal tea](category)
+- can i have a relaxing [not organic](organic) teas that are [taiwanese](origin) please
+- can i have a tasty [flowers tea](category) [not for christmas](christmas) please
+- can i have a tasty [korean](origin) teas please
+- can i have a tasty [rooibos tea](category) [for christmas](christmas)
+- can i have an [african](origin) teas
+- can i have an [chinese](origin) [black teas](category)
+- can i have an [gold teas selections](category) please
+- can i have an [not organic](organic) teas [not for christmas](christmas) please
+- can i have an tasty [fruit infusions](category) please
+- can i have an tasty [herbal teas](category) [india](origin) [not from the christmas selection](christmas) please
+- can i have an tasty [not organic](organic) [chinese](origin) [fruit infusions](category) [not for christmas](christmas)
+- can i have an tasty [not organic](organic) tea
+- can i have an tea [from the christmas selection](christmas)
+- can i have an teas [not for christmas](christmas)
+- can i have [brandnew](new) [indian](origin) [matcha](category) [that are for christmas](christmas)
+- can i have [christmas](christmas) [black tea](category) [india](origin)
+- can i have [christmas](christmas) tea that are [korean](origin)
+- can i have good [christmas](christmas) [green teas](category) that are [korean](origin)
+- can i have good [indian](origin) tea [from the christmas selection](christmas)
+- can i have good [newly introduced](new) [christmas](christmas) tea please
+- can i have good [newly produced](new) [green teas](category) that are [tanzanian](origin) please
+- can i have good [organic](organic) tea [not for christmas](christmas)
+- can i have [indian](origin) [non christmas](christmas) [flowers tea](category)
+- can i have [matcha flowers teas](category) [for christmas](christmas)
+- can i have [new](new) tea [that are from the christmas selection](christmas)
+- can i have [newly produced](new) [indian](origin) tea
+- can i have [non christmas](christmas) [gold teas](category) please
+- can i have [not organic](organic) tea please
+- can i have [not organic](organic) teas from [taiwan](origin) [that are for christmas](christmas)
+- can i have [organic](organic) [gold teas selections](category)
+- can i have relaxing [latest](new) [non christmas](christmas) [rooibos teas](category)
+- can i have relaxing [new](new) teas please
+- can i have relaxing [not organic](organic) [korean](origin) [rooibos tea](category) please
+- can i have relaxing [not organic](organic) [korean](origin) teas
+- can i have relaxing [taiwanese](origin) [matcha flowers teas](category) [that are for christmas](christmas) please
+- can i have relaxing tea that are [chinese](origin)
+- can i have relaxing teas [china](origin) please
+- can i have some [christmas](christmas) [flowers tea](category) please
+- can i have some [latest](new) [indian](origin) [oolong tea](category)
+- can i have some [newly produced](new) tea [not for christmas](christmas)
+- can i have some [non christmas](christmas) teas that are from [southafrica](origin)
+- can i have some [not organic](organic) [christmas](christmas) teas from [china](origin)
+- can i have some relaxing [christmas](christmas) [flowers tea](category) [ceylon](origin) please
+- can i have some relaxing [organic](organic) [oolong tea](category) that are [tanzanian](origin)
+- can i have some relaxing [organic](organic) teas that are [tanzanian](origin) please
+- can i have some tasty [not organic](organic) [herbal tea](category) [korea](origin)
+- can i have tasty [christmas](christmas) tea
+- can i have tasty [indian](origin) [non christmas](christmas) tea please
+- can i have tasty [korean](origin) tea please
+- can i have tasty [newly produced](new) [non christmas](christmas) teas that are [indian](origin)
+- can i have tasty [newly produced](new) [tanzanian](origin) [matcha](category) [not for christmas](christmas) please
+- can i have tasty [newly produced](new) teas that are from [ceylon](origin) please
+- can i have tasty [non christmas](christmas) tea that are from [china](origin) please
+- can i have tea
+- can i have tea please
+- can i have tea that are [southafrican](origin)
+- can i have teas [ceylon](origin) [that are from the christmas selection](christmas)
+- can show me an [christmas](christmas) [herbal teas](category) do you produce please
+- can show me an relaxing [african](origin) [white tea](category) do you produce
+- can show me [christmas](christmas) teas do you make
+- can show me [not organic](organic) [gold teas selection](category) do you have please
+- can show me only an [not organic](organic) tea that are [chinese](origin) do you own please
+- can show me only [latest](new) tea [that are for christmas](christmas) do you have please
+- can show me only relaxing [newly produced](new) [christmas](christmas) teas do you have please
+- can show me only some [christmas](christmas) [flowers tea](category) do you own please
+- can show me only some good [white teas](category) [korea](origin) do you have
+- can show me only tasty tea do you own
+- can show me what good [organic](organic) [tanzanian](origin) [christmas](christmas) [green teas](category) do you produce
+- can show me what [rooibos](category) do you sell
+- can show me which relaxing [herbal tea](category) do you sell please
+- can show me which [southafrican](origin) teas [that are for christmas](christmas) do you own
+- can show what [korean](origin) [flowers tea](category) [not from the christmas selection](christmas) do you make please
+- can show which relaxing [newly introduced](new) [christmas](christmas) [gold teas](category) do you own please
+- can show which tasty [brandnew](new) [non christmas](christmas) [matcha](category) do you sell please
+- can show which teas do you have
+- can tell me a [newly produced](new) [rooibos tea](category) [not for christmas](christmas)
+- can tell me a relaxing [indian](origin) [rooibos](category) [not for christmas](christmas)
+- can tell me a relaxing [not organic](organic) [korean](origin) [oolong](category)
+- can tell me a tea please
+- can tell me good [black teas](category) that are [chinese](origin)
+- can tell me [not organic](organic) teas please
+- can tell me [not organic](organic) [white tea](category) [korea](origin)
+- can tell me some [indian](origin) [fruit infusion](category) please
+- can tell me some [newly produced](new) teas please
+- can tell me what [not organic](organic) teas do you have
+- can tell me which good tea do you sell please
+- can tell me which good tea that are from [india](origin) do you produce please
+- can tell which tasty [not organic](organic) teas [korea](origin) [from the christmas selection](christmas) do you produce
+- can you find a [african](origin) tea
+- can you find a [brandnew](new) [matcha flowers teas](category) please
+- can you find a [flowers teas](category)
+- can you find a good [newly introduced](new) tea [not from the christmas selection](christmas)
+- can you find a relaxing [green tea](category) please
+- can you find a relaxing [not organic](organic) [taiwanese](origin) [black teas](category) please
+- can you find a tasty [newly introduced](new) [matcha and flowers tea](category)
+- can you find a tasty [not organic](organic) [indian](origin) teas [that are for christmas](christmas) please
+- can you find a tea from [china](origin)
+- can you find a tea that are [african](origin) [not for christmas](christmas)
+- can you find an good tea [china](origin) [from the christmas selection](christmas) please
+- can you find an [indian](origin) [christmas](christmas) [green tea](category)
+- can you find an [not organic](organic) [white tea](category) from [korea](origin)
+- can you find an [organic](organic) [christmas](christmas) [flowers tea](category)
+- can you find an [organic](organic) [taiwanese](origin) [non christmas](christmas) [white tea](category)
+- can you find an relaxing [chinese](origin) tea [not from the christmas selection](christmas) please
+- can you find an relaxing [herbal teas](category) that are [tanzanian](origin) [not for christmas](christmas) please
+- can you find an tasty [christmas](christmas) teas please
+- can you find [brandnew](new) [non christmas](christmas) teas that are [taiwanese](origin) please
+- can you find [christmas](christmas) [white tea](category) please
+- can you find good [brandnew](new) teas that are from [india](origin) [not from the christmas selection](christmas)
+- can you find good [chinese](origin) [non christmas](christmas) [green tea](category) please
+- can you find good [not organic](organic) [black teas](category)
+- can you find good [not organic](organic) [southafrican](origin) tea
+- can you find good [organic](organic) [tanzanian](origin) tea please
+- can you find good tea
+- can you find [korean](origin) teas [not from the christmas selection](christmas)
+- can you find [korean](origin) teas please
+- can you find [latest](new) [fruit infusion](category) [not for christmas](christmas) please
+- can you find [latest](new) [indian](origin) teas please
+- can you find [latest](new) [taiwanese](origin) [christmas](christmas) [green tea](category)
+- can you find [new](new) teas please
+- can you find [not organic](organic) [african](origin) tea [not from the christmas selection](christmas) please
+- can you find [not organic](organic) [matcha](category) [that are from the christmas selection](christmas)
+- can you find [not organic](organic) [non christmas](christmas) [rooibos](category) from [africa](origin) please
+- can you find [organic](organic) teas
+- can you find relaxing [african](origin) [flowers tea](category) please
+- can you find relaxing [matcha and flowers tea](category) from [china](origin) please
+- can you find relaxing [matcha and flowers teas](category) [that are for christmas](christmas) please
+- can you find relaxing [new](new) [herbal teas](category) please
+- can you find relaxing [non christmas](christmas) tea that are [african](origin) please
+- can you find relaxing [not organic](organic) [indian](origin) [rooibos teas](category) please
+- can you find relaxing [organic](organic) [taiwanese](origin) teas please
+- can you find some [brandnew](new) [non christmas](christmas) teas
+- can you find some good [brandnew](new) [african](origin) [herbal tea](category)
+- can you find some good [newly produced](new) teas that are [indian](origin)
+- can you find some good [organic](organic) teas [from the christmas selection](christmas) please
+- can you find some [indian](origin) [gold tea selection](category)
+- can you find some [newly produced](new) [flowers tea](category) please
+- can you find some [organic](organic) tea [tanzania](origin)
+- can you find some [organic](organic) teas please
+- can you find some tasty [latest](new) [black teas](category)
+- can you find some tasty tea
+- can you find some tea
+- can you find some tea [not from the christmas selection](christmas)
+- can you find tasty [brandnew](new) teas
+- can you find tasty [indian](origin) teas please
+- can you find tasty [latest](new) [non christmas](christmas) [matcha and flowers tea](category) please
+- can you find tasty [newly introduced](new) teas
+- can you find tasty [not organic](organic) [chinese](origin) tea please
+- can you find tasty [not organic](organic) [matcha](category) that are [indian](origin) [not for christmas](christmas)
+- can you find tasty [not organic](organic) [oolong tea](category) that are [indian](origin)
+- can you find tasty [not organic](organic) [white teas](category) [india](origin)
+- can you find tea please
+- can you find teas that are [korean](origin) please
+- can you find [white teas](category) that are [taiwanese](origin) please
+- can you give me a [not organic](organic) [matcha](category) that are [korean](origin) please
+- can you give me a relaxing [oolong teas](category)
+- can you give me [chinese](origin) [fruit infusions](category) [that are for christmas](christmas)
+- can you give me [latest](new) tea
+- can you give me relaxing [flowers tea](category) that are [indian](origin)
+- can you give me some relaxing [christmas](christmas) tea
+- can you give me some relaxing [new](new) [non christmas](christmas) [herbal teas](category) that are [taiwanese](origin) please
+- can you give me some tasty [not organic](organic) teas [not for christmas](christmas)
+- can you give me tasty [matcha flowers tea](category) please
+- can you give me tasty [organic](organic) [non christmas](christmas) tea please
+- can you give me tea [not for christmas](christmas)
+- can you give me teas please
+- can you show me an [white teas](category) do you sell please
+- can you show me good [new](new) [indian](origin) [oolong](category) [from the christmas selection](christmas) do you own please
+- can you show me [new](new) tea do you have please
+- can you show me [newly produced](new) teas that are from [southafrica](origin) do you make please
+- can you show me only a [black teas](category) [tanzania](origin) do you produce please
+- can you show me only an tasty [not organic](organic) teas do you make please
+- can you show me only good [not organic](organic) [black tea](category) do you sell
+- can you show me only [latest](new) [chinese](origin) [christmas](christmas) [white teas](category) do you produce
+- can you show me only [matcha](category) do you sell
+- can you show me only [new](new) [chinese](origin) tea do you make please
+- can you show me only [newly produced](new) [korean](origin) tea do you make please
+- can you show me only [newly produced](new) tea do you produce please
+- can you show me only some [new](new) [chinese](origin) [rooibos](category) do you sell
+- can you show me only tasty [indian](origin) [herbal tea](category) do you sell please
+- can you show me only tasty [not organic](organic) teas [from the christmas selection](christmas) do you produce please
+- can you show me relaxing [white teas](category) do you sell
+- can you show me some [fruit infusions](category) that are from [taiwan](origin) do you make please
+- can you show me some tasty teas do you produce please
+- can you show me what good [rooibos tea](category) do you produce please
+- can you show me what good teas do you sell
+- can you show me what [latest](new) tea [not for christmas](christmas) do you own please
+- can you show me which tasty [organic](organic) [christmas](christmas) [white tea](category) do you produce
+- can you tell me a [latest](new) teas that are from [korea](origin) please
+- can you tell me an [christmas](christmas) teas please
+- can you tell me an tasty [brandnew](new) [matcha](category) please
+- can you tell me an tea [taiwan](origin) please
+- can you tell me good [christmas](christmas) [flowers teas](category)
+- can you tell me [organic](organic) [indian](origin) teas [from the christmas selection](christmas) please
+- can you tell me some [brandnew](new) [christmas](christmas) teas
+- can you tell me [taiwanese](origin) [herbal teas](category) [not for christmas](christmas) please
+- can you tell me [taiwanese](origin) tea please
+- can you tell me tea
+- can you tell me what tasty tea that are [indian](origin) do you sell please
+- can you tell which good [chinese](origin) [black tea](category) do you sell please
+- can you tell which [latest](new) tea do you own please
+- can you tell which [non christmas](christmas) [white teas](category) from [taiwan](origin) do you sell please
+- can you tell which [organic](organic) [christmas](christmas) [matcha](category) do you have
+- [christmas](christmas) tea please
+- [christmas](christmas) teas
+- do you have a relaxing [organic](organic) [christmas](christmas) tea
+- do you have an good [not organic](organic) [korean](origin) tea
+- do you have an [korean](origin) [herbal tea](category)
+- do you have an tasty [black teas](category)
+- do you have good [korean](origin) [gold tea selections](category)
+- do you have good [organic](organic) [christmas](christmas) teas
+- do you have [organic](organic) [indian](origin) teas [for christmas](christmas)
+- do you have relaxing [black teas](category)
+- do you have relaxing [latest](new) [matcha](category)
+- do you have some relaxing [christmas](christmas) [oolong tea](category) [china](origin)
+- do you have tea
+- do you have tea that are from [taiwan](origin)
+- do you have [white teas](category) that are [tanzanian](origin)
+- do you make a good [african](origin) [oolong teas](category)
+- do you make a tasty [organic](organic) [non christmas](christmas) teas
+- do you make an [chinese](origin) [oolong tea](category)
+- do you make an [not organic](organic) teas [that are from the christmas selection](christmas)
+- do you make [not organic](organic) [non christmas](christmas) [herbal tea](category) that are [tanzanian](origin)
+- do you make relaxing [non christmas](christmas) [oolong](category)
+- do you make relaxing teas [from the christmas selection](christmas)
+- do you make some [not organic](organic) [black tea](category) [that are from the christmas selection](christmas)
+- do you make some [organic](organic) [southafrican](origin) teas [that are from the christmas selection](christmas)
+- do you make teas [not for christmas](christmas)
+- do you own a good [taiwanese](origin) [non christmas](christmas) teas
+- do you own a [white tea](category)
+- do you own an [christmas](christmas) [oolong](category)
+- do you own an good [new](new) [non christmas](christmas) [herbal tea](category)
+- do you own an good tea [ceylon](origin)
+- do you own an relaxing teas
+- do you own good [tanzanian](origin) [gold teas](category)
+- do you own good teas that are [indian](origin) [that are for christmas](christmas)
+- do you own [latest](new) [christmas](christmas) [black teas](category) [tanzania](origin)
+- do you own [latest](new) teas
+- do you own [newly produced](new) [matcha flowers teas](category) [not from the christmas selection](christmas)
+- do you own relaxing [newly produced](new) [non christmas](christmas) [black tea](category)
+- do you own relaxing [newly produced](new) tea
+- do you own relaxing [oolong](category)
+- do you own some good [organic](organic) [chinese](origin) [christmas](christmas) [fruit infusion](category)
+- do you own some tasty [new](new) [matcha](category) that are [indian](origin)
+- do you own tasty [brandnew](new) tea that are [chinese](origin) [for christmas](christmas)
+- do you own tasty [non christmas](christmas) [fruit infusion](category) from [china](origin)
+- do you own teas [korea](origin) [not for christmas](christmas)
+- do you produce an [new](new) [matcha flowers tea](category) [from the christmas selection](christmas)
+- do you produce [brandnew](new) [tanzanian](origin) [christmas](christmas) [matcha flowers teas](category)
+- do you produce [newly introduced](new) [oolong](category)
+- do you produce [not organic](organic) teas that are [southafrican](origin) [not from the christmas selection](christmas)
+- do you produce [organic](organic) [chinese](origin) [green teas](category)
+- do you produce relaxing [not organic](organic) [herbal tea](category) from [africa](origin)
+- do you produce some relaxing [matcha](category) [that are for christmas](christmas)
+- do you produce some tasty [flowers tea](category)
+- do you sell a good [taiwanese](origin) [matcha flowers tea](category)
+- do you sell a [herbal tea](category)
+- do you sell a relaxing [not organic](organic) tea
+- do you sell an good [christmas](christmas) [black teas](category)
+- do you sell an [organic](organic) [tanzanian](origin) teas
+- do you sell [christmas](christmas) [herbal tea](category) that are [korean](origin)
+- do you sell [christmas](christmas) tea
+- do you sell [latest](new) [herbal teas](category)
+- do you sell [newly produced](new) teas
+- do you sell [not organic](organic) tea [korea](origin)
+- do you sell some good tea [tanzania](origin)
+- do you sell some [organic](organic) teas [tanzania](origin) [not from the christmas selection](christmas)
+- do you sell tasty [christmas](christmas) [matcha flowers teas](category) from [china](origin)
+- do you sell tasty [newly produced](new) [chinese](origin) [fruit infusions](category)
+- find a [fruit infusions](category) that are [tanzanian](origin) please
+- find a good [indian](origin) [christmas](christmas) [oolong teas](category)
+- find a [not organic](organic) tea
+- find a relaxing [tanzanian](origin) [christmas](christmas) [black teas](category)
+- find a tasty [latest](new) [rooibos tea](category) [not for christmas](christmas) please
+- find a tea [not for christmas](christmas) please
+- find a teas
+- find an good [christmas](christmas) [fruit infusion](category)
+- find an good [not organic](organic) [rooibos](category) that are [chinese](origin) please
+- find an [matcha and flowers tea](category) [not from the christmas selection](christmas) please
+- find an [matcha](category) [not for christmas](christmas)
+- find an [newly produced](new) [tanzanian](origin) [oolong teas](category) [not from the christmas selection](christmas) please
+- find an relaxing [latest](new) [korean](origin) [matcha](category) please
+- find an relaxing [new](new) [african](origin) teas please
+- find an [taiwanese](origin) [rooibos teas](category) [that are for christmas](christmas) please
+- find an tasty [not organic](organic) [christmas](christmas) teas that are [taiwanese](origin) please
+- find an tasty [taiwanese](origin) [fruit infusions](category) [not from the christmas selection](christmas) please
+- find an tasty [taiwanese](origin) [non christmas](christmas) [matcha](category) please
+- find an tea [tanzania](origin) please
+- find [brandnew](new) [indian](origin) [non christmas](christmas) [white teas](category)
+- find [brandnew](new) [indian](origin) teas [not for christmas](christmas) please
+- find [brandnew](new) [non christmas](christmas) [oolong teas](category) please
+- find [brandnew](new) teas
+- find [chinese](origin) [white tea](category)
+- find [gold tea](category) please
+- find good [latest](new) [christmas](christmas) [matcha](category) that are [taiwanese](origin)
+- find [latest](new) [christmas](christmas) [fruit infusions](category)
+- find [matcha](category) [not from the christmas selection](christmas)
+- find [new](new) [rooibos](category) [for christmas](christmas) please
+- find [new](new) [tanzanian](origin) [non christmas](christmas) [oolong](category)
+- find [new](new) teas from [tanzania](origin) please
+- find [non christmas](christmas) [matcha and flowers tea](category) from [tanzania](origin) please
+- find [not organic](organic) [matcha and flowers teas](category) [not for christmas](christmas) please
+- find [not organic](organic) [non christmas](christmas) tea
+- find [oolong tea](category) that are [taiwanese](origin)
+- find [organic](organic) [african](origin) [christmas](christmas) [rooibos](category)
+- find [organic](organic) [tanzanian](origin) [non christmas](christmas) tea
+- find relaxing [christmas](christmas) [flowers teas](category) please
+- find relaxing [latest](new) [chinese](origin) tea please
+- find relaxing [latest](new) teas
+- find relaxing [latest](new) teas that are [chinese](origin)
+- find relaxing [organic](organic) [non christmas](christmas) teas please
+- find some [black tea](category) from [taiwan](origin)
+- find some good [gold teas selections](category) that are from [india](origin) please
+- find some good [new](new) [indian](origin) [rooibos teas](category) [not from the christmas selection](christmas)
+- find some good teas
+- find some [green tea](category) please
+- find some [korean](origin) teas
+- find some [matcha and flowers teas](category) [that are from the christmas selection](christmas)
+- find some [not organic](organic) [tanzanian](origin) [christmas](christmas) tea please
+- find some [organic](organic) [non christmas](christmas) teas please
+- find some [organic](organic) tea that are [chinese](origin)
+- find some relaxing [newly produced](new) teas from [tanzania](origin) please
+- find some relaxing [organic](organic) [christmas](christmas) [rooibos teas](category) that are [taiwanese](origin)
+- find some relaxing [organic](organic) [matcha and flowers tea](category) [not from the christmas selection](christmas) please
+- find some relaxing teas [from the christmas selection](christmas) please
+- find some relaxing [white teas](category)
+- find some tasty [matcha flowers teas](category) that are [indian](origin) please
+- find some tasty [newly produced](new) [fruit infusions](category)
+- find some tasty [organic](organic) [indian](origin) teas please
+- find some tasty teas please
+- find tasty [brandnew](new) tea please
+- find tasty [gold tea selections](category) [that are from the christmas selection](christmas) please
+- find tasty [new](new) [christmas](christmas) teas
+- find tasty [organic](organic) [black tea](category)
+- find tasty [organic](organic) [non christmas](christmas) tea that are from [china](origin)
+- find tasty tea [not for christmas](christmas) please
+- find tasty tea [that are from the christmas selection](christmas) please
+- find teas
+- [flowers tea](category) that are [taiwanese](origin)
+- [fruit infusion](category) please
+- [fruit infusions](category) please
+- give me a [herbal teas](category) [not from the christmas selection](christmas) please
+- give me an [korean](origin) tea
+- give me an [newly introduced](new) [fruit infusion](category) [southafrica](origin) [not from the christmas selection](christmas) please
+- give me an [non christmas](christmas) [fruit infusion](category) please
+- give me an relaxing teas that are from [china](origin) please
+- give me [christmas](christmas) tea that are [tanzanian](origin) please
+- give me good [christmas](christmas) [flowers tea](category)
+- give me [latest](new) tea [not for christmas](christmas) please
+- give me [newly introduced](new) [black teas](category)
+- give me relaxing [organic](organic) [taiwanese](origin) [christmas](christmas) teas please
+- give me tasty [oolong](category)
+- give me teas that are from [india](origin) [not from the christmas selection](christmas) please
+- good [brandnew](new) [flowers tea](category) [not for christmas](christmas)
+- good [gold teas selections](category) please
+- good [korean](origin) [non christmas](christmas) [gold teas](category)
+- good [korean](origin) tea [that are for christmas](christmas)
+- good [new](new) teas
+- good [newly produced](new) [christmas](christmas) [rooibos teas](category)
+- good [non christmas](christmas) teas
+- good tea
+- good teas [not for christmas](christmas)
+- good teas that are [indian](origin) please
+- good teas that are [tanzanian](origin) [not for christmas](christmas)
+- help me find a [newly produced](new) tea
+- help me find a [newly produced](new) teas please
+- help me find a [non christmas](christmas) tea
+- help me find a [organic](organic) tea [not from the christmas selection](christmas) please
+- help me find a relaxing [newly produced](new) [tanzanian](origin) [matcha flowers teas](category)
+- help me find a tasty [latest](new) [christmas](christmas) teas please
+- help me find a tasty [rooibos](category) please
+- help me find an good [new](new) [tanzanian](origin) [white teas](category) please
+- help me find an good [non christmas](christmas) tea
+- help me find an [latest](new) [matcha](category) please
+- help me find an [newly introduced](new) tea that are [tanzanian](origin) please
+- help me find an [non christmas](christmas) [oolong](category) that are [indian](origin) please
+- help me find an [not organic](organic) [tanzanian](origin) teas [that are from the christmas selection](christmas)
+- help me find an [not organic](organic) tea that are [african](origin) [not for christmas](christmas)
+- help me find an [organic](organic) teas [for christmas](christmas)
+- help me find an [organic](organic) [white tea](category)
+- help me find an relaxing [chinese](origin) [green tea](category) please
+- help me find an relaxing [not organic](organic) [chinese](origin) teas
+- help me find an teas [from the christmas selection](christmas) please
+- help me find [brandnew](new) [indian](origin) [herbal tea](category) [that are for christmas](christmas)
+- help me find [brandnew](new) [non christmas](christmas) [oolong](category)
+- help me find [fruit infusions](category) that are [taiwanese](origin)
+- help me find good [organic](organic) teas [for christmas](christmas)
+- help me find good [southafrican](origin) [matcha flowers tea](category) please
+- help me find [korean](origin) [non christmas](christmas) teas
+- help me find [latest](new) tea
+- help me find [new](new) [tanzanian](origin) [christmas](christmas) tea
+- help me find [newly produced](new) teas that are [southafrican](origin) please
+- help me find [non christmas](christmas) tea
+- help me find [not organic](organic) [fruit infusions](category) that are [southafrican](origin)
+- help me find [not organic](organic) tea
+- help me find [organic](organic) [green teas](category) [not from the christmas selection](christmas)
+- help me find [organic](organic) [indian](origin) [herbal tea](category) [not from the christmas selection](christmas) please
+- help me find [organic](organic) [korean](origin) [christmas](christmas) tea please
+- help me find [organic](organic) [taiwanese](origin) [non christmas](christmas) [gold teas selection](category) please
+- help me find [organic](organic) teas [not for christmas](christmas) please
+- help me find relaxing [newly introduced](new) [christmas](christmas) [white teas](category) please
+- help me find relaxing [not organic](organic) [non christmas](christmas) tea that are [african](origin)
+- help me find relaxing teas that are [korean](origin) [for christmas](christmas) please
+- help me find relaxing [white teas](category) [not from the christmas selection](christmas)
+- help me find some [brandnew](new) tea [for christmas](christmas)
+- help me find some [christmas](christmas) teas [ceylon](origin) please
+- help me find some [new](new) [chinese](origin) [oolong](category) please
+- help me find some relaxing [flowers teas](category) please
+- help me find some relaxing [newly produced](new) [fruit infusions](category) [that are from the christmas selection](christmas) please
+- help me find some tasty [latest](new) [indian](origin) teas please
+- help me find some teas [taiwan](origin)
+- help me find [taiwanese](origin) [matcha flowers tea](category) [that are from the christmas selection](christmas)
+- help me find [tanzanian](origin) [black tea](category) please
+- help me find tasty [brandnew](new) [rooibos tea](category)
+- help me find tasty [matcha](category) [not from the christmas selection](christmas) please
+- help me find tasty [not organic](organic) [korean](origin) tea please
+- help me find tasty [organic](organic) [christmas](christmas) tea that are [korean](origin)
+- help me find teas that are [southafrican](origin) [for christmas](christmas) please
+- [herbal teas](category) [that are from the christmas selection](christmas)
+- i want a [black tea](category) [that are for christmas](christmas)
+- i want a [christmas](christmas) [matcha](category) that are [korean](origin)
+- i want a good [indian](origin) [white tea](category)
+- i want a good [latest](new) [indian](origin) tea
+- i want a good [tanzanian](origin) [matcha](category) please
+- i want a [herbal tea](category) that are [korean](origin)
+- i want a [indian](origin) tea please
+- i want a [newly produced](new) [gold tea selections](category) [that are from the christmas selection](christmas) please
+- i want a [newly produced](new) tea please
+- i want a relaxing [newly introduced](new) [indian](origin) [christmas](christmas) teas please
+- i want a relaxing [newly produced](new) teas
+- i want a tasty [latest](new) [oolong teas](category) please
+- i want a tasty [organic](organic) [black tea](category) from [india](origin) [that are from the christmas selection](christmas) please
+- i want a tasty [organic](organic) [christmas](christmas) teas from [china](origin)
+- i want a tea
+- i want a tea please
+- i want a teas please
+- i want [african](origin) [christmas](christmas) [matcha](category)
+- i want an [brandnew](new) [taiwanese](origin) [christmas](christmas) [black tea](category) please
+- i want an [fruit infusions](category) [not for christmas](christmas) please
+- i want an good [brandnew](new) [flowers teas](category) that are [chinese](origin) [not for christmas](christmas) please
+- i want an good [latest](new) [white tea](category) from [china](origin) please
+- i want an good [organic](organic) [flowers teas](category) please
+- i want an good [organic](organic) tea please
+- i want an [korean](origin) tea
+- i want an [latest](new) teas
+- i want an [matcha](category)
+- i want an [organic](organic) [green tea](category) [from the christmas selection](christmas)
+- i want an [organic](organic) [matcha flowers tea](category) that are [taiwanese](origin) [not for christmas](christmas) please
+- i want an [organic](organic) tea from [tanzania](origin) please
+- i want an relaxing [chinese](origin) [non christmas](christmas) [matcha](category)
+- i want an relaxing [new](new) [christmas](christmas) tea that are [taiwanese](origin)
+- i want an relaxing [new](new) [non christmas](christmas) [flowers teas](category) [africa](origin) please
+- i want an tasty [brandnew](new) [christmas](christmas) [fruit infusion](category) that are from [southafrica](origin) please
+- i want an tasty tea [that are from the christmas selection](christmas) please
+- i want [chinese](origin) [oolong](category) [that are for christmas](christmas) please
+- i want [flowers tea](category) that are from [india](origin) [from the christmas selection](christmas)
+- i want good [brandnew](new) [non christmas](christmas) tea that are [indian](origin) please
+- i want good [chinese](origin) tea please
+- i want good [flowers teas](category) [that are for christmas](christmas)
+- i want good [gold tea selection](category)
+- i want good [herbal tea](category) that are [tanzanian](origin) [not from the christmas selection](christmas) please
+- i want good [latest](new) [herbal teas](category) [not from the christmas selection](christmas)
+- i want good [latest](new) [non christmas](christmas) [herbal teas](category)
+- i want good [matcha](category)
+- i want good [non christmas](christmas) [matcha](category)
+- i want good [not organic](organic) [tanzanian](origin) [matcha and flowers tea](category)
+- i want good [oolong](category)
+- i want good [organic](organic) [gold teas](category)
+- i want good [organic](organic) [gold teas](category) please
+- i want good [organic](organic) [gold teas selections](category) [from the christmas selection](christmas) please
+- i want good [organic](organic) [green tea](category) [korea](origin) please
+- i want good [organic](organic) [taiwanese](origin) [christmas](christmas) teas please
+- i want good tea that are [african](origin)
+- i want [herbal teas](category)
+- i want [korean](origin) [christmas](christmas) teas
+- i want [latest](new) [christmas](christmas) [matcha flowers tea](category)
+- i want [latest](new) [fruit infusions](category) [southafrica](origin)
+- i want [latest](new) [indian](origin) tea [not from the christmas selection](christmas) please
+- i want [new](new) [tanzanian](origin) [herbal teas](category)
+- i want [new](new) tea please
+- i want [new](new) teas please
+- i want [newly introduced](new) [non christmas](christmas) [black teas](category) please
+- i want [not organic](organic) [chinese](origin) tea [that are from the christmas selection](christmas)
+- i want [not organic](organic) [christmas](christmas) [gold tea](category) please
+- i want [not organic](organic) [korean](origin) teas [that are from the christmas selection](christmas) please
+- i want [not organic](organic) teas that are [tanzanian](origin)
+- i want [not organic](organic) [white teas](category) [for christmas](christmas)
+- i want [oolong](category) [africa](origin) [not for christmas](christmas) please
+- i want [organic](organic) [non christmas](christmas) [black teas](category)
+- i want [organic](organic) tea please
+- i want relaxing [latest](new) [tanzanian](origin) teas please
+- i want relaxing [latest](new) tea that are [tanzanian](origin) please
+- i want relaxing [new](new) [indian](origin) [gold tea selections](category) please
+- i want relaxing [not organic](organic) [matcha](category)
+- i want relaxing [not organic](organic) [oolong](category) [from the christmas selection](christmas) please
+- i want relaxing [taiwanese](origin) [christmas](christmas) [black teas](category)
+- i want some [gold teas](category)
+- i want some good [newly introduced](new) teas
+- i want some good tea [that are for christmas](christmas)
+- i want some good teas please
+- i want some [indian](origin) [christmas](christmas) tea please
+- i want some [indian](origin) [non christmas](christmas) tea
+- i want some [newly introduced](new) [korean](origin) [white tea](category) [not for christmas](christmas)
+- i want some [newly introduced](new) [southafrican](origin) [oolong](category) [not for christmas](christmas) please
+- i want some [newly produced](new) [chinese](origin) [white tea](category) please
+- i want some [organic](organic) [korean](origin) [gold tea selection](category)
+- i want some relaxing [indian](origin) [non christmas](christmas) tea please
+- i want some relaxing [korean](origin) [black teas](category) [that are from the christmas selection](christmas)
+- i want some relaxing [latest](new) teas
+- i want some tasty [newly produced](new) [taiwanese](origin) tea please
+- i want some tasty teas please
+- i want some teas that are [indian](origin)
+- i want [southafrican](origin) [non christmas](christmas) teas
+- i want [taiwanese](origin) [matcha flowers teas](category)
+- i want [taiwanese](origin) [non christmas](christmas) tea please
+- i want [tanzanian](origin) [gold teas](category) please
+- i want tasty [african](origin) tea [that are from the christmas selection](christmas) please
+- i want tasty [chinese](origin) teas please
+- i want tasty [non christmas](christmas) teas
+- i want tasty [not organic](organic) tea [from the christmas selection](christmas) please
+- i want tasty [not organic](organic) teas please
+- i want tasty tea [that are for christmas](christmas) please
+- i want tea
+- i want tea [not for christmas](christmas)
+- i want teas from [ceylon](origin) [not for christmas](christmas) please
+- i want teas [that are for christmas](christmas) please
+- i want teas that are [tanzanian](origin) please
+- i would like a [fruit infusions](category) that are [taiwanese](origin)
+- i would like a [organic](organic) [black tea](category) [from the christmas selection](christmas)
+- i would like a [organic](organic) [christmas](christmas) tea please
+- i would like a relaxing [korean](origin) tea please
+- i would like a relaxing [korean](origin) teas please
+- i would like a relaxing tea please
+- i would like good [christmas](christmas) [oolong](category) [taiwan](origin) please
+- i would like good [matcha and flowers tea](category)
+- i would like good [newly produced](new) [black tea](category)
+- i would like good [not organic](organic) tea please
+- i would like good [organic](organic) [matcha](category)
+- i would like [indian](origin) teas
+- i would like [not organic](organic) [african](origin) [matcha flowers teas](category) please
+- i would like relaxing [brandnew](new) [tanzanian](origin) teas
+- i would like relaxing [newly introduced](new) [christmas](christmas) tea
+- i would like relaxing teas
+- i would like some good [not organic](organic) [taiwanese](origin) tea [from the christmas selection](christmas) please
+- i would like some [new](new) [african](origin) teas
+- i would like some [newly introduced](new) [tanzanian](origin) [non christmas](christmas) [herbal tea](category) please
+- i would like some [non christmas](christmas) teas that are [tanzanian](origin)
+- i would like some [organic](organic) [christmas](christmas) [white teas](category) please
+- i would like some [organic](organic) [gold teas selection](category) [not for christmas](christmas)
+- i would like some [organic](organic) [taiwanese](origin) [christmas](christmas) [matcha and flowers teas](category) please
+- i would like some relaxing [not organic](organic) [non christmas](christmas) tea that are [taiwanese](origin) please
+- i would like tasty [christmas](christmas) [gold tea](category) that are [tanzanian](origin)
+- i would like tasty [not organic](organic) [non christmas](christmas) [black tea](category) please
+- i'm looking for a [african](origin) tea
+- i'm looking for a good [newly introduced](new) [indian](origin) [non christmas](christmas) [fruit infusion](category) please
+- i'm looking for a [not organic](organic) [fruit infusion](category) that are [chinese](origin) [not from the christmas selection](christmas) please
+- i'm looking for a [not organic](organic) [korean](origin) tea please
+- i'm looking for a [organic](organic) [christmas](christmas) [herbal teas](category) [taiwan](origin) please
+- i'm looking for a [organic](organic) teas that are [indian](origin)
+- i'm looking for a relaxing [korean](origin) [matcha](category) please
+- i'm looking for a relaxing [oolong tea](category) please
+- i'm looking for a relaxing [white tea](category) please
+- i'm looking for a tasty [matcha](category) please
+- i'm looking for a tasty [not organic](organic) [indian](origin) [black tea](category)
+- i'm looking for a tasty [organic](organic) teas please
+- i'm looking for a tea
+- i'm looking for a tea please
+- i'm looking for an [indian](origin) [matcha and flowers teas](category) [that are from the christmas selection](christmas)
+- i'm looking for an [korean](origin) [non christmas](christmas) [fruit infusion](category)
+- i'm looking for an relaxing [not organic](organic) [fruit infusion](category)
+- i'm looking for an relaxing tea please
+- i'm looking for an tasty [newly introduced](new) tea from [tanzania](origin)
+- i'm looking for [black tea](category) please
+- i'm looking for [flowers tea](category) [africa](origin)
+- i'm looking for [fruit infusions](category) [for christmas](christmas) please
+- i'm looking for good [christmas](christmas) teas please
+- i'm looking for good [new](new) [green tea](category) [that are from the christmas selection](christmas)
+- i'm looking for good [new](new) [white teas](category) [not from the christmas selection](christmas)
+- i'm looking for good [newly introduced](new) [black tea](category) please
+- i'm looking for [latest](new) teas
+- i'm looking for [matcha](category)
+- i'm looking for [newly introduced](new) [indian](origin) [non christmas](christmas) tea
+- i'm looking for [newly introduced](new) tea
+- i'm looking for [not organic](organic) [matcha flowers teas](category) [that are from the christmas selection](christmas)
+- i'm looking for [not organic](organic) [southafrican](origin) tea
+- i'm looking for [not organic](organic) tea
+- i'm looking for [oolong tea](category) that are from [korea](origin) [not from the christmas selection](christmas) please
+- i'm looking for [organic](organic) teas [from the christmas selection](christmas)
+- i'm looking for relaxing [christmas](christmas) [flowers teas](category)
+- i'm looking for relaxing [flowers tea](category) please
+- i'm looking for relaxing [matcha](category) [not from the christmas selection](christmas) please
+- i'm looking for relaxing [new](new) [oolong tea](category) that are [tanzanian](origin)
+- i'm looking for relaxing [non christmas](christmas) [herbal tea](category)
+- i'm looking for relaxing [non christmas](christmas) tea that are [chinese](origin) please
+- i'm looking for relaxing [not organic](organic) [non christmas](christmas) [white teas](category)
+- i'm looking for relaxing teas
+- i'm looking for some [black tea](category)
+- i'm looking for some [brandnew](new) [taiwanese](origin) teas
+- i'm looking for some good [organic](organic) [herbal teas](category) [for christmas](christmas) please
+- i'm looking for some [not organic](organic) [matcha flowers teas](category) [that are from the christmas selection](christmas) please
+- i'm looking for some [organic](organic) [christmas](christmas) [green teas](category) please
+- i'm looking for some [organic](organic) teas from [korea](origin)
+- i'm looking for some relaxing [organic](organic) [taiwanese](origin) tea please
+- i'm looking for some tasty [fruit infusion](category) that are from [taiwan](origin) [not for christmas](christmas)
+- i'm looking for some tasty [oolong](category) please
+- i'm looking for [southafrican](origin) [fruit infusions](category)
+- i'm looking for [tanzanian](origin) [rooibos tea](category) [that are for christmas](christmas)
+- i'm looking for [tanzanian](origin) tea
+- i'm looking for tasty [christmas](christmas) tea please
+- i'm looking for tasty [flowers tea](category) [ceylon](origin) [not from the christmas selection](christmas) please
+- i'm looking for tasty [indian](origin) [christmas](christmas) tea please
+- i'm looking for tasty [latest](new) [fruit infusion](category)
+- i'm looking for tasty [newly introduced](new) [southafrican](origin) teas
+- i'm looking for tasty [non christmas](christmas) tea
+- i'm looking for tasty [not organic](organic) teas please
+- i'm looking for tasty [organic](organic) [herbal tea](category)
+- i'm looking for tasty [tanzanian](origin) [christmas](christmas) teas
+- i'm looking for tasty [tanzanian](origin) teas [not from the christmas selection](christmas) please
+- i'm looking for tasty tea from [tanzania](origin)
+- i'm looking for tea that are [southafrican](origin) please
+- i'm looking for tea that are [taiwanese](origin)
+- [indian](origin) [christmas](christmas) [green teas](category)
+- [latest](new) [green teas](category) [tanzania](origin) [that are for christmas](christmas)
+- [latest](new) [matcha](category) please
+- [latest](new) teas please
+- [matcha and flowers tea](category) [not for christmas](christmas) please
+- [newly produced](new) [non christmas](christmas) [flowers tea](category) that are [african](origin)
+- [newly produced](new) teas
+- [non christmas](christmas) [green tea](category) [southafrica](origin) please
+- [non christmas](christmas) tea please
+- [non christmas](christmas) teas please
+- [not organic](organic) [fruit infusions](category) [that are for christmas](christmas)
+- [not organic](organic) [non christmas](christmas) [herbal teas](category) that are [korean](origin) please
+- [not organic](organic) [oolong](category) [that are for christmas](christmas) please
+- [organic](organic) [chinese](origin) [flowers teas](category)
+- [organic](organic) [flowers teas](category) please
+- [organic](organic) [herbal teas](category) [india](origin)
+- relaxing [black teas](category) that are from [ceylon](origin) please
+- relaxing [korean](origin) teas [not from the christmas selection](christmas) please
+- relaxing [new](new) teas
+- relaxing [newly introduced](new) tea please
+- show me a [newly produced](new) tea do you make please
+- show me a [taiwanese](origin) [non christmas](christmas) [white teas](category) do you sell please
+- show me an relaxing [latest](new) teas [not from the christmas selection](christmas) do you own please
+- show me an relaxing [not organic](organic) [chinese](origin) teas [from the christmas selection](christmas) do you have please
+- show me an relaxing [organic](organic) [non christmas](christmas) [gold tea](category) do you produce
+- show me an relaxing [organic](organic) [rooibos tea](category) do you produce
+- show me an tasty [flowers teas](category) [not from the christmas selection](christmas) do you have
+- show me good [brandnew](new) [chinese](origin) [non christmas](christmas) [green tea](category) do you have
+- show me good [brandnew](new) [flowers teas](category) that are [taiwanese](origin) [that are from the christmas selection](christmas) do you sell
+- show me good [christmas](christmas) [rooibos tea](category) do you produce
+- show me good [green teas](category) do you have please
+- show me [not organic](organic) [tanzanian](origin) teas [for christmas](christmas) do you produce
+- show me only a good [newly introduced](new) [rooibos](category) [not from the christmas selection](christmas) do you have please
+- show me only a [newly introduced](new) [white teas](category) do you sell please
+- show me only a teas do you sell please
+- show me only an tasty [christmas](christmas) [green tea](category) [china](origin) do you make please
+- show me only an tasty [not organic](organic) [herbal tea](category) [not for christmas](christmas) do you sell please
+- show me only [brandnew](new) teas from [taiwan](origin) do you produce please
+- show me only [newly introduced](new) [christmas](christmas) [fruit infusion](category) do you have
+- show me only [non christmas](christmas) [green teas](category) that are from [taiwan](origin) do you own please
+- show me only [not organic](organic) [tanzanian](origin) teas [that are from the christmas selection](christmas) do you sell
+- show me only [organic](organic) [flowers teas](category) do you own
+- show me only some good [newly produced](new) [white teas](category) do you produce
+- show me only some [green tea](category) that are [southafrican](origin) do you produce please
+- show me only some relaxing [organic](organic) [taiwanese](origin) tea do you sell please
+- show me only some tasty [green tea](category) do you sell please
+- show me only [taiwanese](origin) [non christmas](christmas) tea do you produce please
+- show me only tasty [chinese](origin) teas do you make
+- show me only tasty tea [taiwan](origin) do you produce
+- show me some [brandnew](new) [tanzanian](origin) tea [not from the christmas selection](christmas) do you have
+- show me some good [herbal tea](category) [china](origin) [not from the christmas selection](christmas) do you have
+- show me some [korean](origin) [gold tea](category) [that are for christmas](christmas) do you own
+- show me some [latest](new) [christmas](christmas) [green tea](category) that are [chinese](origin) do you have please
+- show me some relaxing [newly produced](new) [southafrican](origin) [white tea](category) [not for christmas](christmas) do you produce please
+- show me tasty [brandnew](new) [herbal tea](category) do you produce
+- show me tasty [fruit infusion](category) [southafrica](origin) do you sell
+- show me tasty [new](new) [chinese](origin) tea [for christmas](christmas) do you sell please
+- show me tasty [organic](organic) teas [ceylon](origin) do you produce please
+- show me teas that are from [ceylon](origin) do you have
+- show me teas [that are from the christmas selection](christmas) do you make please
+- show me what tasty [christmas](christmas) [matcha](category) that are [indian](origin) do you own please
+- show me what teas [not from the christmas selection](christmas) do you own please
+- show me which [christmas](christmas) tea do you sell please
+- show me which [not organic](organic) [herbal tea](category) [not from the christmas selection](christmas) do you produce please
+- show me which [organic](organic) [christmas](christmas) tea do you make
+- show me which [rooibos teas](category) from [china](origin) [for christmas](christmas) do you make
+- show me which tea from [tanzania](origin) do you sell
+- show me which teas that are [tanzanian](origin) do you have
+- show what [african](origin) [green teas](category) do you own please
+- show what [non christmas](christmas) tea that are from [ceylon](origin) do you produce please
+- show what tasty [christmas](christmas) [white teas](category) do you make
+- show what tasty [newly produced](new) teas [from the christmas selection](christmas) do you own please
+- show what teas do you produce
+- show which [herbal tea](category) do you own please
+- show which [rooibos](category) do you have please
+- show which tasty [flowers teas](category) that are from [korea](origin) do you sell
+- show which [white tea](category) that are [korean](origin) [not from the christmas selection](christmas) do you own
+- some [chinese](origin) teas
+- some [gold tea](category)
+- some good [latest](new) teas [that are from the christmas selection](christmas)
+- some good [newly introduced](new) tea
+- some good tea that are [tanzanian](origin)
+- some [herbal teas](category) [that are from the christmas selection](christmas) please
+- some [indian](origin) teas [that are from the christmas selection](christmas) please
+- some [korean](origin) [white teas](category) [for christmas](christmas) please
+- some [latest](new) [southafrican](origin) [matcha](category)
+- some [matcha](category) please
+- some [newly produced](new) [indian](origin) [non christmas](christmas) [herbal tea](category) please
+- some [not organic](organic) [christmas](christmas) tea please
+- some [organic](organic) [indian](origin) teas
+- some relaxing [newly produced](new) [green tea](category) [from the christmas selection](christmas)
+- some relaxing [not organic](organic) [chinese](origin) teas
+- some [tanzanian](origin) teas
+- some tasty [gold tea](category) please
+- some tasty [matcha](category)
+- some tea
+- some teas from [ceylon](origin)
+- some [white teas](category) that are [korean](origin) please
+- [tanzanian](origin) teas please
+- tasty [latest](new) tea that are [korean](origin)
+- tasty [matcha and flowers tea](category) that are [tanzanian](origin)
+- tasty [matcha flowers tea](category)
+- tasty [matcha flowers tea](category) [india](origin)
+- tasty [newly introduced](new) tea that are from [tanzania](origin) please
+- tasty [newly produced](new) [non christmas](christmas) [herbal teas](category) that are [chinese](origin)
+- tasty [non christmas](christmas) [matcha](category)
+- tasty [non christmas](christmas) tea please
+- tasty [not organic](organic) [african](origin) tea
+- tasty [rooibos](category) please
+- tasty [rooibos teas](category)
+- tasty [taiwanese](origin) [christmas](christmas) [green teas](category) please
+- tasty [white teas](category) [china](origin)
+- tea
+- tea please
+- teas [india](origin) please
+- teas please
+- tell me an [non christmas](christmas) tea
+- tell me an teas please
+- tell me an teas that are from [india](origin)
+- tell me [brandnew](new) [black teas](category) please
+- tell me good teas
+- tell me [matcha flowers teas](category) [not from the christmas selection](christmas)
+- tell me [non christmas](christmas) teas
+- tell me [non christmas](christmas) [white tea](category) please
+- tell me [rooibos teas](category) please
+- tell me some [herbal teas](category) from [india](origin) please
+- tell me some [matcha flowers tea](category) that are [chinese](origin)
+- tell me some [not organic](organic) [fruit infusion](category) please
+- tell me some relaxing [green tea](category)
+- tell me tasty [non christmas](christmas) [herbal teas](category)
+- tell me what good [latest](new) teas [that are for christmas](christmas) do you make please
+- tell me what good [matcha](category) do you have please
+- tell me what good [taiwanese](origin) teas do you own please
+- tell me what [organic](organic) [korean](origin) tea [that are for christmas](christmas) do you have please
+- tell me what teas that are [korean](origin) [that are from the christmas selection](christmas) do you sell
+- tell me which relaxing [latest](new) [oolong](category) do you produce please
+- tell what good [non christmas](christmas) tea that are from [ceylon](origin) do you produce
+- tell what relaxing [gold tea](category) [not from the christmas selection](christmas) do you sell please
+- tell what tasty [latest](new) [tanzanian](origin) tea do you own
+- tell what tea do you own please
+- tell which good [christmas](christmas) tea that are [taiwanese](origin) do you have please
+- tell which good [southafrican](origin) [green tea](category) do you have
+- tell which [not organic](organic) [fruit infusion](category) [not for christmas](christmas) do you produce
+- tell which tasty [organic](organic) [herbal tea](category) [that are for christmas](christmas) do you own
+- what types of [fruit infusions](category) [china](origin) do you sell
+- what types of good [newly introduced](new) [black tea](category) [southafrica](origin) do you produce
+- what types of good [non christmas](christmas) tea do you own
+- what types of good [not organic](organic) tea do you produce
+- what types of [herbal teas](category) that are [indian](origin) do you own
+- what types of [latest](new) [african](origin) teas do you sell
+- what types of [latest](new) [taiwanese](origin) [white tea](category) do you produce
+- what types of [matcha flowers teas](category) do you sell
+- what types of [newly introduced](new) [matcha flowers teas](category) do you make
+- what types of [newly introduced](new) tea that are [korean](origin) do you own
+- what types of [non christmas](christmas) [rooibos teas](category) do you make
+- what types of [non christmas](christmas) teas from [africa](origin) do you make
+- what types of [not organic](organic) tea [not for christmas](christmas) do you sell
+- what types of [organic](organic) tea that are [taiwanese](origin) do you make
+- what types of relaxing [african](origin) tea do you have
+- what types of relaxing [herbal tea](category) [india](origin) do you make
+- what types of relaxing [latest](new) [rooibos](category) that are [tanzanian](origin) do you make
+- what types of relaxing [new](new) [rooibos](category) that are from [ceylon](origin) [for christmas](christmas) do you have
+- what types of relaxing [new](new) [tanzanian](origin) [herbal teas](category) do you sell
+- what types of relaxing [non christmas](christmas) tea do you own
+- what types of relaxing [not organic](organic) [chinese](origin) tea [that are from the christmas selection](christmas) do you make
+- what types of relaxing [organic](organic) [taiwanese](origin) [rooibos tea](category) do you have
+- what types of relaxing [tanzanian](origin) tea do you make
+- what types of [taiwanese](origin) [herbal tea](category) [not from the christmas selection](christmas) do you produce
+- what types of [taiwanese](origin) [matcha and flowers tea](category) do you have
+- what types of tasty [matcha and flowers teas](category) do you sell
+- what types of tasty [not organic](organic) [non christmas](christmas) tea do you sell
+- what types of tasty teas do you own
+- what types of tasty teas do you produce
+- what types of tea do you produce
+- what types of teas that are [southafrican](origin) do you sell
+- which types of [christmas](christmas) teas do you own
+- which types of [gold tea selections](category) that are [chinese](origin) [that are from the christmas selection](christmas) do you sell
+- which types of [gold teas](category) do you own
+- which types of good [chinese](origin) [oolong teas](category) do you have
+- which types of good [christmas](christmas) teas that are from [taiwan](origin) do you produce
+- which types of good [flowers tea](category) [not from the christmas selection](christmas) do you sell
+- which types of good [fruit infusion](category) do you produce
+- which types of good [matcha](category) [tanzania](origin) do you have
+- which types of good [not organic](organic) [gold teas](category) that are [taiwanese](origin) [that are from the christmas selection](christmas) do you make
+- which types of good tea do you sell
+- which types of [herbal teas](category) do you own
+- which types of [indian](origin) teas do you produce
+- which types of [latest](new) [non christmas](christmas) teas do you make
+- which types of [latest](new) tea [tanzania](origin) do you produce
+- which types of [latest](new) teas [from the christmas selection](christmas) do you produce
+- which types of [new](new) tea from [tanzania](origin) do you produce
+- which types of [new](new) tea that are [korean](origin) do you produce
+- which types of [newly introduced](new) [christmas](christmas) [matcha](category) do you have
+- which types of [newly introduced](new) [christmas](christmas) tea do you sell
+- which types of [organic](organic) [flowers teas](category) [korea](origin) [that are for christmas](christmas) do you produce
+- which types of relaxing [latest](new) tea do you sell
+- which types of relaxing [not organic](organic) [korean](origin) [green teas](category) [that are for christmas](christmas) do you own
+- which types of relaxing [not organic](organic) [non christmas](christmas) [herbal tea](category) do you sell
+- which types of relaxing [oolong teas](category) from [china](origin) [that are from the christmas selection](christmas) do you sell
+- which types of relaxing teas that are [southafrican](origin) do you make
+- which types of tasty [african](origin) [non christmas](christmas) tea do you make
+- which types of tasty [black tea](category) do you own
+- which types of tasty [christmas](christmas) tea do you own
+- which types of tasty [latest](new) [matcha](category) do you own
+- which types of tasty [matcha flowers tea](category) do you make
+- which types of tasty [not organic](organic) [fruit infusion](category) that are [taiwanese](origin) [for christmas](christmas) do you have
+- which types of tasty teas do you make
+- would like a [new](new) [non christmas](christmas) [matcha](category)
+- would like a [newly produced](new) [southafrican](origin) [white tea](category)
+- would like a [organic](organic) [non christmas](christmas) teas
+- would like a relaxing [non christmas](christmas) [gold teas](category) please
+- would like a relaxing tea [not from the christmas selection](christmas)
+- would like a relaxing tea that are [tanzanian](origin)
+- would like a tasty [taiwanese](origin) [flowers tea](category) please
+- would like a tasty [taiwanese](origin) [gold tea selections](category) [not from the christmas selection](christmas)
+- would like an [organic](organic) [chinese](origin) [christmas](christmas) tea please
+- would like an [organic](organic) [matcha and flowers tea](category) that are from [ceylon](origin)
+- would like [chinese](origin) tea please
+- would like [chinese](origin) [white teas](category) please
+- would like [gold tea](category) [that are for christmas](christmas)
+- would like good [taiwanese](origin) [matcha](category) [not from the christmas selection](christmas)
+- would like good teas [that are for christmas](christmas)
+- would like [organic](organic) tea [for christmas](christmas)
+- would like relaxing [fruit infusion](category) that are from [india](origin) [not for christmas](christmas) please
+- would like relaxing teas [that are from the christmas selection](christmas)
+- would like some good [brandnew](new) [christmas](christmas) [matcha](category)
+- would like some good [green tea](category) that are [tanzanian](origin) please
+- would like some good [newly produced](new) teas that are [indian](origin) please
+- would like some [organic](organic) teas
+- would like some teas please
+- would like [tanzanian](origin) [non christmas](christmas) [oolong](category) please
+- would like tasty [brandnew](new) [black teas](category) that are [taiwanese](origin) [not for christmas](christmas) please
+- would like tasty [herbal teas](category) [from the christmas selection](christmas)
+- would like tasty teas from [ceylon](origin) [not from the christmas selection](christmas) please
+- would like tea [from the christmas selection](christmas)
+
+## intent:filter
+- a [brandnew](new) tea [india](origin) [not from the christmas selection](christmas) please
+- a good [brandnew](new) teas that are [indian](origin) [that are from the christmas selection](christmas)
+- a good [korean](origin) teas [not from the christmas selection](christmas) please
+- a good [organic](organic) [indian](origin) tea [not from the christmas selection](christmas)
+- a good [organic](organic) [taiwanese](origin) [christmas](christmas) tea
+- a [korean](origin) tea [not for christmas](christmas) please
+- a [latest](new) [tanzanian](origin) [non christmas](christmas) tea please
+- a [latest](new) teas that are [african](origin) [from the christmas selection](christmas) please
+- a [newly introduced](new) [chinese](origin) teas [for christmas](christmas) please
+- a [newly introduced](new) [taiwanese](origin) [non christmas](christmas) teas
+- a [newly produced](new) [tanzanian](origin) [christmas](christmas) teas please
+- a [not organic](organic) [tanzanian](origin) [non christmas](christmas) teas please
+- a [organic](organic) [korean](origin) tea [from the christmas selection](christmas) please
+- a [organic](organic) teas [korea](origin) [from the christmas selection](christmas)
+- a relaxing [african](origin) teas [that are for christmas](christmas)
+- a relaxing [chinese](origin) teas [not for christmas](christmas) please
+- a relaxing [korean](origin) [christmas](christmas) tea please
+- a relaxing [latest](new) [indian](origin) tea [that are for christmas](christmas)
+- a relaxing [newly produced](new) tea [china](origin) [that are from the christmas selection](christmas)
+- a relaxing [organic](organic) [non christmas](christmas) teas that are [chinese](origin) please
+- a relaxing [tanzanian](origin) [non christmas](christmas) teas
+- a tasty [korean](origin) tea [not for christmas](christmas) please
+- a tasty tea [ceylon](origin) [not for christmas](christmas) please
+- an good [christmas](christmas) tea [ceylon](origin)
+- an good [newly produced](new) [tanzanian](origin) [non christmas](christmas) teas
+- an good [non christmas](christmas) tea from [tanzania](origin)
+- an good [organic](organic) teas from [korea](origin) [that are from the christmas selection](christmas) please
+- an good [organic](organic) teas [southafrica](origin) [for christmas](christmas) please
+- an [indian](origin) teas [not from the christmas selection](christmas)
+- an [latest](new) [tanzanian](origin) tea [not from the christmas selection](christmas) please
+- an [organic](organic) [indian](origin) [non christmas](christmas) tea please
+- an [organic](organic) [korean](origin) teas [not from the christmas selection](christmas)
+- an [organic](organic) teas [ceylon](origin) [not for christmas](christmas)
+- an relaxing [korean](origin) [non christmas](christmas) tea please
+- an relaxing [newly introduced](new) [christmas](christmas) tea that are [african](origin) please
+- an relaxing [newly introduced](new) teas [tanzania](origin) [not for christmas](christmas) please
+- an relaxing tea that are [taiwanese](origin) [that are for christmas](christmas)
+- an [southafrican](origin) [non christmas](christmas) teas
+- an [tanzanian](origin) tea [from the christmas selection](christmas) please
+- an tasty [christmas](christmas) teas that are [taiwanese](origin)
+- an tasty [latest](new) [chinese](origin) teas [not for christmas](christmas)
+- an tasty [taiwanese](origin) teas [not for christmas](christmas)
+- are you making a [organic](organic) [non christmas](christmas) teas from [africa](origin)
+- are you making a relaxing [latest](new) [indian](origin) tea [not for christmas](christmas)
+- are you making an relaxing [non christmas](christmas) teas that are [indian](origin)
+- are you making an tasty [korean](origin) [non christmas](christmas) teas
+- are you making an tea [korea](origin) [not from the christmas selection](christmas)
+- are you making [brandnew](new) [christmas](christmas) tea that are [african](origin)
+- are you making good [brandnew](new) [chinese](origin) teas [not from the christmas selection](christmas)
+- are you making good [not organic](organic) [african](origin) [non christmas](christmas) teas
+- are you making [organic](organic) [taiwanese](origin) [christmas](christmas) tea
+- are you making some relaxing [brandnew](new) [indian](origin) tea [not from the christmas selection](christmas)
+- are you making some tasty [organic](organic) [southafrican](origin) [non christmas](christmas) teas
+- are you making some tasty [organic](organic) teas that are [indian](origin) [that are for christmas](christmas)
+- are you owning a [newly produced](new) tea that are [taiwanese](origin) [from the christmas selection](christmas)
+- are you owning a [tanzanian](origin) [christmas](christmas) teas
+- are you owning good [not organic](organic) tea that are [tanzanian](origin) [for christmas](christmas)
+- are you owning good [organic](organic) [korean](origin) [christmas](christmas) teas
+- are you owning [latest](new) [southafrican](origin) [non christmas](christmas) tea
+- are you owning [latest](new) [tanzanian](origin) [non christmas](christmas) tea
+- are you owning some tasty tea that are [tanzanian](origin) [not from the christmas selection](christmas)
+- are you owning [tanzanian](origin) teas [from the christmas selection](christmas)
+- are you owning tasty [organic](organic) [non christmas](christmas) tea that are [chinese](origin)
+- are you producing a [chinese](origin) [non christmas](christmas) tea
+- are you producing a [new](new) [korean](origin) [christmas](christmas) tea
+- are you producing a relaxing [new](new) [chinese](origin) [non christmas](christmas) teas
+- are you producing a tasty [newly introduced](new) [tanzanian](origin) tea [that are for christmas](christmas)
+- are you producing [brandnew](new) [african](origin) [non christmas](christmas) tea
+- are you producing good [newly introduced](new) [non christmas](christmas) teas [india](origin)
+- are you producing good [organic](organic) teas that are [southafrican](origin) [that are for christmas](christmas)
+- are you producing [latest](new) [korean](origin) [christmas](christmas) tea
+- are you producing [organic](organic) tea that are from [taiwan](origin) [not from the christmas selection](christmas)
+- are you producing tasty [newly introduced](new) [tanzanian](origin) [christmas](christmas) tea
+- are you producing teas from [china](origin) [not from the christmas selection](christmas)
+- are you selling a [organic](organic) [non christmas](christmas) teas that are from [korea](origin)
+- are you selling a tasty [not organic](organic) [tanzanian](origin) [non christmas](christmas) teas
+- are you selling an [new](new) [indian](origin) teas [not from the christmas selection](christmas)
+- are you selling good [non christmas](christmas) tea that are [korean](origin)
+- are you selling good tea that are [chinese](origin) [that are for christmas](christmas)
+- are you selling good teas that are from [tanzania](origin) [not from the christmas selection](christmas)
+- are you selling [newly introduced](new) tea [india](origin) [from the christmas selection](christmas)
+- are you selling [newly produced](new) [non christmas](christmas) teas that are [taiwanese](origin)
+- are you selling relaxing [indian](origin) [christmas](christmas) tea
+- are you selling relaxing [not organic](organic) [non christmas](christmas) teas that are [tanzanian](origin)
+- are you selling some good [southafrican](origin) teas [that are from the christmas selection](christmas)
+- are you selling some good tea that are from [china](origin) [not for christmas](christmas)
+- are you selling tasty [new](new) [tanzanian](origin) teas [not from the christmas selection](christmas)
+- can i have a [brandnew](new) teas from [tanzania](origin) [not for christmas](christmas) please
+- can i have a [chinese](origin) [christmas](christmas) tea please
+- can i have a good [latest](new) [non christmas](christmas) teas that are [tanzanian](origin)
+- can i have a good tea that are [southafrican](origin) [not for christmas](christmas)
+- can i have a [not organic](organic) [korean](origin) [christmas](christmas) teas
+- can i have a [not organic](organic) [non christmas](christmas) teas that are [korean](origin)
+- can i have a [not organic](organic) [tanzanian](origin) tea [not from the christmas selection](christmas) please
+- can i have a relaxing tea that are [indian](origin) [not for christmas](christmas) please
+- can i have a tasty [christmas](christmas) tea that are [korean](origin) please
+- can i have a tasty [latest](new) tea that are [taiwanese](origin) [that are from the christmas selection](christmas)
+- can i have a tasty [organic](organic) [indian](origin) [non christmas](christmas) teas please
+- can i have a tasty [organic](organic) tea that are [korean](origin) [not from the christmas selection](christmas)
+- can i have a teas [tanzania](origin) [for christmas](christmas)
+- can i have an [chinese](origin) teas [that are for christmas](christmas)
+- can i have an good [african](origin) [christmas](christmas) teas please
+- can i have an [not organic](organic) teas that are from [taiwan](origin) [not for christmas](christmas)
+- can i have an [organic](organic) [chinese](origin) [christmas](christmas) teas please
+- can i have an [organic](organic) tea [southafrica](origin) [that are from the christmas selection](christmas)
+- can i have an relaxing [brandnew](new) [christmas](christmas) teas that are [indian](origin) please
+- can i have an relaxing [organic](organic) [christmas](christmas) tea that are from [tanzania](origin)
+- can i have an [tanzanian](origin) tea [that are from the christmas selection](christmas)
+- can i have an tasty [latest](new) [korean](origin) [non christmas](christmas) tea please
+- can i have an tasty [taiwanese](origin) teas [from the christmas selection](christmas) please
+- can i have [christmas](christmas) tea that are [korean](origin) please
+- can i have good [brandnew](new) [non christmas](christmas) teas that are from [china](origin) please
+- can i have good [organic](organic) [taiwanese](origin) teas [not from the christmas selection](christmas)
+- can i have good [taiwanese](origin) tea [not from the christmas selection](christmas)
+- can i have good tea that are [indian](origin) [not from the christmas selection](christmas)
+- can i have good teas that are [chinese](origin) [not for christmas](christmas)
+- can i have [indian](origin) [christmas](christmas) tea please
+- can i have [indian](origin) teas [not for christmas](christmas)
+- can i have [latest](new) [tanzanian](origin) teas [not from the christmas selection](christmas) please
+- can i have [latest](new) tea that are from [taiwan](origin) [that are from the christmas selection](christmas)
+- can i have [newly produced](new) tea that are [tanzanian](origin) [not for christmas](christmas)
+- can i have [newly produced](new) teas [china](origin) [not from the christmas selection](christmas)
+- can i have [not organic](organic) [christmas](christmas) tea from [china](origin)
+- can i have [not organic](organic) [southafrican](origin) [non christmas](christmas) tea
+- can i have [organic](organic) [chinese](origin) [non christmas](christmas) tea please
+- can i have relaxing [latest](new) [non christmas](christmas) teas [india](origin) please
+- can i have relaxing [newly introduced](new) teas [china](origin) [for christmas](christmas) please
+- can i have relaxing [newly produced](new) [christmas](christmas) tea that are [taiwanese](origin)
+- can i have relaxing [newly produced](new) [tanzanian](origin) [christmas](christmas) tea
+- can i have some [brandnew](new) teas [ceylon](origin) [for christmas](christmas)
+- can i have some good [chinese](origin) [non christmas](christmas) tea please
+- can i have some good [christmas](christmas) tea from [taiwan](origin) please
+- can i have some good [not organic](organic) tea that are from [tanzania](origin) [not from the christmas selection](christmas)
+- can i have some [new](new) [african](origin) [christmas](christmas) tea
+- can i have some [new](new) [tanzanian](origin) [christmas](christmas) teas please
+- can i have some [not organic](organic) [chinese](origin) [christmas](christmas) teas
+- can i have some [organic](organic) [southafrican](origin) teas [not from the christmas selection](christmas) please
+- can i have some relaxing [organic](organic) teas that are [southafrican](origin) [for christmas](christmas)
+- can i have some [southafrican](origin) teas [for christmas](christmas)
+- can i have some tasty [korean](origin) teas [not for christmas](christmas) please
+- can i have some teas that are [chinese](origin) [not from the christmas selection](christmas)
+- can i have [southafrican](origin) [christmas](christmas) tea please
+- can i have [southafrican](origin) [non christmas](christmas) teas
+- can i have [taiwanese](origin) [non christmas](christmas) teas please
+- can i have tasty [brandnew](new) [indian](origin) [non christmas](christmas) tea
+- can i have tasty [christmas](christmas) tea that are from [china](origin)
+- can i have tasty [christmas](christmas) teas that are [korean](origin) please
+- can i have tasty [new](new) [taiwanese](origin) tea [that are for christmas](christmas) please
+- can i have tasty [not organic](organic) [taiwanese](origin) tea [for christmas](christmas) please
+- can i have tasty [organic](organic) [non christmas](christmas) tea [southafrica](origin) please
+- can i have tasty [organic](organic) tea that are from [ceylon](origin) [not for christmas](christmas) please
+- can i have tasty tea that are [chinese](origin) [not from the christmas selection](christmas)
+- can i have tea from [china](origin) [for christmas](christmas) please
+- can i have teas that are from [china](origin) [from the christmas selection](christmas)
+- can show me what good [tanzanian](origin) teas [for christmas](christmas) do you own
+- can show me what tasty [non christmas](christmas) teas [taiwan](origin) do you sell
+- can show me which good [latest](new) tea that are [chinese](origin) [not for christmas](christmas) do you have please
+- can show me which good [new](new) [tanzanian](origin) tea [not from the christmas selection](christmas) do you own
+- can show me which [latest](new) [southafrican](origin) [christmas](christmas) tea do you own please
+- can show me which [not organic](organic) [christmas](christmas) teas that are [korean](origin) do you produce please
+- can show me which [not organic](organic) teas from [korea](origin) [that are for christmas](christmas) do you make please
+- can show me which teas that are [chinese](origin) [for christmas](christmas) do you sell
+- can tell me what [latest](new) teas that are [chinese](origin) [not from the christmas selection](christmas) do you own
+- can tell me what relaxing [organic](organic) [tanzanian](origin) [non christmas](christmas) tea do you have
+- can tell me what [taiwanese](origin) [non christmas](christmas) tea do you own please
+- can tell me which [brandnew](new) [korean](origin) tea [from the christmas selection](christmas) do you sell
+- can tell me which [brandnew](new) teas that are from [korea](origin) [that are for christmas](christmas) do you produce please
+- can tell me which [christmas](christmas) teas that are [tanzanian](origin) do you have
+- can tell me which good [latest](new) [indian](origin) [non christmas](christmas) teas do you produce
+- can tell me which [organic](organic) [chinese](origin) tea [for christmas](christmas) do you own
+- can tell me which relaxing [not organic](organic) [non christmas](christmas) tea that are [taiwanese](origin) do you produce please
+- can you find a [korean](origin) tea [that are from the christmas selection](christmas) please
+- can you find a [korean](origin) teas [not for christmas](christmas)
+- can you find a [not organic](organic) [tanzanian](origin) teas [that are from the christmas selection](christmas)
+- can you find a [not organic](organic) tea from [india](origin) [that are for christmas](christmas) please
+- can you find a relaxing [african](origin) teas [not from the christmas selection](christmas) please
+- can you find a relaxing [chinese](origin) tea [not for christmas](christmas) please
+- can you find a relaxing [chinese](origin) teas [for christmas](christmas) please
+- can you find a relaxing [christmas](christmas) teas [southafrica](origin)
+- can you find a relaxing [newly introduced](new) [korean](origin) [christmas](christmas) tea please
+- can you find [african](origin) [christmas](christmas) tea
+- can you find an good [newly introduced](new) [african](origin) [non christmas](christmas) teas please
+- can you find an good [not organic](organic) [non christmas](christmas) tea from [china](origin)
+- can you find an good [taiwanese](origin) [non christmas](christmas) tea please
+- can you find an [latest](new) [chinese](origin) [christmas](christmas) tea
+- can you find an [not organic](organic) [chinese](origin) [christmas](christmas) tea please
+- can you find an [not organic](organic) [indian](origin) [non christmas](christmas) tea please
+- can you find an [organic](organic) [indian](origin) tea [that are for christmas](christmas) please
+- can you find an relaxing [new](new) [korean](origin) teas [not for christmas](christmas)
+- can you find an tea that are [indian](origin) [that are for christmas](christmas) please
+- can you find an teas that are [korean](origin) [from the christmas selection](christmas) please
+- can you find good [newly produced](new) [taiwanese](origin) tea [that are from the christmas selection](christmas)
+- can you find good [not organic](organic) [taiwanese](origin) teas [not for christmas](christmas)
+- can you find good [not organic](organic) teas [india](origin) [that are from the christmas selection](christmas) please
+- can you find good [organic](organic) tea that are [chinese](origin) [that are for christmas](christmas)
+- can you find good [tanzanian](origin) teas [that are from the christmas selection](christmas)
+- can you find good teas [tanzania](origin) [not from the christmas selection](christmas) please
+- can you find good teas that are [korean](origin) [not from the christmas selection](christmas)
+- can you find [indian](origin) tea [that are for christmas](christmas) please
+- can you find [korean](origin) [non christmas](christmas) tea
+- can you find [latest](new) [southafrican](origin) teas [not from the christmas selection](christmas) please
+- can you find [non christmas](christmas) teas [india](origin) please
+- can you find [not organic](organic) [non christmas](christmas) teas from [africa](origin)
+- can you find [not organic](organic) [southafrican](origin) teas [from the christmas selection](christmas) please
+- can you find [organic](organic) [christmas](christmas) tea that are [tanzanian](origin)
+- can you find [organic](organic) teas that are [tanzanian](origin) [that are for christmas](christmas) please
+- can you find relaxing [indian](origin) teas [not for christmas](christmas)
+- can you find relaxing [newly introduced](new) [tanzanian](origin) [christmas](christmas) tea
+- can you find relaxing [newly introduced](new) [tanzanian](origin) tea [that are for christmas](christmas) please
+- can you find relaxing [non christmas](christmas) tea [tanzania](origin)
+- can you find relaxing [not organic](organic) tea from [tanzania](origin) [that are for christmas](christmas) please
+- can you find relaxing [organic](organic) [southafrican](origin) [christmas](christmas) tea please
+- can you find relaxing tea that are [taiwanese](origin) [not from the christmas selection](christmas)
+- can you find some good [newly introduced](new) [christmas](christmas) tea that are from [ceylon](origin) please
+- can you find some [latest](new) [indian](origin) [christmas](christmas) teas
+- can you find some [newly introduced](new) [korean](origin) teas [not from the christmas selection](christmas) please
+- can you find some [newly produced](new) [korean](origin) [non christmas](christmas) teas please
+- can you find some relaxing [brandnew](new) [african](origin) teas [that are for christmas](christmas)
+- can you find some relaxing [not organic](organic) [tanzanian](origin) [non christmas](christmas) tea
+- can you find some tasty [christmas](christmas) teas that are [indian](origin) please
+- can you find some tasty [newly produced](new) [african](origin) [non christmas](christmas) teas
+- can you find some tasty [not organic](organic) [taiwanese](origin) tea [from the christmas selection](christmas) please
+- can you find [southafrican](origin) [non christmas](christmas) teas please
+- can you find tasty [chinese](origin) [christmas](christmas) tea
+- can you find tasty [not organic](organic) [christmas](christmas) tea that are from [india](origin)
+- can you find tea [taiwan](origin) [that are for christmas](christmas)
+- can you show me what good teas [ceylon](origin) [from the christmas selection](christmas) do you own
+- can you show me what [new](new) [indian](origin) teas [not for christmas](christmas) do you sell please
+- can you show me what tasty [non christmas](christmas) tea that are [korean](origin) do you have please
+- can you show me which good [korean](origin) [non christmas](christmas) tea do you make
+- can you show me which good [not organic](organic) teas that are [korean](origin) [from the christmas selection](christmas) do you produce
+- can you show me which [not organic](organic) [taiwanese](origin) teas [not for christmas](christmas) do you have
+- can you show me which relaxing [korean](origin) [non christmas](christmas) teas do you produce please
+- can you tell me what good [latest](new) [non christmas](christmas) teas that are [chinese](origin) do you have please
+- can you tell me what good tea that are [indian](origin) [not from the christmas selection](christmas) do you own
+- can you tell me what [korean](origin) tea [that are for christmas](christmas) do you sell please
+- can you tell me what relaxing [indian](origin) [christmas](christmas) tea do you sell
+- can you tell me what teas [india](origin) [that are for christmas](christmas) do you own please
+- can you tell me which good [not organic](organic) tea that are [korean](origin) [from the christmas selection](christmas) do you produce
+- can you tell me which [korean](origin) [christmas](christmas) tea do you own please
+- [christmas](christmas) tea that are [southafrican](origin) please
+- do you have a [christmas](christmas) teas that are [korean](origin)
+- do you have a [latest](new) [indian](origin) teas [not for christmas](christmas)
+- do you have an tasty [tanzanian](origin) [non christmas](christmas) tea
+- do you have good [korean](origin) teas [that are for christmas](christmas)
+- do you have [latest](new) [christmas](christmas) tea [tanzania](origin)
+- do you have [not organic](organic) [taiwanese](origin) [christmas](christmas) tea
+- do you have relaxing [non christmas](christmas) teas that are [indian](origin)
+- do you have [southafrican](origin) [christmas](christmas) tea
+- do you have tasty [new](new) [tanzanian](origin) [non christmas](christmas) teas
+- do you make a [indian](origin) tea [not for christmas](christmas)
+- do you make a [newly introduced](new) [chinese](origin) teas [for christmas](christmas)
+- do you make a [non christmas](christmas) teas that are [african](origin)
+- do you make a tasty [organic](organic) [african](origin) [christmas](christmas) teas
+- do you make an tasty [brandnew](new) [christmas](christmas) tea that are [tanzanian](origin)
+- do you make an tea [korea](origin) [not from the christmas selection](christmas)
+- do you make [chinese](origin) teas [that are from the christmas selection](christmas)
+- do you make good tea that are [korean](origin) [not for christmas](christmas)
+- do you make [non christmas](christmas) teas that are [taiwanese](origin)
+- do you make [not organic](organic) [christmas](christmas) tea that are [indian](origin)
+- do you make [organic](organic) [taiwanese](origin) [non christmas](christmas) teas
+- do you make relaxing [brandnew](new) [tanzanian](origin) [non christmas](christmas) teas
+- do you make relaxing [organic](organic) tea that are [chinese](origin) [not from the christmas selection](christmas)
+- do you make some good [african](origin) tea [for christmas](christmas)
+- do you make some tasty [korean](origin) [non christmas](christmas) teas
+- do you make tasty [chinese](origin) teas [that are from the christmas selection](christmas)
+- do you make tasty [latest](new) [taiwanese](origin) [christmas](christmas) tea
+- do you make tasty [taiwanese](origin) teas [not for christmas](christmas)
+- do you own a good [newly produced](new) [non christmas](christmas) tea from [ceylon](origin)
+- do you own [african](origin) [non christmas](christmas) teas
+- do you own an good tea that are [taiwanese](origin) [that are for christmas](christmas)
+- do you own an relaxing [latest](new) [tanzanian](origin) [non christmas](christmas) tea
+- do you own an tasty [latest](new) [chinese](origin) [christmas](christmas) teas
+- do you own an tasty [not organic](organic) [christmas](christmas) teas that are from [taiwan](origin)
+- do you own good [indian](origin) [christmas](christmas) tea
+- do you own good [non christmas](christmas) teas that are [korean](origin)
+- do you own [latest](new) [christmas](christmas) teas from [taiwan](origin)
+- do you own [non christmas](christmas) teas [ceylon](origin)
+- do you own [not organic](organic) [indian](origin) tea [not from the christmas selection](christmas)
+- do you own relaxing [organic](organic) [tanzanian](origin) teas [for christmas](christmas)
+- do you own some [not organic](organic) [korean](origin) [non christmas](christmas) teas
+- do you own some [organic](organic) [indian](origin) [christmas](christmas) teas
+- do you own tasty [newly introduced](new) [chinese](origin) [christmas](christmas) tea
+- do you own tasty [not organic](organic) tea that are [indian](origin) [from the christmas selection](christmas)
+- do you produce a [indian](origin) [christmas](christmas) tea
+- do you produce a tasty [new](new) [non christmas](christmas) tea [korea](origin)
+- do you produce an [non christmas](christmas) tea [tanzania](origin)
+- do you produce [brandnew](new) tea from [india](origin) [that are for christmas](christmas)
+- do you produce good [korean](origin) [non christmas](christmas) tea
+- do you produce good [not organic](organic) [african](origin) teas [not for christmas](christmas)
+- do you produce [newly produced](new) teas that are [african](origin) [not for christmas](christmas)
+- do you produce [not organic](organic) [tanzanian](origin) [non christmas](christmas) teas
+- do you produce [organic](organic) [korean](origin) tea [from the christmas selection](christmas)
+- do you produce relaxing [african](origin) [christmas](christmas) tea
+- do you produce some [organic](organic) tea that are [chinese](origin) [not from the christmas selection](christmas)
+- do you sell a [not organic](organic) [non christmas](christmas) teas that are [chinese](origin)
+- do you sell a [not organic](organic) [taiwanese](origin) [christmas](christmas) tea
+- do you sell a [organic](organic) [indian](origin) tea [for christmas](christmas)
+- do you sell a relaxing [newly produced](new) [southafrican](origin) tea [not for christmas](christmas)
+- do you sell a relaxing teas that are [tanzanian](origin) [that are from the christmas selection](christmas)
+- do you sell [not organic](organic) [indian](origin) teas [for christmas](christmas)
+- do you sell [organic](organic) tea that are from [taiwan](origin) [for christmas](christmas)
+- do you sell relaxing [new](new) [taiwanese](origin) tea [not from the christmas selection](christmas)
+- do you sell relaxing [not organic](organic) teas [india](origin) [not for christmas](christmas)
+- do you sell some good [latest](new) tea that are from [china](origin) [that are from the christmas selection](christmas)
+- do you sell some [latest](new) tea that are [chinese](origin) [not for christmas](christmas)
+- do you sell some [taiwanese](origin) teas [not for christmas](christmas)
+- do you sell teas from [ceylon](origin) [that are from the christmas selection](christmas)
+- filter only an relaxing [latest](new) [christmas](christmas) tea that are [chinese](origin)
+- filter only an relaxing [southafrican](origin) [christmas](christmas) tea
+- filter only some relaxing [organic](organic) [chinese](origin) [non christmas](christmas) tea please
+- filter only [tanzanian](origin) teas [not from the christmas selection](christmas)
+- filter only tasty [latest](new) [indian](origin) [non christmas](christmas) teas please
+- filter only those a relaxing [tanzanian](origin) tea [not from the christmas selection](christmas) please
+- filter only those [african](origin) tea [for christmas](christmas) please
+- filter only those good [latest](new) [tanzanian](origin) [non christmas](christmas) tea please
+- filter only those [non christmas](christmas) teas that are from [africa](origin) please
+- filter only those [organic](organic) teas from [ceylon](origin) [that are for christmas](christmas)
+- filter only those [organic](organic) teas that are from [ceylon](origin) [not for christmas](christmas) please
+- filter only those relaxing [new](new) [chinese](origin) teas [that are from the christmas selection](christmas)
+- find a [christmas](christmas) teas from [india](origin) please
+- find a good [korean](origin) tea [that are from the christmas selection](christmas) please
+- find a good [organic](organic) [korean](origin) tea [not from the christmas selection](christmas) please
+- find a [not organic](organic) [taiwanese](origin) [christmas](christmas) tea
+- find a [southafrican](origin) [christmas](christmas) teas please
+- find a tasty tea from [korea](origin) [not for christmas](christmas)
+- find an good tea [taiwan](origin) [that are for christmas](christmas)
+- find an [latest](new) [korean](origin) [non christmas](christmas) teas
+- find an [new](new) [non christmas](christmas) tea that are from [india](origin) please
+- find an [newly produced](new) [chinese](origin) tea [not from the christmas selection](christmas)
+- find an [newly produced](new) [chinese](origin) teas [not for christmas](christmas)
+- find an [not organic](organic) [non christmas](christmas) tea [africa](origin) please
+- find an [not organic](organic) tea [tanzania](origin) [not for christmas](christmas) please
+- find an relaxing [latest](new) [tanzanian](origin) [christmas](christmas) teas
+- find an [taiwanese](origin) tea [not for christmas](christmas)
+- find an [taiwanese](origin) tea [not for christmas](christmas) please
+- find [chinese](origin) [non christmas](christmas) tea
+- find [chinese](origin) [non christmas](christmas) teas please
+- find [christmas](christmas) tea that are [indian](origin) please
+- find good [new](new) [non christmas](christmas) tea from [china](origin)
+- find good [new](new) [tanzanian](origin) [christmas](christmas) tea please
+- find good [not organic](organic) [chinese](origin) tea [not for christmas](christmas)
+- find good [organic](organic) [indian](origin) tea [that are for christmas](christmas)
+- find good [taiwanese](origin) tea [for christmas](christmas) please
+- find good teas from [taiwan](origin) [for christmas](christmas)
+- find [latest](new) [christmas](christmas) teas that are [tanzanian](origin)
+- find [latest](new) [southafrican](origin) teas [that are for christmas](christmas)
+- find [latest](new) tea that are from [taiwan](origin) [that are for christmas](christmas) please
+- find [new](new) tea [southafrica](origin) [that are from the christmas selection](christmas)
+- find [newly produced](new) [korean](origin) tea [that are for christmas](christmas)
+- find [not organic](organic) [chinese](origin) [non christmas](christmas) tea
+- find [not organic](organic) [taiwanese](origin) teas [for christmas](christmas)
+- find [organic](organic) [indian](origin) tea [that are for christmas](christmas) please
+- find relaxing [newly produced](new) [chinese](origin) tea [not from the christmas selection](christmas)
+- find relaxing [newly produced](new) tea that are from [africa](origin) [not for christmas](christmas) please
+- find relaxing [non christmas](christmas) tea that are [korean](origin)
+- find relaxing [organic](organic) [tanzanian](origin) teas [not from the christmas selection](christmas)
+- find some good [newly produced](new) [indian](origin) [non christmas](christmas) tea please
+- find some [latest](new) [indian](origin) [christmas](christmas) tea
+- find some [organic](organic) [tanzanian](origin) [christmas](christmas) tea
+- find some tasty [newly produced](new) tea that are [korean](origin) [that are for christmas](christmas) please
+- find some tasty [not organic](organic) [christmas](christmas) tea from [china](origin) please
+- find some tasty [organic](organic) [korean](origin) teas [not for christmas](christmas) please
+- find some teas from [africa](origin) [not from the christmas selection](christmas)
+- find [taiwanese](origin) [non christmas](christmas) tea
+- find tasty [indian](origin) [christmas](christmas) teas
+- find teas that are [chinese](origin) [that are for christmas](christmas) please
+- find teas that are from [korea](origin) [from the christmas selection](christmas)
+- find teas that are [taiwanese](origin) [for christmas](christmas)
+- give me a [christmas](christmas) tea that are [indian](origin)
+- give me a [latest](new) [christmas](christmas) tea that are [indian](origin) please
+- give me a [newly introduced](new) teas [india](origin) [that are for christmas](christmas)
+- give me a [newly produced](new) [non christmas](christmas) teas from [taiwan](origin)
+- give me a relaxing [brandnew](new) teas that are [indian](origin) [not from the christmas selection](christmas)
+- give me a relaxing [not organic](organic) [tanzanian](origin) [christmas](christmas) tea please
+- give me a relaxing [not organic](organic) [tanzanian](origin) [christmas](christmas) teas
+- give me a relaxing [taiwanese](origin) tea [that are from the christmas selection](christmas) please
+- give me a tasty [christmas](christmas) tea that are [chinese](origin)
+- give me an [newly introduced](new) [tanzanian](origin) [christmas](christmas) teas
+- give me an [newly produced](new) [christmas](christmas) teas from [ceylon](origin) please
+- give me an [non christmas](christmas) teas [india](origin)
+- give me an tasty [taiwanese](origin) teas [not for christmas](christmas)
+- give me [chinese](origin) [christmas](christmas) teas
+- give me good [brandnew](new) [chinese](origin) [non christmas](christmas) teas
+- give me good [non christmas](christmas) tea from [india](origin) please
+- give me good [taiwanese](origin) [christmas](christmas) tea
+- give me [indian](origin) [christmas](christmas) teas
+- give me [korean](origin) [christmas](christmas) teas
+- give me [latest](new) [non christmas](christmas) teas that are [tanzanian](origin)
+- give me [newly introduced](new) [taiwanese](origin) teas [for christmas](christmas)
+- give me [newly produced](new) [tanzanian](origin) [christmas](christmas) tea
+- give me [non christmas](christmas) tea that are [indian](origin)
+- give me [organic](organic) [tanzanian](origin) teas [not for christmas](christmas) please
+- give me some good [latest](new) teas that are [taiwanese](origin) [for christmas](christmas)
+- give me some [organic](organic) [christmas](christmas) teas that are [chinese](origin) please
+- give me some [organic](organic) [non christmas](christmas) tea that are [indian](origin) please
+- give me some relaxing [not organic](organic) [southafrican](origin) teas [from the christmas selection](christmas)
+- give me some relaxing [organic](organic) teas from [tanzania](origin) [not for christmas](christmas)
+- give me [tanzanian](origin) teas [not for christmas](christmas)
+- good [christmas](christmas) teas from [china](origin) please
+- good [latest](new) [taiwanese](origin) teas [not for christmas](christmas)
+- good [latest](new) tea that are from [india](origin) [not from the christmas selection](christmas) please
+- good [latest](new) teas [tanzania](origin) [that are for christmas](christmas) please
+- good [newly introduced](new) [indian](origin) [christmas](christmas) tea
+- good [newly produced](new) [chinese](origin) teas [from the christmas selection](christmas) please
+- good [newly produced](new) [non christmas](christmas) tea [ceylon](origin)
+- good [non christmas](christmas) teas that are [southafrican](origin) please
+- good [not organic](organic) [non christmas](christmas) tea [korea](origin) please
+- good [organic](organic) [non christmas](christmas) teas [southafrica](origin)
+- good teas from [ceylon](origin) [not from the christmas selection](christmas) please
+- help me find a good [christmas](christmas) tea that are [taiwanese](origin) please
+- help me find a good [christmas](christmas) teas that are from [china](origin)
+- help me find a relaxing [christmas](christmas) tea that are from [korea](origin)
+- help me find a relaxing [not organic](organic) [chinese](origin) [christmas](christmas) tea please
+- help me find a relaxing [not organic](organic) [taiwanese](origin) tea [not from the christmas selection](christmas) please
+- help me find a relaxing [not organic](organic) tea [ceylon](origin) [that are from the christmas selection](christmas)
+- help me find a relaxing [organic](organic) [christmas](christmas) tea that are [indian](origin)
+- help me find a relaxing [organic](organic) [taiwanese](origin) tea [for christmas](christmas) please
+- help me find a relaxing tea from [korea](origin) [from the christmas selection](christmas) please
+- help me find a tasty [latest](new) [christmas](christmas) teas from [korea](origin)
+- help me find a tea from [korea](origin) [that are for christmas](christmas) please
+- help me find an [chinese](origin) teas [that are for christmas](christmas)
+- help me find an [christmas](christmas) tea that are [taiwanese](origin) please
+- help me find an good [chinese](origin) [christmas](christmas) teas please
+- help me find an good [newly introduced](new) [indian](origin) [non christmas](christmas) teas
+- help me find an good [non christmas](christmas) teas that are [chinese](origin)
+- help me find an [korean](origin) tea [that are from the christmas selection](christmas)
+- help me find an [latest](new) [indian](origin) tea [not from the christmas selection](christmas)
+- help me find an [latest](new) [korean](origin) tea [that are from the christmas selection](christmas)
+- help me find an [not organic](organic) tea [india](origin) [not for christmas](christmas)
+- help me find an [organic](organic) teas from [taiwan](origin) [not for christmas](christmas)
+- help me find an relaxing [not organic](organic) [christmas](christmas) teas that are [korean](origin)
+- help me find an relaxing [taiwanese](origin) teas [for christmas](christmas) please
+- help me find an relaxing tea that are [indian](origin) [for christmas](christmas)
+- help me find an relaxing tea that are [korean](origin) [not for christmas](christmas) please
+- help me find an [southafrican](origin) tea [for christmas](christmas)
+- help me find an [taiwanese](origin) tea [not from the christmas selection](christmas) please
+- help me find an [tanzanian](origin) [non christmas](christmas) tea
+- help me find an tasty [newly produced](new) [southafrican](origin) [non christmas](christmas) teas please
+- help me find an tasty [organic](organic) tea that are [indian](origin) [not for christmas](christmas) please
+- help me find good [latest](new) teas that are [african](origin) [not for christmas](christmas) please
+- help me find good tea that are from [ceylon](origin) [not for christmas](christmas)
+- help me find [latest](new) [indian](origin) [non christmas](christmas) tea
+- help me find [non christmas](christmas) tea from [tanzania](origin) please
+- help me find [not organic](organic) [chinese](origin) teas [for christmas](christmas) please
+- help me find [not organic](organic) [indian](origin) [non christmas](christmas) tea
+- help me find [organic](organic) [chinese](origin) [christmas](christmas) tea
+- help me find [organic](organic) [indian](origin) [non christmas](christmas) tea please
+- help me find some [newly introduced](new) [non christmas](christmas) teas [ceylon](origin) please
+- help me find some relaxing [organic](organic) [tanzanian](origin) teas [that are for christmas](christmas)
+- help me find some tasty [not organic](organic) [indian](origin) [non christmas](christmas) tea please
+- help me find some tasty [not organic](organic) [taiwanese](origin) [non christmas](christmas) tea
+- help me find some tea that are [chinese](origin) [from the christmas selection](christmas) please
+- help me find tasty [latest](new) [taiwanese](origin) [non christmas](christmas) tea
+- help me find tasty [newly produced](new) [korean](origin) [christmas](christmas) tea please
+- help me find tasty [not organic](organic) [taiwanese](origin) tea [not for christmas](christmas)
+- help me find tasty [not organic](organic) teas that are [taiwanese](origin) [not from the christmas selection](christmas) please
+- help me find tasty [organic](organic) [african](origin) teas [that are for christmas](christmas) please
+- help me find tasty [organic](organic) tea that are from [taiwan](origin) [not from the christmas selection](christmas)
+- help me find tasty tea that are [chinese](origin) [from the christmas selection](christmas) please
+- i want a [brandnew](new) [christmas](christmas) teas that are from [tanzania](origin)
+- i want a [brandnew](new) [korean](origin) [christmas](christmas) tea please
+- i want a good [new](new) [indian](origin) teas [from the christmas selection](christmas) please
+- i want a good [newly introduced](new) [tanzanian](origin) [christmas](christmas) teas please
+- i want a good [non christmas](christmas) tea that are [chinese](origin) please
+- i want a good [not organic](organic) teas that are [african](origin) [that are from the christmas selection](christmas)
+- i want a good [southafrican](origin) [non christmas](christmas) teas please
+- i want a [indian](origin) teas [for christmas](christmas) please
+- i want a [indian](origin) teas [not for christmas](christmas) please
+- i want a [latest](new) teas [ceylon](origin) [not for christmas](christmas)
+- i want a [non christmas](christmas) tea that are [korean](origin)
+- i want a [non christmas](christmas) tea that are [tanzanian](origin)
+- i want a [not organic](organic) [korean](origin) [christmas](christmas) teas please
+- i want a [organic](organic) [african](origin) [non christmas](christmas) tea
+- i want a [organic](organic) [tanzanian](origin) tea [that are for christmas](christmas) please
+- i want a [organic](organic) tea that are [indian](origin) [not for christmas](christmas) please
+- i want a relaxing [latest](new) [tanzanian](origin) [non christmas](christmas) teas please
+- i want a tasty [organic](organic) [christmas](christmas) tea [india](origin) please
+- i want an good [newly produced](new) [tanzanian](origin) teas [from the christmas selection](christmas) please
+- i want an good [organic](organic) tea [china](origin) [that are for christmas](christmas) please
+- i want an good [tanzanian](origin) [christmas](christmas) teas please
+- i want an [korean](origin) teas [not for christmas](christmas)
+- i want an [latest](new) tea that are [chinese](origin) [not from the christmas selection](christmas) please
+- i want an [latest](new) tea that are [indian](origin) [not from the christmas selection](christmas) please
+- i want an [new](new) [christmas](christmas) teas from [india](origin) please
+- i want an [new](new) tea from [taiwan](origin) [not from the christmas selection](christmas)
+- i want an [non christmas](christmas) tea that are [taiwanese](origin) please
+- i want an [non christmas](christmas) teas that are from [india](origin) please
+- i want an [not organic](organic) tea that are [chinese](origin) [that are for christmas](christmas)
+- i want an [not organic](organic) teas that are [chinese](origin) [from the christmas selection](christmas) please
+- i want an [organic](organic) [tanzanian](origin) teas [not for christmas](christmas) please
+- i want an relaxing [not organic](organic) [korean](origin) [christmas](christmas) teas
+- i want an relaxing [organic](organic) [taiwanese](origin) [christmas](christmas) teas please
+- i want an [southafrican](origin) [christmas](christmas) teas please
+- i want an [tanzanian](origin) [non christmas](christmas) tea please
+- i want an tasty [organic](organic) [non christmas](christmas) tea [africa](origin) please
+- i want an tasty teas that are [indian](origin) [not from the christmas selection](christmas) please
+- i want [brandnew](new) [indian](origin) tea [not from the christmas selection](christmas) please
+- i want [chinese](origin) [non christmas](christmas) tea
+- i want [christmas](christmas) teas from [china](origin) please
+- i want [christmas](christmas) teas that are [african](origin)
+- i want [christmas](christmas) teas that are [korean](origin) please
+- i want good [brandnew](new) [christmas](christmas) tea [china](origin) please
+- i want good [chinese](origin) [non christmas](christmas) teas
+- i want good [chinese](origin) teas [not for christmas](christmas)
+- i want good [latest](new) teas [china](origin) [that are from the christmas selection](christmas)
+- i want good [latest](new) teas that are [indian](origin) [that are from the christmas selection](christmas) please
+- i want good [non christmas](christmas) tea [tanzania](origin) please
+- i want good [not organic](organic) [african](origin) [christmas](christmas) tea
+- i want good [tanzanian](origin) [christmas](christmas) tea
+- i want good teas [africa](origin) [from the christmas selection](christmas) please
+- i want good teas that are [southafrican](origin) [not from the christmas selection](christmas)
+- i want good teas that are [tanzanian](origin) [that are for christmas](christmas) please
+- i want [korean](origin) [non christmas](christmas) tea
+- i want [latest](new) [indian](origin) [non christmas](christmas) tea
+- i want [latest](new) [taiwanese](origin) [non christmas](christmas) teas please
+- i want [latest](new) [taiwanese](origin) tea [not from the christmas selection](christmas) please
+- i want [latest](new) tea that are [indian](origin) [not from the christmas selection](christmas)
+- i want [latest](new) teas [ceylon](origin) [that are from the christmas selection](christmas)
+- i want [latest](new) teas [india](origin) [for christmas](christmas) please
+- i want [new](new) [tanzanian](origin) tea [not for christmas](christmas)
+- i want [newly introduced](new) [christmas](christmas) tea that are from [taiwan](origin)
+- i want [newly produced](new) [tanzanian](origin) teas [for christmas](christmas)
+- i want [newly produced](new) tea [china](origin) [that are from the christmas selection](christmas)
+- i want [non christmas](christmas) tea that are from [tanzania](origin) please
+- i want [not organic](organic) teas [tanzania](origin) [not from the christmas selection](christmas) please
+- i want [organic](organic) [non christmas](christmas) tea [china](origin) please
+- i want [organic](organic) [non christmas](christmas) teas that are [korean](origin)
+- i want relaxing [newly introduced](new) tea that are [chinese](origin) [that are for christmas](christmas)
+- i want relaxing [not organic](organic) [indian](origin) [christmas](christmas) tea
+- i want relaxing [organic](organic) [christmas](christmas) tea that are from [taiwan](origin)
+- i want relaxing [southafrican](origin) [christmas](christmas) tea
+- i want some [chinese](origin) teas [that are for christmas](christmas)
+- i want some [christmas](christmas) teas that are [korean](origin) please
+- i want some good [newly produced](new) [taiwanese](origin) [christmas](christmas) teas please
+- i want some good [not organic](organic) [chinese](origin) [christmas](christmas) tea please
+- i want some good [taiwanese](origin) tea [not for christmas](christmas)
+- i want some good teas [taiwan](origin) [not from the christmas selection](christmas) please
+- i want some [latest](new) [korean](origin) [non christmas](christmas) teas please
+- i want some [not organic](organic) [taiwanese](origin) teas [not from the christmas selection](christmas) please
+- i want some [not organic](organic) tea that are [chinese](origin) [not from the christmas selection](christmas)
+- i want some [organic](organic) [chinese](origin) teas [not for christmas](christmas) please
+- i want some [organic](organic) tea that are [korean](origin) [for christmas](christmas) please
+- i want some relaxing [latest](new) [chinese](origin) [christmas](christmas) teas
+- i want some relaxing [organic](organic) [taiwanese](origin) teas [that are for christmas](christmas) please
+- i want some relaxing tea that are [indian](origin) [from the christmas selection](christmas)
+- i want some [taiwanese](origin) teas [not from the christmas selection](christmas)
+- i want some tasty [new](new) [indian](origin) [christmas](christmas) tea
+- i want some tasty [not organic](organic) [christmas](christmas) tea that are from [taiwan](origin)
+- i want some tasty tea that are from [china](origin) [that are for christmas](christmas) please
+- i want some tea from [taiwan](origin) [not from the christmas selection](christmas)
+- i want [taiwanese](origin) teas [from the christmas selection](christmas)
+- i want [tanzanian](origin) [non christmas](christmas) teas please
+- i want [tanzanian](origin) teas [not from the christmas selection](christmas) please
+- i want tasty [korean](origin) [non christmas](christmas) teas please
+- i want tasty [latest](new) [non christmas](christmas) teas [taiwan](origin) please
+- i want tasty [new](new) [chinese](origin) teas [from the christmas selection](christmas) please
+- i want tasty [non christmas](christmas) tea that are [taiwanese](origin) please
+- i want tasty [organic](organic) teas that are [taiwanese](origin) [not from the christmas selection](christmas) please
+- i want tasty [tanzanian](origin) [christmas](christmas) teas
+- i would like a good [indian](origin) teas [that are for christmas](christmas) please
+- i would like a good [not organic](organic) [african](origin) teas [not for christmas](christmas)
+- i would like a good tea that are [tanzanian](origin) [not from the christmas selection](christmas)
+- i would like a [korean](origin) [christmas](christmas) tea
+- i would like a [newly introduced](new) [chinese](origin) teas [not for christmas](christmas)
+- i would like a [newly produced](new) teas that are [taiwanese](origin) [that are for christmas](christmas) please
+- i would like a relaxing [tanzanian](origin) teas [that are for christmas](christmas)
+- i would like a [tanzanian](origin) teas [not from the christmas selection](christmas)
+- i would like a tasty teas that are [african](origin) [that are for christmas](christmas)
+- i would like an [korean](origin) [non christmas](christmas) tea
+- i would like an [not organic](organic) [tanzanian](origin) [non christmas](christmas) tea please
+- i would like an [organic](organic) teas that are [taiwanese](origin) [from the christmas selection](christmas)
+- i would like an [tanzanian](origin) [non christmas](christmas) teas please
+- i would like an tasty [indian](origin) teas [for christmas](christmas) please
+- i would like [chinese](origin) [non christmas](christmas) tea please
+- i would like good [brandnew](new) teas that are [african](origin) [that are from the christmas selection](christmas)
+- i would like good [tanzanian](origin) [non christmas](christmas) tea please
+- i would like [indian](origin) teas [not for christmas](christmas)
+- i would like [korean](origin) [non christmas](christmas) tea please
+- i would like [latest](new) [chinese](origin) [christmas](christmas) teas please
+- i would like [latest](new) [chinese](origin) tea [for christmas](christmas) please
+- i would like [latest](new) [tanzanian](origin) tea [not for christmas](christmas) please
+- i would like [latest](new) tea that are from [ceylon](origin) [not from the christmas selection](christmas) please
+- i would like [not organic](organic) [korean](origin) teas [from the christmas selection](christmas) please
+- i would like relaxing [chinese](origin) tea [not for christmas](christmas) please
+- i would like relaxing [not organic](organic) tea that are [african](origin) [from the christmas selection](christmas)
+- i would like relaxing [taiwanese](origin) teas [that are for christmas](christmas) please
+- i would like relaxing teas [africa](origin) [that are from the christmas selection](christmas)
+- i would like some [brandnew](new) tea that are [taiwanese](origin) [that are for christmas](christmas)
+- i would like some good [brandnew](new) [korean](origin) tea [not from the christmas selection](christmas)
+- i would like some relaxing [latest](new) [indian](origin) [christmas](christmas) teas
+- i'm looking for a [african](origin) tea [not from the christmas selection](christmas)
+- i'm looking for a [chinese](origin) [non christmas](christmas) teas
+- i'm looking for a good [chinese](origin) [non christmas](christmas) teas please
+- i'm looking for a good [christmas](christmas) tea that are [tanzanian](origin)
+- i'm looking for a [newly produced](new) tea [southafrica](origin) [from the christmas selection](christmas) please
+- i'm looking for a [organic](organic) [korean](origin) [non christmas](christmas) tea
+- i'm looking for a tasty [not organic](organic) [chinese](origin) [non christmas](christmas) tea
+- i'm looking for a tasty [organic](organic) [korean](origin) [non christmas](christmas) tea
+- i'm looking for a teas [taiwan](origin) [not from the christmas selection](christmas) please
+- i'm looking for an [chinese](origin) teas [not for christmas](christmas) please
+- i'm looking for an [christmas](christmas) teas that are [indian](origin)
+- i'm looking for an good [christmas](christmas) tea [southafrica](origin)
+- i'm looking for an [latest](new) tea [india](origin) [not for christmas](christmas) please
+- i'm looking for an [non christmas](christmas) tea from [korea](origin) please
+- i'm looking for an [non christmas](christmas) tea that are [african](origin)
+- i'm looking for an relaxing [organic](organic) [korean](origin) tea [not for christmas](christmas) please
+- i'm looking for an tasty [latest](new) [tanzanian](origin) tea [not for christmas](christmas)
+- i'm looking for an tasty [newly introduced](new) [tanzanian](origin) [christmas](christmas) tea please
+- i'm looking for an tasty teas from [china](origin) [not for christmas](christmas) please
+- i'm looking for [chinese](origin) teas [not from the christmas selection](christmas) please
+- i'm looking for [christmas](christmas) teas [china](origin)
+- i'm looking for [christmas](christmas) teas that are [african](origin)
+- i'm looking for [christmas](christmas) teas that are [chinese](origin) please
+- i'm looking for good [new](new) [christmas](christmas) teas [southafrica](origin) please
+- i'm looking for good [newly introduced](new) [tanzanian](origin) tea [that are from the christmas selection](christmas) please
+- i'm looking for [latest](new) [non christmas](christmas) tea that are [southafrican](origin) please
+- i'm looking for [newly produced](new) [indian](origin) [christmas](christmas) teas please
+- i'm looking for [not organic](organic) [non christmas](christmas) teas from [ceylon](origin)
+- i'm looking for [not organic](organic) tea [ceylon](origin) [that are from the christmas selection](christmas) please
+- i'm looking for [not organic](organic) tea that are [korean](origin) [not from the christmas selection](christmas) please
+- i'm looking for [organic](organic) [non christmas](christmas) tea that are [tanzanian](origin)
+- i'm looking for [organic](organic) [non christmas](christmas) tea that are [tanzanian](origin) please
+- i'm looking for [organic](organic) [non christmas](christmas) teas that are [taiwanese](origin)
+- i'm looking for [organic](organic) [taiwanese](origin) [christmas](christmas) tea
+- i'm looking for relaxing [chinese](origin) tea [that are for christmas](christmas)
+- i'm looking for relaxing [latest](new) tea from [china](origin) [not for christmas](christmas) please
+- i'm looking for relaxing [new](new) [taiwanese](origin) [non christmas](christmas) tea please
+- i'm looking for relaxing [organic](organic) teas that are [korean](origin) [not from the christmas selection](christmas)
+- i'm looking for some good [tanzanian](origin) teas [not from the christmas selection](christmas) please
+- i'm looking for some [non christmas](christmas) tea [ceylon](origin) please
+- i'm looking for some [not organic](organic) teas that are [korean](origin) [not for christmas](christmas)
+- i'm looking for some relaxing [brandnew](new) [korean](origin) [christmas](christmas) teas
+- i'm looking for some relaxing [not organic](organic) [indian](origin) [non christmas](christmas) tea please
+- i'm looking for some [tanzanian](origin) tea [that are for christmas](christmas) please
+- i'm looking for some tasty [newly introduced](new) [chinese](origin) [christmas](christmas) teas please
+- i'm looking for some tasty [organic](organic) [non christmas](christmas) tea that are [chinese](origin)
+- i'm looking for [taiwanese](origin) tea [not for christmas](christmas) please
+- i'm looking for tasty [latest](new) [tanzanian](origin) teas [not for christmas](christmas)
+- i'm looking for tasty [latest](new) tea from [tanzania](origin) [for christmas](christmas)
+- i'm looking for tasty [tanzanian](origin) teas [not from the christmas selection](christmas)
+- i'm looking for tea that are from [taiwan](origin) [not from the christmas selection](christmas) please
+- i'm looking for teas [tanzania](origin) [that are from the christmas selection](christmas)
+- [korean](origin) [christmas](christmas) teas
+- [latest](new) [african](origin) [non christmas](christmas) teas please
+- [latest](new) [korean](origin) [christmas](christmas) teas
+- [latest](new) [korean](origin) [non christmas](christmas) tea
+- [latest](new) [non christmas](christmas) tea that are [southafrican](origin)
+- [latest](new) [non christmas](christmas) teas that are [tanzanian](origin) please
+- [latest](new) [southafrican](origin) teas [that are from the christmas selection](christmas)
+- [latest](new) tea that are [african](origin) [that are from the christmas selection](christmas)
+- [new](new) [chinese](origin) [christmas](christmas) teas
+- [newly introduced](new) [christmas](christmas) teas from [ceylon](origin)
+- [newly introduced](new) teas from [southafrica](origin) [not from the christmas selection](christmas) please
+- [newly produced](new) teas that are [chinese](origin) [that are for christmas](christmas) please
+- [newly produced](new) teas that are [taiwanese](origin) [not from the christmas selection](christmas) please
+- [newly produced](new) teas that are [tanzanian](origin) [not for christmas](christmas)
+- [non christmas](christmas) tea that are [indian](origin) please
+- [non christmas](christmas) tea that are [southafrican](origin)
+- [not organic](organic) [chinese](origin) [christmas](christmas) teas please
+- [not organic](organic) teas [tanzania](origin) [not from the christmas selection](christmas) please
+- only a relaxing [organic](organic) [christmas](christmas) teas that are from [southafrica](origin)
+- only a tasty [organic](organic) [non christmas](christmas) tea that are [indian](origin)
+- only an good teas from [tanzania](origin) [not from the christmas selection](christmas) please
+- only an teas that are [indian](origin) [not from the christmas selection](christmas)
+- only [newly introduced](new) [non christmas](christmas) teas from [ceylon](origin)
+- only [organic](organic) [korean](origin) [christmas](christmas) tea
+- only [organic](organic) [taiwanese](origin) [christmas](christmas) teas please
+- only some good [newly introduced](new) [chinese](origin) [non christmas](christmas) tea
+- only some [latest](new) [taiwanese](origin) [christmas](christmas) teas please
+- only some [not organic](organic) [chinese](origin) teas [not for christmas](christmas) please
+- only tasty tea that are [southafrican](origin) [not from the christmas selection](christmas)
+- only those a [not organic](organic) [chinese](origin) [christmas](christmas) tea please
+- only those a tasty [newly introduced](new) [southafrican](origin) teas [not for christmas](christmas)
+- only those an [christmas](christmas) tea that are from [ceylon](origin)
+- only those an [not organic](organic) [chinese](origin) tea [for christmas](christmas)
+- only those an relaxing [newly produced](new) [indian](origin) [christmas](christmas) teas please
+- only those [christmas](christmas) tea [taiwan](origin)
+- only those good [brandnew](new) [taiwanese](origin) [christmas](christmas) tea please
+- only those good [indian](origin) [christmas](christmas) tea please
+- only those good [organic](organic) [african](origin) [christmas](christmas) tea
+- only those good tea that are [korean](origin) [not for christmas](christmas)
+- only those [indian](origin) teas [from the christmas selection](christmas) please
+- only those some [non christmas](christmas) tea that are [indian](origin)
+- only those some [organic](organic) tea that are [tanzanian](origin) [that are for christmas](christmas)
+- only those some relaxing [not organic](organic) [indian](origin) [christmas](christmas) teas
+- [organic](organic) [african](origin) [christmas](christmas) tea
+- [organic](organic) [korean](origin) teas [not from the christmas selection](christmas) please
+- [organic](organic) [non christmas](christmas) tea that are [indian](origin) please
+- [organic](organic) tea that are [taiwanese](origin) [from the christmas selection](christmas) please
+- [organic](organic) teas from [korea](origin) [for christmas](christmas) please
+- relaxing [christmas](christmas) teas that are [korean](origin) please
+- relaxing [not organic](organic) [southafrican](origin) tea [from the christmas selection](christmas) please
+- relaxing [not organic](organic) teas that are from [india](origin) [that are from the christmas selection](christmas)
+- relaxing [organic](organic) [tanzanian](origin) tea [from the christmas selection](christmas)
+- relaxing teas that are from [taiwan](origin) [not from the christmas selection](christmas)
+- show me a [christmas](christmas) tea that are from [ceylon](origin) do you make please
+- show me a good [newly introduced](new) [tanzanian](origin) [non christmas](christmas) teas do you produce
+- show me a [not organic](organic) [christmas](christmas) teas from [southafrica](origin) do you produce please
+- show me a relaxing [korean](origin) [christmas](christmas) teas do you sell
+- show me a relaxing [latest](new) tea that are [tanzanian](origin) [not for christmas](christmas) do you produce
+- show me an good [newly introduced](new) [taiwanese](origin) teas [for christmas](christmas) do you sell please
+- show me an [korean](origin) [non christmas](christmas) tea do you have please
+- show me an [non christmas](christmas) teas [ceylon](origin) do you own
+- show me an [non christmas](christmas) teas that are [chinese](origin) do you sell
+- show me an [southafrican](origin) [christmas](christmas) teas do you make
+- show me [brandnew](new) [non christmas](christmas) tea that are [chinese](origin) do you sell
+- show me good [southafrican](origin) [non christmas](christmas) teas do you sell please
+- show me good [tanzanian](origin) tea [that are for christmas](christmas) do you make
+- show me [latest](new) [chinese](origin) tea [that are for christmas](christmas) do you own please
+- show me [newly introduced](new) [chinese](origin) teas [for christmas](christmas) do you produce please
+- show me [newly produced](new) [christmas](christmas) teas that are [korean](origin) do you own please
+- show me [not organic](organic) tea [ceylon](origin) [from the christmas selection](christmas) do you own please
+- show me only a [brandnew](new) [tanzanian](origin) [christmas](christmas) teas do you make please
+- show me only a good [african](origin) [christmas](christmas) teas do you sell
+- show me only a good [brandnew](new) [indian](origin) teas [not for christmas](christmas) do you produce
+- show me only a [latest](new) [chinese](origin) tea [not from the christmas selection](christmas) please
+- show me only a [non christmas](christmas) teas from [india](origin) do you produce
+- show me only a [organic](organic) teas that are [southafrican](origin) [for christmas](christmas) do you have please
+- show me only a [tanzanian](origin) [non christmas](christmas) tea do you produce please
+- show me only an [christmas](christmas) teas that are [indian](origin)
+- show me only an good [brandnew](new) [southafrican](origin) tea [not from the christmas selection](christmas) do you produce
+- show me only an [not organic](organic) [korean](origin) teas [from the christmas selection](christmas) do you own
+- show me only an [not organic](organic) [southafrican](origin) [non christmas](christmas) tea do you sell please
+- show me only an tasty [tanzanian](origin) [non christmas](christmas) tea do you own please
+- show me only good [christmas](christmas) teas that are from [india](origin) do you have please
+- show me only good [organic](organic) [christmas](christmas) tea that are [southafrican](origin) do you produce
+- show me only good [organic](organic) teas from [china](origin) [not for christmas](christmas) do you make
+- show me only [indian](origin) [christmas](christmas) teas please
+- show me only [korean](origin) teas [not for christmas](christmas)
+- show me only [latest](new) teas that are [chinese](origin) [that are for christmas](christmas) do you own please
+- show me only [newly produced](new) tea [southafrica](origin) [not from the christmas selection](christmas) do you own
+- show me only [non christmas](christmas) tea from [tanzania](origin) do you produce please
+- show me only [not organic](organic) [chinese](origin) tea [not for christmas](christmas) do you make please
+- show me only [organic](organic) [taiwanese](origin) [non christmas](christmas) tea do you own please
+- show me only [organic](organic) teas that are [indian](origin) [for christmas](christmas) do you have
+- show me only relaxing [newly produced](new) [tanzanian](origin) [christmas](christmas) teas do you have please
+- show me only some good [chinese](origin) tea [not for christmas](christmas) do you own please
+- show me only some good [newly produced](new) [christmas](christmas) teas that are [tanzanian](origin) do you have
+- show me only some [not organic](organic) [non christmas](christmas) tea that are [african](origin) do you make please
+- show me only some tasty [not organic](organic) [taiwanese](origin) teas [not from the christmas selection](christmas) please
+- show me only some tea that are [indian](origin) [not from the christmas selection](christmas) please
+- show me only some tea that are [tanzanian](origin) [not for christmas](christmas) do you sell
+- show me only [southafrican](origin) [christmas](christmas) teas do you have please
+- show me only tasty [african](origin) teas [not from the christmas selection](christmas) do you sell please
+- show me only tasty [latest](new) [korean](origin) teas [that are from the christmas selection](christmas) do you make please
+- show me only tasty [newly introduced](new) [tanzanian](origin) [non christmas](christmas) teas do you have
+- show me only tasty [organic](organic) [tanzanian](origin) tea [from the christmas selection](christmas) do you make please
+- show me only tea from [india](origin) [that are for christmas](christmas) do you have
+- show me only those an relaxing [organic](organic) tea from [tanzania](origin) [from the christmas selection](christmas) please
+- show me only those [newly introduced](new) [african](origin) teas [not from the christmas selection](christmas) please
+- show me only those [not organic](organic) tea that are [african](origin) [not from the christmas selection](christmas)
+- show me only those tasty [tanzanian](origin) [christmas](christmas) teas
+- show me only those tasty teas that are [taiwanese](origin) [from the christmas selection](christmas) please
+- show me relaxing tea [southafrica](origin) [not for christmas](christmas) do you have please
+- show me some good [latest](new) [taiwanese](origin) teas [for christmas](christmas) do you produce please
+- show me some good [southafrican](origin) [non christmas](christmas) tea do you own please
+- show me some [latest](new) teas [china](origin) [for christmas](christmas) do you produce please
+- show me tasty [korean](origin) teas [not from the christmas selection](christmas) do you sell
+- show me tasty [not organic](organic) [indian](origin) tea [not from the christmas selection](christmas) do you sell please
+- show me tasty [organic](organic) [indian](origin) [christmas](christmas) teas do you sell please
+- show me tasty [organic](organic) [taiwanese](origin) teas [that are for christmas](christmas) do you have please
+- show me tasty teas [korea](origin) [that are for christmas](christmas) do you have
+- show me teas that are [taiwanese](origin) [not from the christmas selection](christmas) do you sell
+- show me what good [brandnew](new) [non christmas](christmas) teas that are [tanzanian](origin) do you have
+- show me what [korean](origin) [non christmas](christmas) teas do you produce
+- show me what [not organic](organic) tea [taiwan](origin) [that are from the christmas selection](christmas) do you have
+- show me what [organic](organic) [chinese](origin) tea [not for christmas](christmas) do you sell
+- show me what relaxing [new](new) [chinese](origin) tea [for christmas](christmas) do you own
+- show me which good [not organic](organic) [christmas](christmas) teas that are [korean](origin) do you sell please
+- show me which good [organic](organic) teas that are [tanzanian](origin) [not from the christmas selection](christmas) do you produce please
+- show me which [not organic](organic) [tanzanian](origin) tea [not for christmas](christmas) do you produce
+- show me which relaxing [indian](origin) [non christmas](christmas) tea do you sell please
+- show me which relaxing [newly introduced](new) [korean](origin) [non christmas](christmas) tea do you have please
+- show me which relaxing [southafrican](origin) tea [not from the christmas selection](christmas) do you make please
+- show only [organic](organic) [christmas](christmas) teas [korea](origin) please
+- show only [taiwanese](origin) tea [not for christmas](christmas) please
+- show only tasty [indian](origin) teas [that are from the christmas selection](christmas)
+- show only those a good [latest](new) [korean](origin) [christmas](christmas) tea
+- show only those an [korean](origin) [non christmas](christmas) teas
+- show only those relaxing [latest](new) [indian](origin) [non christmas](christmas) teas
+- show only those relaxing [latest](new) [taiwanese](origin) tea [not for christmas](christmas) please
+- some good [latest](new) [african](origin) [non christmas](christmas) teas please
+- some good [latest](new) tea from [southafrica](origin) [not from the christmas selection](christmas)
+- some good [organic](organic) [non christmas](christmas) teas [ceylon](origin)
+- some good teas that are [tanzanian](origin) [from the christmas selection](christmas)
+- some [indian](origin) [christmas](christmas) teas
+- some [latest](new) tea from [korea](origin) [not for christmas](christmas)
+- some [new](new) [chinese](origin) teas [not from the christmas selection](christmas) please
+- some [new](new) [indian](origin) [non christmas](christmas) teas please
+- some [newly introduced](new) [taiwanese](origin) [christmas](christmas) teas
+- some [newly produced](new) [chinese](origin) teas [not for christmas](christmas) please
+- some [not organic](organic) [chinese](origin) [christmas](christmas) tea
+- some [not organic](organic) [indian](origin) teas [not for christmas](christmas)
+- some [not organic](organic) [non christmas](christmas) tea that are [korean](origin)
+- some [not organic](organic) [taiwanese](origin) tea [not for christmas](christmas) please
+- some relaxing [brandnew](new) [tanzanian](origin) tea [not from the christmas selection](christmas) please
+- some relaxing [organic](organic) [indian](origin) teas [that are from the christmas selection](christmas)
+- some tasty [not organic](organic) [non christmas](christmas) tea that are [southafrican](origin)
+- [southafrican](origin) [christmas](christmas) tea
+- [taiwanese](origin) [christmas](christmas) teas
+- [tanzanian](origin) [non christmas](christmas) teas please
+- tasty [christmas](christmas) tea [india](origin)
+- tasty [latest](new) tea that are [taiwanese](origin) [from the christmas selection](christmas)
+- tasty [newly introduced](new) [taiwanese](origin) tea [for christmas](christmas) please
+- tasty [newly produced](new) [chinese](origin) tea [that are for christmas](christmas)
+- tasty [newly produced](new) [chinese](origin) teas [for christmas](christmas)
+- tasty [newly produced](new) [korean](origin) tea [not from the christmas selection](christmas)
+- tasty [newly produced](new) teas from [taiwan](origin) [not for christmas](christmas)
+- tasty [non christmas](christmas) teas [india](origin) please
+- tasty [not organic](organic) [taiwanese](origin) [non christmas](christmas) teas please
+- tasty [organic](organic) [chinese](origin) teas [not from the christmas selection](christmas)
+- tasty [organic](organic) [christmas](christmas) teas that are [indian](origin) please
+- tasty [organic](organic) [indian](origin) teas [not for christmas](christmas) please
+- tasty teas [china](origin) [that are from the christmas selection](christmas) please
+- tea that are [chinese](origin) [that are for christmas](christmas) please
+- tea that are [indian](origin) [not from the christmas selection](christmas)
+- teas [tanzania](origin) [not from the christmas selection](christmas) please
+- tell me a good [not organic](organic) [southafrican](origin) [non christmas](christmas) teas please
+- tell me a good [organic](organic) [chinese](origin) [christmas](christmas) teas please
+- tell me a [korean](origin) teas [from the christmas selection](christmas)
+- tell me a [not organic](organic) [tanzanian](origin) [non christmas](christmas) tea please
+- tell me a relaxing [african](origin) teas [for christmas](christmas)
+- tell me a relaxing [not organic](organic) [indian](origin) [christmas](christmas) tea
+- tell me a relaxing [not organic](organic) teas that are [african](origin) [not for christmas](christmas) please
+- tell me an good [non christmas](christmas) teas that are [tanzanian](origin)
+- tell me an [newly produced](new) [taiwanese](origin) [christmas](christmas) teas
+- tell me an [tanzanian](origin) [christmas](christmas) teas
+- tell me good [southafrican](origin) tea [that are from the christmas selection](christmas) please
+- tell me [indian](origin) [christmas](christmas) teas please
+- tell me [latest](new) [tanzanian](origin) [non christmas](christmas) tea please
+- tell me [non christmas](christmas) tea that are [chinese](origin)
+- tell me [not organic](organic) [tanzanian](origin) [non christmas](christmas) tea please
+- tell me [not organic](organic) [tanzanian](origin) teas [that are for christmas](christmas) please
+- tell me [organic](organic) [chinese](origin) [christmas](christmas) teas please
+- tell me relaxing [christmas](christmas) teas from [korea](origin) please
+- tell me relaxing tea that are [taiwanese](origin) [not for christmas](christmas)
+- tell me some good [christmas](christmas) teas [india](origin)
+- tell me some good [tanzanian](origin) [christmas](christmas) teas
+- tell me some [latest](new) [indian](origin) teas [from the christmas selection](christmas) please
+- tell me some relaxing [newly produced](new) [chinese](origin) [non christmas](christmas) tea please
+- tell me tasty [newly introduced](new) teas [ceylon](origin) [not for christmas](christmas)
+- tell me tasty [not organic](organic) [indian](origin) tea [not for christmas](christmas) please
+- tell me tasty tea that are [indian](origin) [for christmas](christmas) please
+- tell me what [brandnew](new) [chinese](origin) [christmas](christmas) tea do you sell please
+- tell me what [christmas](christmas) tea from [india](origin) do you have please
+- tell me what [indian](origin) teas [that are from the christmas selection](christmas) do you own please
+- tell me what [new](new) tea from [africa](origin) [not for christmas](christmas) do you have please
+- tell me what relaxing [not organic](organic) teas [tanzania](origin) [not for christmas](christmas) do you make please
+- tell me which [chinese](origin) [non christmas](christmas) tea do you produce please
+- tell me which [non christmas](christmas) tea from [ceylon](origin) do you own please
+- tell me which [not organic](organic) [african](origin) tea [not from the christmas selection](christmas) do you produce please
+- tell me which [not organic](organic) [korean](origin) teas [that are for christmas](christmas) do you produce please
+- tell me which [organic](organic) tea [korea](origin) [from the christmas selection](christmas) do you produce
+- tell me which relaxing [latest](new) [christmas](christmas) tea from [india](origin) do you own
+- tell me which relaxing [organic](organic) [southafrican](origin) [christmas](christmas) teas do you produce
+- what types of [chinese](origin) [christmas](christmas) teas do you have
+- what types of [chinese](origin) tea [from the christmas selection](christmas) do you have
+- what types of [christmas](christmas) tea from [korea](origin) do you produce
+- what types of good [christmas](christmas) tea that are [indian](origin) do you produce
+- what types of good [indian](origin) [non christmas](christmas) teas do you make
+- what types of good [not organic](organic) [chinese](origin) [non christmas](christmas) teas do you own
+- what types of good [organic](organic) [taiwanese](origin) tea [that are from the christmas selection](christmas) do you sell
+- what types of [indian](origin) teas [from the christmas selection](christmas) do you have
+- what types of [newly introduced](new) [christmas](christmas) tea that are [indian](origin) do you produce
+- what types of [newly produced](new) [christmas](christmas) tea that are from [taiwan](origin) do you make
+- what types of [non christmas](christmas) tea [taiwan](origin) do you make
+- what types of [non christmas](christmas) teas that are from [china](origin) do you have
+- what types of [non christmas](christmas) teas that are [taiwanese](origin) do you make
+- what types of [not organic](organic) [korean](origin) teas [that are for christmas](christmas) do you own
+- what types of [not organic](organic) [non christmas](christmas) tea [tanzania](origin) do you sell
+- what types of [not organic](organic) [non christmas](christmas) teas that are [indian](origin) do you sell
+- what types of [organic](organic) [korean](origin) tea [not from the christmas selection](christmas) do you make
+- what types of [organic](organic) [tanzanian](origin) teas [for christmas](christmas) do you own
+- what types of relaxing [african](origin) [non christmas](christmas) tea do you own
+- what types of relaxing [latest](new) [non christmas](christmas) tea that are [african](origin) do you make
+- what types of relaxing [latest](new) [tanzanian](origin) tea [that are for christmas](christmas) do you sell
+- what types of relaxing [newly introduced](new) teas that are [indian](origin) [that are from the christmas selection](christmas) do you sell
+- what types of relaxing [not organic](organic) [korean](origin) tea [not for christmas](christmas) do you sell
+- what types of relaxing tea [india](origin) [not for christmas](christmas) do you make
+- what types of relaxing teas from [india](origin) [that are for christmas](christmas) do you make
+- what types of [tanzanian](origin) [non christmas](christmas) tea do you own
+- what types of tasty [taiwanese](origin) [christmas](christmas) tea do you make
+- what types of tea [ceylon](origin) [not for christmas](christmas) do you sell
+- which are a good [new](new) [korean](origin) teas [not from the christmas selection](christmas)
+- which are a good [newly introduced](new) [african](origin) [christmas](christmas) teas please
+- which are a good [newly introduced](new) teas that are from [tanzania](origin) [not from the christmas selection](christmas)
+- which are a [organic](organic) [christmas](christmas) teas [taiwan](origin) please
+- which are a relaxing [newly produced](new) [non christmas](christmas) tea that are from [africa](origin) please
+- which are a relaxing [not organic](organic) tea that are [chinese](origin) [from the christmas selection](christmas)
+- which are an [chinese](origin) teas [from the christmas selection](christmas) please
+- which are an good [not organic](organic) [tanzanian](origin) teas [not for christmas](christmas) please
+- which are an [indian](origin) [non christmas](christmas) teas
+- which are an [not organic](organic) [non christmas](christmas) tea from [ceylon](origin)
+- which are an [organic](organic) [indian](origin) [christmas](christmas) tea
+- which are an [organic](organic) [non christmas](christmas) tea [southafrica](origin)
+- which are an relaxing [newly produced](new) [african](origin) tea [that are for christmas](christmas) please
+- which are an tasty [non christmas](christmas) tea that are [indian](origin) please
+- which are an tasty tea that are [korean](origin) [from the christmas selection](christmas) please
+- which are [brandnew](new) [chinese](origin) [non christmas](christmas) tea please
+- which are good [not organic](organic) [african](origin) teas [not for christmas](christmas)
+- which are good tea that are [chinese](origin) [not for christmas](christmas)
+- which are [indian](origin) [christmas](christmas) tea
+- which are [latest](new) [non christmas](christmas) tea that are [southafrican](origin) please
+- which are [latest](new) [taiwanese](origin) tea [for christmas](christmas) please
+- which are [latest](new) teas that are from [korea](origin) [not from the christmas selection](christmas) please
+- which are [new](new) teas [ceylon](origin) [that are from the christmas selection](christmas)
+- which are [newly produced](new) [non christmas](christmas) tea that are [southafrican](origin)
+- which are [newly produced](new) teas [southafrica](origin) [not from the christmas selection](christmas)
+- which are [not organic](organic) [non christmas](christmas) tea [tanzania](origin) please
+- which are [organic](organic) [chinese](origin) tea [not from the christmas selection](christmas)
+- which are [organic](organic) [christmas](christmas) tea that are [chinese](origin)
+- which are relaxing [chinese](origin) tea [not for christmas](christmas) please
+- which are relaxing [not organic](organic) [non christmas](christmas) tea that are [indian](origin)
+- which are relaxing [organic](organic) [indian](origin) teas [from the christmas selection](christmas) please
+- which are some [christmas](christmas) teas that are [taiwanese](origin) please
+- which are some good [newly introduced](new) tea that are [southafrican](origin) [not for christmas](christmas) please
+- which are some good [newly produced](new) tea that are [taiwanese](origin) [not from the christmas selection](christmas) please
+- which are some good [not organic](organic) [indian](origin) [non christmas](christmas) teas please
+- which are some [indian](origin) teas [for christmas](christmas) please
+- which are some [latest](new) [chinese](origin) teas [not for christmas](christmas)
+- which are some [latest](new) [non christmas](christmas) tea that are [tanzanian](origin) please
+- which are some [latest](new) teas that are [taiwanese](origin) [that are from the christmas selection](christmas) please
+- which are some relaxing [indian](origin) [christmas](christmas) tea please
+- which are [taiwanese](origin) tea [not from the christmas selection](christmas)
+- which are [tanzanian](origin) [christmas](christmas) teas
+- which are [tanzanian](origin) teas [for christmas](christmas)
+- which are [tanzanian](origin) teas [that are from the christmas selection](christmas) please
+- which are tasty [brandnew](new) [african](origin) tea [not from the christmas selection](christmas) please
+- which are tasty [chinese](origin) [christmas](christmas) teas
+- which are tasty [latest](new) [indian](origin) tea [for christmas](christmas) please
+- which are tasty teas [china](origin) [for christmas](christmas)
+- which types of [brandnew](new) [christmas](christmas) teas [korea](origin) do you own
+- which types of [christmas](christmas) tea from [korea](origin) do you own
+- which types of [christmas](christmas) teas from [ceylon](origin) do you sell
+- which types of [christmas](christmas) teas from [china](origin) do you produce
+- which types of good [chinese](origin) [christmas](christmas) tea do you sell
+- which types of good [latest](new) [tanzanian](origin) teas [not for christmas](christmas) do you have
+- which types of good [newly introduced](new) [taiwanese](origin) teas [from the christmas selection](christmas) do you have
+- which types of good [not organic](organic) [indian](origin) [christmas](christmas) tea do you have
+- which types of good [organic](organic) [chinese](origin) tea [not from the christmas selection](christmas) do you own
+- which types of [latest](new) [african](origin) tea [that are for christmas](christmas) do you own
+- which types of [latest](new) [indian](origin) tea [not from the christmas selection](christmas) do you produce
+- which types of [latest](new) [non christmas](christmas) tea from [ceylon](origin) do you make
+- which types of [latest](new) [non christmas](christmas) teas [southafrica](origin) do you produce
+- which types of [latest](new) [tanzanian](origin) tea [that are for christmas](christmas) do you sell
+- which types of [latest](new) teas that are [african](origin) [for christmas](christmas) do you have
+- which types of [latest](new) teas that are [indian](origin) [that are from the christmas selection](christmas) do you own
+- which types of [newly produced](new) [african](origin) teas [not for christmas](christmas) do you own
+- which types of [non christmas](christmas) tea that are [african](origin) do you produce
+- which types of [not organic](organic) [chinese](origin) tea [not from the christmas selection](christmas) do you have
+- which types of [not organic](organic) tea that are [indian](origin) [from the christmas selection](christmas) do you have
+- which types of [organic](organic) [chinese](origin) [christmas](christmas) teas do you make
+- which types of [organic](organic) [christmas](christmas) tea that are [chinese](origin) do you make
+- which types of [organic](organic) tea that are [chinese](origin) [not for christmas](christmas) do you produce
+- which types of [organic](organic) teas [korea](origin) [for christmas](christmas) do you have
+- which types of relaxing [chinese](origin) [christmas](christmas) teas do you produce
+- which types of relaxing [christmas](christmas) tea from [china](origin) do you own
+- which types of relaxing [new](new) tea [tanzania](origin) [that are for christmas](christmas) do you produce
+- which types of relaxing [taiwanese](origin) [non christmas](christmas) teas do you have
+- which types of [taiwanese](origin) tea [not for christmas](christmas) do you produce
+- which types of [tanzanian](origin) [non christmas](christmas) teas do you have
+- which types of tasty [african](origin) [christmas](christmas) tea do you make
+- which types of tasty [christmas](christmas) teas that are from [taiwan](origin) do you own
+- which types of tasty [korean](origin) teas [that are from the christmas selection](christmas) do you sell
+- which types of tasty tea that are [chinese](origin) [from the christmas selection](christmas) do you produce
+- which types of tea from [korea](origin) [from the christmas selection](christmas) do you have
+- which types of tea [tanzania](origin) [not for christmas](christmas) do you produce
+- which types of teas that are [chinese](origin) [for christmas](christmas) do you produce
+- which types of teas that are [korean](origin) [not for christmas](christmas) do you sell
+- would like a good [non christmas](christmas) teas that are [taiwanese](origin)
+- would like a good [tanzanian](origin) teas [not from the christmas selection](christmas)
+- would like a good tea that are from [taiwan](origin) [not for christmas](christmas) please
+- would like a good tea that are [southafrican](origin) [not from the christmas selection](christmas) please
+- would like a [not organic](organic) [taiwanese](origin) [non christmas](christmas) teas please
+- would like a tasty [not organic](organic) [african](origin) [christmas](christmas) tea please
+- would like a tasty [organic](organic) [chinese](origin) teas [that are for christmas](christmas) please
+- would like an [new](new) [taiwanese](origin) [non christmas](christmas) teas please
+- would like an [non christmas](christmas) tea that are from [korea](origin)
+- would like an relaxing [brandnew](new) [korean](origin) [christmas](christmas) tea please
+- would like an relaxing [christmas](christmas) tea [taiwan](origin) please
+- would like an relaxing [tanzanian](origin) [christmas](christmas) teas
+- would like an [taiwanese](origin) teas [that are from the christmas selection](christmas)
+- would like an tasty [not organic](organic) [christmas](christmas) tea from [africa](origin) please
+- would like [christmas](christmas) teas from [ceylon](origin)
+- would like good [tanzanian](origin) teas [for christmas](christmas) please
+- would like [latest](new) [christmas](christmas) tea [korea](origin)
+- would like [latest](new) [non christmas](christmas) tea that are [taiwanese](origin) please
+- would like [new](new) teas that are [indian](origin) [for christmas](christmas) please
+- would like [organic](organic) [korean](origin) teas [for christmas](christmas)
+- would like [organic](organic) [non christmas](christmas) teas that are [chinese](origin)
+- would like relaxing [chinese](origin) [christmas](christmas) tea please
+- would like relaxing [organic](organic) [indian](origin) [non christmas](christmas) tea
+- would like some good tea that are [tanzanian](origin) [not from the christmas selection](christmas)
+- would like some [korean](origin) [christmas](christmas) tea
+- would like some [not organic](organic) [christmas](christmas) teas from [india](origin)
+- would like some tasty [not organic](organic) [korean](origin) [christmas](christmas) tea please
+- would like tasty [brandnew](new) teas that are [african](origin) [from the christmas selection](christmas) please
+- would like tasty [latest](new) [christmas](christmas) teas that are [indian](origin)
+- would like tasty [non christmas](christmas) teas that are [taiwanese](origin)
+
+## intent:search_affirm
+- absolutely agreed of course
+- absolutely i'm ok with that
+- absolutely i'm ok with that right thanks
+- absolutely indeed of course
+- absolutely that is right sounds good
+- absolutely yep that is right
+- affirmative right
+- am looking for
+- am looking for more please
+- am looking for more tea
+- am looking for more teas
+- am looking for more teas please
+- am looking for please
+- am looking for tea
+- continue
+- continue please
+- correct good
+- definitely affirmative you understood me right
+- definitely i'm ok with that i want that
+- definitely sounds good good
+- definitely sounds good i want that i'm ok with that
+- definitely sure
+- definitely sure correct please
+- definitely yes sir i want that yes sir
+- definitely yes sir you understood me
+- find for others n
+- find for others nplease
+- find others n
+- find others nplease
+- i am looking for more
+- i am looking for more please
+- i am looking for more tea
+- i am looking for more teas please
+- i am looking for please
+- i am looking for teas
+- i am looking for teas please
+- i want
+- i want more
+- i want more tea please
+- i want more teas please
+- i want please
+- i want tea please
+- i want teas please
+- i'm ok with that
+- indeed
+- of course
+- proceed
+- proceed of course
+- right
+- right proceed please
+- right that is correct
+- search for others n
+- search for others nplease
+- search others n
+- search others nplease
+- show
+- show me
+- show me more please
+- show me more tea
+- show me more teas
+- show me please
+- show me tea
+- show me teas please
+- show more
+- show more please
+- show more tea
+- show more tea please
+- show tea
+- show tea please
+- show teas
+- show teas please
+- sounds good please
+- sure
+- sure please
+- tell
+- tell me
+- tell me more please
+- tell me more tea please
+- tell me more teas please
+- tell me please
+- tell me tea please
+- tell more
+- tell more please
+- tell more tea please
+- tell more teas
+- tell more teas please
+- tell please
+- tell tea please
+- tell teas please
+- want
+- want more
+- want more please
+- want more tea please
+- want tea
+- want tea please
+- want teas
+- want teas please
+- yep
+- yes
+- yes sir
+
+## intent:search_deny
+- absolutely don't do that
+- absolutely dont mean that
+- absolutely i don't think so thank you didnt meant that
+- absolutely its not ok
+- absolutely no dont mean that
+- absolutely that's wrong
+- cancel
+- definitely didnt meant that
+- definitely don't do that please its not ok
+- definitely no
+- definitely not right
+- definitely that's not correct
+- denied
+- deny
+- don't do that
+- don't do that i don't want that
+- don't do that thank you very much
+- exit
+- finish
+- halt
+- i don't think so
+- i don't think so please its not correct
+- i don't think so thanks
+- i was wrong sorry
+- incorrect that is wrong
+- interrupt
+- no
+- no way
+- no way dont mean that
+- no way please
+- nope please
+- nope thanks so much
+- please absolutely nope its not ok
+- please incorrect that's not correct
+- please nope i don't want that
+- please that's not right
+- stop
+- that's not right its not ok
+- that's not right please
+- that's not right roger thank you
+- that's not what i want
+- was wrong
+- was wrong sorry
+
+## intent:details
+- [Ayurveda Relax Herbal Tea](name) please
+- [Bergamino Black Tea](name)
+- [Bitter Orange Black Tea](name) please
+- [Chamomile Herbal Tea](name) please
+- [China Hojicha Green Tea](name)
+- [Chocolate Black Tea](name) please
+- [Cinnamon Punch Fruit Infusion](name)
+- [Cumin Mint Herbal Tea](name) please
+- [Darjeeling Earl Grey Green Tea](name) please
+- [Darjeeling Gold GFOP Black Tea](name) please
+- [Darjeeling Green Risheehat Green Tea](name) please
+- [Darjeeling Himalaya Black Tea](name)
+- [Dimbula OP Black Tea](name)
+- [Earl Grey Lady Blue Black Tea](name) please
+- [Exotic Harmony Green Tea](name)
+- [Exotic Harmony Green Tea](name) please
+- [Forest Gifts Herbal Tea](name)
+- [Highland Toffee Black Tea](name)
+- [Indonesia Java OP Green Tea BIO](name)
+- [Japanese Cherry Green Tea](name) please
+- [Jun Shan Silver Needle White Tea](name)
+- [Kenya GFOP Tinderet Black Tea](name) please
+- [Korakundah FOP Organic Green Tea](name) please
+- [Lady Camilla Herbal Tea](name)
+- [Lapacho](name) please
+- [Lightness Herbal Tea](name)
+- [Lightness from the Forest Fruit Infusion](name) please
+- [Liquorice Black Tea](name)
+- [Mandarine Dream Fruit Infusion](name)
+- [Marrakech Organic Green Mint Tea](name)
+- [Matcha Asahi Green Tea Powder Ceremonial](name) please
+- [Matcha for Cooking Green Tea Powder](name) please
+- [Meditation Herbal Tea](name)
+- [Mediterranean Herbal Tea](name) please
+- [Merry Christmas Black Tea](name) please
+- [Mint Ginger Freshness Herbal Tea](name)
+- [Mu Herbal Tea](name)
+- [Nuwara Eliya FOP Black Tea](name)
+- [Oolong Se Chung](name)
+- [Orange Ginger Fruit Infusion](name)
+- [Orange Poem Fruit Infusion](name)
+- [Pepita Fruit Infusion](name)
+- [Pomegranate Fruit Infusion](name)
+- [Pressed Green Tea Star](name) please
+- [Princess Sissi Black Tea](name) please
+- [Red Passion Fruit Infusion](name) please
+- [Rooibos African Chai](name)
+- [Rooibos African Chai](name) please
+- [Rooibos Orange and Mint](name)
+- [Rooibos Passion Fruit](name)
+- [Rwanda Rukeri Black tea](name) please
+- [Sikkim Piantagione Temi Black Tea](name)
+- [Sparks of Joy Fruit Infusion](name) please
+- [Special Golden Yunnan Spiral Black Tea](name) please
+- [Spicy Lemon Green Tea](name)
+- [Teaflower Orient Flame Black Tea](name)
+- [Thousand and One Night Fruit Infusion](name)
+- [Tropical Moringa Fruit Infusion](name)
+- [Vitality Herbal Tea](name) please
+- [White Bud Organic White Tea](name)
+- [White Bud Organic White Tea](name) please
+- [Wild Berry Fruit Infusion](name) please
+- [Winter Magic Black Tea](name)
+- [Yamamoto Green Tea](name)
+- [Yunnan Green Tea](name)
+- can you describe about
+- can you describe me regarding
+- can you describe me the detail [Kenya GFOP Tinderet Black Tea](name)
+- can you describe more information about
+- can you describe please
+- can you describe regarding please
+- can you describe that [Jasmine Pearl White Tea](name) please
+- can you describe that [White Green Monkey Green Tea](name) please
+- can you describe the description [Jun Shan Silver Needle White Tea](name) please
+- can you describe the description this [Copacabana Fruit Infusion](name) please
+- can you describe the information [Teaflower Moulin Rouge Black Tea](name)
+- can you describe the information please
+- can you describe to us more detail about please
+- can you describe to us please
+- can you describe us this [Sparks of Joy Fruit Infusion](name) please
+- can you explain [Open Fire Fruit Infusion](name)
+- can you explain me that [Mulled Wine Spices](name)
+- can you explain more details regarding please
+- can you explain please
+- can you explain to me
+- can you explain to me more description regarding [Winter Fairytale Fruit Infusion](name) please
+- can you explain to me please
+- can you explain to me the description this [Sencha Kyoto Green Tea](name)
+- can you expose [Bancha Green Tea](name) please
+- can you expose [Lung Ching Superior Green Tea](name)
+- can you expose details regarding [Rooibos Lemon](name)
+- can you expose information about
+- can you expose information regarding [Green Rooibos Classic](name) please
+- can you expose it please
+- can you expose me [Fresh Peach Fruit Infusion](name) please
+- can you expose me [Honeymoon Green Tea BIO](name) please
+- can you expose please
+- can you expose regarding
+- can you expose that [Good Evening Herbal Tea](name) please
+- can you expose the description
+- can you expose the detail please
+- can you expose the information [Green Manjolai Organic Green Tea](name)
+- can you expose to me more detail about please
+- can you expose to us about [Dong Ding Oolong](name)
+- can you expose to us details about please
+- can you expose to us information about please
+- can you give details about [Sweet Christmas Fruit Infusion](name) please
+- can you give details regarding this [Matcha Haruka Green Tea Powder](name)
+- can you give me more information regarding please
+- can you give me the description this [Cocoa and Dates Fruit Infusion](name) please
+- can you give me the details that [Sun of the East Green Tea](name)
+- can you give more about
+- can you give the information
+- can you give to me
+- can you give to me information regarding
+- can you give to me more description about please
+- can you give to me the information
+- can you give to me the information [Teaflower Sunshine White Tea](name) please
+- can you give to us please
+- can you give to us that [Greek Mountain Herbal Tea](name)
+- can you give us details regarding please
+- can you give us more regarding this [Anji White White Tea](name)
+- can you give us the detail please
+- can you give us the detail this [Greek Mountain Herbal Tea](name) please
+- can you report me details about please
+- can you report me regarding [Sun of the East Green Tea](name)
+- can you report more details regarding please
+- can you report please
+- can you report the information
+- can you report to me
+- can you report us the detail
+- can you show
+- can you show [Bergamino Black Tea](name)
+- can you show more detail about this [Nana Mint Herbal Tea](name) please
+- can you show more information regarding please
+- can you show more regarding
+- can you show the detail that [Darjeeling Green Risheehat Green Tea](name) please
+- can you show the information
+- can you show to me the information that [Winter Fairytale Fruit Infusion](name)
+- can you show to us information regarding [Japan Shincha Organic Green Tea](name)
+- can you show to us please
+- can you show to us the description
+- can you show us the information [Dong Ding Oolong](name) please
+- can you tell detail about please
+- can you tell information about it please
+- can you tell me [Matcha Kukicha Instant Green Tea BIO](name) please
+- can you tell me detail regarding [Rooibos Chocolate](name) please
+- can you tell more detail regarding please
+- can you tell more regarding
+- can you tell more regarding this [Bergamino Black Tea](name) please
+- can you tell please
+- can you tell this [Winter Green Tea](name)
+- can you tell to me that [Indian Chai Organic Black Tea](name) please
+- can you tell us more description regarding
+- can you tell us more details regarding
+- can you tell us the detail
+- can you tell us the detail [Rooibos Wild Pure](name)
+- describe [Green Rooibos Vanilla and Lemon](name)
+- describe about
+- describe more about
+- describe more about that [Winter Magic Black Tea](name) please
+- describe more regarding that [Greek Mountain Herbal Tea](name)
+- describe that [Darjeeling Standard FOP Black Tea](name)
+- describe the detail please
+- describe the details please
+- describe to me
+- describe to me the detail [Winter Magic Black Tea](name)
+- describe to me the details please
+- describe to us more detail about
+- describe us more detail regarding please
+- describe us more details regarding that [Green Tea Peach](name)
+- explain detail regarding
+- explain details regarding please
+- explain more description regarding
+- explain more details about
+- explain please
+- explain the details
+- explain the details it please
+- explain the information [Orange Poem Fruit Infusion](name) please
+- explain to me teas please
+- explain to me the details
+- explain to us about that [Yellow Emperor Green Tea](name)
+- explain to us more description about please
+- explain us about please
+- explain us the information [Bergamino Black Tea](name)
+- expose
+- expose me
+- expose me about it
+- expose more regarding [Elisir Aloe Vera Herbal Tea](name)
+- expose to me more details regarding [Magic Mountain Herbal Tea Bio](name)
+- expose to me this [Assam Satrupa Organic Black Tea](name) please
+- expose to us about please
+- expose to us information about
+- expose to us the description please
+- expose us regarding please
+- give [Kukicha Green Tea](name) please
+- give about please
+- give description regarding that [Liquorice Black Tea](name)
+- give me
+- give more detail regarding
+- give more details regarding
+- give that [Mediterranean Herbal Tea](name)
+- give the detail please
+- give the details please
+- give this [Teaflower Moulin Rouge Black Tea](name) please
+- give to me the information
+- give to us
+- give to us that [Green Manjolai Organic Green Tea](name)
+- give to us the description [Darjeeling First Flush Black Tea](name) please
+- give us [Liquorice Black Tea](name) please
+- report
+- report about [Pepita Fruit Infusion](name) please
+- report about please
+- report more description regarding that [Strawberry Cream Black Tea](name)
+- report more details about [Sweet and Spicy Organic Herbal Tea](name)
+- report regarding
+- report the details [Green Tea Peach](name)
+- report the information please
+- report the information that [Gyokuro Green Tea](name) please
+- report this [Kimono Green Tea](name) please
+- report to me that [Walnut Oolong Tea](name) please
+- report to me the detail
+- report to us please
+- report us [Sikkim Piantagione Temi Black Tea](name) please
+- report us about [Vitality Herbal Tea](name) please
+- report us more details about that [Red Passion Fruit Infusion](name)
+- show
+- show me the description [Moringa Life Tree Herbal Tea](name)
+- show more about it
+- show more regarding [Magic Mountain Herbal Tea Bio](name) please
+- show regarding
+- show regarding [Organic Spring Herbal Tea](name)
+- show the description that [Thai Black Tea black tea](name)
+- show the detail [Darjeeling First Flush Black Tea](name)
+- show to me tea
+- tell
+- tell about teas
+- tell me
+- tell me more information about
+- tell more details regarding [Green Rooibos Vanilla and Lemon](name) please
+- tell regarding
+- tell the details
+- tell to me more regarding please
+- tell to us the description
+- tell to us the description this [Himalaya White Tea](name) please
+- tell to us this [Earl Grey Black Tea](name) please
+- tell us
+- tell us that [Fresh Peach Fruit Infusion](name)
+- tell us the detail that [Open Fire Fruit Infusion](name)
+- tell us the details [Jasmine Pearl White Tea](name) please
+
+## intent:preparation
+- can you describe how can i infuse please
+- can you describe how can infuse please
+- can you describe how can prepare [Red Passion Fruit Infusion](name)
+- can you describe how much does it takes to infuse that [Yunnan Green Tea](name) please
+- can you describe how much does it takes to prepare please
+- can you describe how much time is needed to infuse
+- can you describe how much time is needed to prepare that [Exotic Dream white tea](name) please
+- can you describe how to prepare [China Rose Black Tea](name)
+- can you describe me how can i prepare
+- can you describe me how much to prepare
+- can you describe me how much to prepare [Tea and Spices Black Tea](name) please
+- can you describe me how to prepare [Magic Mountain Herbal Tea Bio](name) please
+- can you describe to me how to infuse please
+- can you describe to us how can infuse please
+- can you explain how can i do
+- can you explain how much to prepare this [Orient Rose Green Tea](name) please
+- can you explain how to infuse this tea please
+- can you explain how to prepare that [Mango Tropical Fruit Infusion](name)
+- can you explain me how can i infuse please
+- can you explain me how much time is needed to do this [Green Mate Herbal Tea](name) please
+- can you explain me how much to prepare this [Open Fire Fruit Infusion](name)
+- can you explain to me how much to prepare [China Keemun Black Tea](name) please
+- can you explain to us how much time takes to do
+- can you explain us how much to infuse [Nilgiri FOP Oothu Organic Black Tea](name)
+- can you explain us how to do please
+- can you expose how can do [Magical Christmas fruit infusion](name) please
+- can you expose how can do this [Green Breakfsat Bio green Tea](name) please
+- can you expose how can do this [Teaflower Orient Flame Black Tea](name) please
+- can you expose how can i do please
+- can you expose how can i prepare
+- can you expose how can i prepare [Mini Tuocha China Pu Erh Black Tea](name) please
+- can you expose how much does it takes to do please
+- can you expose how much does it takes to prepare [Tanzania GFOP Luponde Organic Green Tea](name) please
+- can you expose how much time is needed to do this [Greek Mountain Orange Herbal Tea Bio](name)
+- can you expose how much time is needed to prepare
+- can you expose how much to do
+- can you expose how much to infuse
+- can you expose how much to prepare please
+- can you expose how to prepare this [Organic Spring Herbal Tea](name) please
+- can you expose to me how much time is needed to infuse please
+- can you expose to me how much to do
+- can you expose to us how can i infuse please
+- can you expose us how much to do
+- can you expose us how much to prepare [China Keemun Black Tea](name)
+- can you expose us how much to prepare that [Pressed Green Tea Star](name)
+- can you give how can do that [Sun of the East Green Tea](name)
+- can you give how can i infuse that [Bitter Orange Black Tea](name)
+- can you give how can i prepare please
+- can you give how can infuse
+- can you give how much does it takes to prepare that [Mini Tuocha China Pu Erh Black Tea](name) please
+- can you give how much time is needed to infuse
+- can you give how much time is needed to prepare that [Marrakech Organic Green Mint Tea](name) please
+- can you give how much to do please
+- can you give how much to do this [Indonesia Java OP Green Tea BIO](name)
+- can you give how much to infuse [Mu Herbal Tea](name) please
+- can you give how much to infuse [Pressed Green Tea Star](name) please
+- can you give how much to prepare
+- can you give how much to prepare this [Good Evening Herbal Tea](name)
+- can you give how to do please
+- can you give how to prepare [Indian Chai Organic Black Tea](name)
+- can you give how to prepare please
+- can you give how to prepare that [Slim Plus Herbal Tea](name) please
+- can you give me how can i do that [Tropical Moringa Fruit Infusion](name) please
+- can you give me how can infuse [Ceylon Orange Pekoe Blend Black Tea](name) please
+- can you give me how can prepare this [Lightness Herbal Tea](name)
+- can you give me how much to infuse
+- can you give to me how can i infuse
+- can you give to me how can i prepare this [Wuyuan Jasmin Organic Green Tea](name) please
+- can you give to me how can infuse please
+- can you give to me how much time takes to prepare
+- can you give to me how to infuse this [Gunpowder Menthos Green Tea](name) please
+- can you give to us how can i do
+- can you give us how can i infuse please
+- can you report how can do [Hibiscus Flower Herbal Tea](name)
+- can you report how can i prepare this [Fresh Peach Fruit Infusion](name) please
+- can you report how much does it takes to do this [Golden Yunnan Black Tea](name) please
+- can you report how much time is needed to infuse please
+- can you report how much time is needed to prepare [Matcha green Tea Roses](name)
+- can you report how to do [Sweet Dreams Herbal Tea](name) please
+- can you report me how can i prepare please
+- can you report me how much time takes to infuse please
+- can you report to me how can i do this [Souvenir de Printemps](name) please
+- can you report to me how to infuse [Teaflower Sunshine White Tea](name) please
+- can you report to us how can i do please
+- can you report to us how can i prepare [Magical Christmas fruit infusion](name)
+- can you report to us how much time is needed to do this [Magical Christmas fruit infusion](name) please
+- can you report to us how much to prepare [Oolong Se Chung](name) please
+- can you report us how much to do that [Darjeeling Margaret's Hope Black Tea](name)
+- can you show how can do please
+- can you show how much does it takes to prepare
+- can you show how much time is needed to do
+- can you show how much to do
+- can you show how much to do please
+- can you show how much to infuse that [Pi Lou Chun Dong Ting Green Tea](name) please
+- can you show how much to prepare that [Yamamoto Green Tea](name)
+- can you show how to do [Sweet Christmas Fruit Infusion](name) please
+- can you show how to prepare please
+- can you show me how can i do [Thai Black Tea black tea](name)
+- can you show me how can i prepare
+- can you show me how much to infuse [Nilgiri FOP Oothu Organic Black Tea](name)
+- can you show me how much to infuse this [Rooibos Passion Fruit](name) please
+- can you show to me how can i do
+- can you show to me how can infuse please
+- can you show to me how much does it takes to infuse please
+- can you show to us how can infuse it
+- can you show us how can i prepare
+- can you show us how much does it takes to do this [Strawberry Cream Black Tea](name) please
+- can you show us how much time is needed to prepare this [Rooibos Lemon](name)
+- can you show us how much time takes to infuse [Violet White Tea](name) please
+- can you show us how much to do please
+- can you tell how can i do
+- can you tell how can i do [Sweet Christmas Fruit Infusion](name) please
+- can you tell how can infuse
+- can you tell how can prepare
+- can you tell how much to infuse that [Coconut Kiss Fruit Infusion](name)
+- can you tell how to infuse this [Anji White White Tea](name) please
+- can you tell me how can prepare that [White Peony Organic White Tea](name)
+- can you tell me how much to infuse
+- can you tell me how much to prepare
+- can you tell to me how can i infuse please
+- can you tell us how can i infuse please
+- can you tell us how can infuse [Assam Exquisite Black Tea](name) please
+- can you tell us how much to do
+- can you tell us how much to do this [Rooibos Vanilla](name)
+- can you tell us how much to prepare that [Kenya GFOP Tinderet Black Tea](name)
+- can you tell us how to infuse
+- describe how can prepare that
+- describe how can prepare that [Teaflower Casanova Black Tea](name) please
+- describe how much does it takes to infuse please
+- describe how much does it takes to infuse this [Sencha Kyoto Green Tea](name)
+- describe how much to do that [Cranberry Queen Fruit Infusion](name)
+- describe how much to do that [Jasmine Pearl White Tea](name)
+- describe how much to infuse please
+- describe how much to infuse that [White Bud Organic White Tea](name) please
+- describe how to infuse please
+- describe how to prepare please
+- describe me how much to infuse please
+- describe to me how can i infuse please
+- describe to me how much time is needed to infuse that [China Yunnan Pu Erh Black Tea](name) please
+- describe to us how can infuse please
+- describe to us how much to infuse [Assam Genteel Black Tea](name) please
+- describe to us how much to infuse please
+- describe to us how much to prepare
+- describe us how much to infuse that [Starsdust Green Tea Limited Edition](name)
+- explain how can do
+- explain how can i do please
+- explain how can i infuse please
+- explain how can i prepare [Sweet Lemon Fruit Infusion](name) please
+- explain how can i prepare that [Lapsang Souchong Crocodile Black Tea](name) please
+- explain how can infuse this [Gunpowder Menthos Green Tea](name) please
+- explain how much does it takes to prepare this [Mini Tuocha China Pu Erh Black Tea](name) please
+- explain how much time takes to infuse that [Rooibos Passion Fruit](name) please
+- explain how much to do [Darjeeling Green Risheehat Green Tea](name)
+- explain how much to infuse [Sweet Symphony Fruit Infusion](name) please
+- explain how to do [Exotic Dream white tea](name) please
+- explain how to infuse
+- explain how to prepare please
+- explain me how to do please
+- explain me how to infuse [Nilgiri FOP Oothu Organic Black Tea](name)
+- explain to me how to infuse that please
+- explain to me how to prepare please
+- explain to us how can i infuse
+- explain to us how can i infuse that
+- explain to us how much to do this [Darjeeling Green Risheehat Green Tea](name) please
+- expose how can do
+- expose how can i do this [Coconut Kiss Fruit Infusion](name)
+- expose how can prepare [Good Evening Herbal Tea](name) please
+- expose how can prepare please
+- expose how much does it takes to infuse
+- expose how much time takes to do
+- expose how much time takes to infuse [Herbal Dreams Herbal Tea](name)
+- expose me how can i do [Elisir Aloe Vera Herbal Tea](name)
+- expose me how can i prepare please
+- expose me how much to prepare please
+- expose to us how much to prepare this [Rooibos Almond](name) please
+- expose us how can infuse [Gunpowder Menthos Green Tea](name)
+- expose us how can infuse [Pressed Green Tea Star](name)
+- expose us how can infuse this [Ice Crystal Green Tea](name) please
+- expose us how much time is needed to infuse
+- expose us how much to infuse
+- expose us how much to prepare this [Green Rooibos Classic](name) please
+- give how much does it takes to prepare
+- give how much time takes to infuse [Tanzania GFOP Luponde Organic Green Tea](name)
+- give how much time takes to prepare that [Thousand and One Night Fruit Infusion](name)
+- give how much to do please
+- give how much to prepare [China Yunnan Pu Erh Black Tea](name) please
+- give how to infuse [Green Breakfsat Bio green Tea](name) please
+- give how to prepare please
+- give me how much does it takes to prepare [Forest Gifts Herbal Tea](name) please
+- give to me how can i prepare that [Delicious Herbal Tea](name) please
+- give to me how to prepare
+- give to us how can i infuse that [Lapacho](name)
+- give to us how much does it takes to infuse please
+- give to us how much time takes to prepare
+- give us how can prepare
+- report how can i do this [Pressed Green Tea Heart](name)
+- report how can i infuse please
+- report how can i prepare [Meditation Herbal Tea](name) please
+- report how much does it takes to prepare
+- report how much time takes to do please
+- report how much to do [Nuwara Eliya FOP Black Tea](name)
+- report how much to do this [Rooibos Almond](name) please
+- report how much to infuse [Orient Rose Green Tea](name)
+- report how much to infuse that [Green Breakfsat Bio green Tea](name)
+- report how much to infuse this [Rooibos Orange and Mint](name)
+- report me how can i prepare tea please
+- report me how much to infuse please
+- report me how to infuse please
+- report to me how much does it takes to infuse
+- report to us how can i prepare [Mandarine and Cinnamon Black Tea](name) please
+- report to us how can infuse that [Copacabana Fruit Infusion](name) please
+- report to us how much to infuse [Gyokuro Green Tea](name) please
+- report us how can i do that [Mu Herbal Tea](name) please
+- report us how much does it takes to do please
+- show how can i infuse [Tibetan Monks' Black Tea](name) please
+- show how much does it takes to infuse
+- show how much time takes to do [Winter Magic Black Tea](name) please
+- show how much to infuse that [Rooibos Wild Pure](name)
+- show how to infuse that [Meditation Herbal Tea](name) please
+- show how to prepare
+- show me how can i prepare please
+- show me how much time takes to infuse
+- show me how much time takes to infuse [Slim Plus Herbal Tea](name)
+- show to me how can infuse this [Garden Eden Fruit Infusion](name)
+- show to us how can i prepare please
+- show to us how much time is needed to prepare
+- show to us how to infuse
+- show us how to prepare that [Pagoda Summer Fruit Infusion](name)
+- show us how to prepare this [Starsdust Green Tea Limited Edition](name)
+- tell how can do [Pura Vida Fruit Infusion](name)
+- tell how can do that [Melissa Herbal Tea](name) please
+- tell how can prepare
+- tell how can prepare this [Sweet and Spicy Organic Herbal Tea](name)
+- tell how much time is needed to do please
+- tell how much to infuse
+- tell how much to infuse please
+- tell how much to prepare please
+- tell how much to prepare that [Mini Tuocha China Pu Erh Black Tea](name)
+- tell how to do please
+- tell me how can i do
+- tell me how can i do that [Mu Herbal Tea](name) please
+- tell me how can infuse [Ice Crystal Green Tea](name)
+- tell me how can prepare [Tropical Paradise fruit Infusion Bio](name)
+- tell me how much does it takes to infuse [Assam Goldtips Black Tea](name)
+- tell to me how much time takes to prepare
+- tell to me how much to infuse that [Turmeric Power Black Tea](name)
+- tell to me how much to prepare please
+- tell to us how can i do please
+- tell to us how much to do please
+- tell us how to do it please
+
+## intent:cost
+- can you describe how much are needed for [Green Manjolai Organic Green Tea](name)
+- can you describe how much are needed for please
+- can you describe how much are needed for that [Darjeeling Gold GFOP Black Tea](name)
+- can you describe how much does cost [Pagoda Summer Fruit Infusion](name) please
+- can you describe how much does cost [Sweet Christmas Fruit Infusion](name)
+- can you describe how much does it costs
+- can you describe how much euros does cost please
+- can you describe how much money are needed for [Korakundah FOP Organic Green Tea](name)
+- can you describe how much money are needed for [Turmeric and vanilla fruit Infusion](name) please
+- can you describe how much money are needed for please
+- can you describe how much money does it cost please
+- can you describe me how much are needed for please
+- can you describe me how much euros are needed for please
+- can you describe to me how much are needed for this [Mon Amour Fruit Infusion](name) please
+- can you describe to me how much euros are needed for
+- can you describe to me how much euros are needed for that [Vitality Herbal Tea](name) please
+- can you describe to me how much money are needed for
+- can you describe to us how much are needed for [Kabusecha Green Tea](name) please
+- can you describe to us how much euros does it cost that [Winter Green Tea](name) please
+- can you describe us how much are needed for that [Honeymoon Green Tea BIO](name)
+- can you describe us how much euros are needed for that [White Peony Organic White Tea](name)
+- can you describe us how much euros does costs
+- can you explain how much are needed for
+- can you explain how much does it costs that [Melissa Herbal Tea](name)
+- can you explain how much money does cost [China Yunnan Pu Erh Black Tea](name)
+- can you explain how much money does it cost [Ceylon Curl Green Green Tea](name)
+- can you explain me how much does cost please
+- can you explain me how much does costs that [Yunnan Green Tea](name)
+- can you explain me how much does it costs please
+- can you explain me how much euros are needed for please
+- can you explain me how much euros does costs [Greek Mountain Herbal Tea](name) please
+- can you explain to me how much are needed for
+- can you explain to me how much are needed for that [Matcha Asahi Green Tea Powder Ceremonial](name) please
+- can you explain to me how much does cost
+- can you explain to me how much money are needed for
+- can you explain to me how much money does costs this [Matcha Asahi Green Tea Powder Ceremonial](name) please
+- can you expose how much are needed for
+- can you expose how much are needed for [Sweet Christmas Fruit Infusion](name) please
+- can you expose how much are needed for it please
+- can you expose how much does cost
+- can you expose how much does costs
+- can you expose how much euros are needed for [Darjeeling Himalaya Black Tea](name)
+- can you expose how much euros are needed for please
+- can you expose how much euros are needed for this [Matcha Asahi Green Tea Powder Ceremonial](name) please
+- can you expose how much euros does costs that [Merry Christmas Black Tea](name)
+- can you expose how much money are needed for please
+- can you expose how much money are needed for this [Mandarin Organic Green Tea](name)
+- can you expose how much money does cost
+- can you expose me how much does it cost please
+- can you expose to me how much money are needed for
+- can you expose to us how much does it cost
+- can you expose to us how much euros are needed for please
+- can you expose to us how much money are needed for please
+- can you expose us how much money are needed for [Sweet Christmas Fruit Infusion](name) please
+- can you expose us how much money does cost please
+- can you give how much are needed for [Rooibos Classic](name)
+- can you give how much are needed for that [Meditation Herbal Tea](name) please
+- can you give how much are needed for this [Darjeeling Green Risheehat Green Tea](name) please
+- can you give how much does cost [Orange Ginger Fruit Infusion](name) please
+- can you give how much does cost please
+- can you give how much does costs that [Turmeric Power Black Tea](name)
+- can you give how much does it cost please
+- can you give how much euros are needed for please
+- can you give how much euros does cost
+- can you give how much money are needed for
+- can you give how much money are needed for [Wild Berry Black Tea](name) please
+- can you give how much money does costs please
+- can you give how much money does it cost that [Apple Strudel Black Tea](name)
+- can you give me how much are needed for please
+- can you give me how much are needed for that [Orient Rose Green Tea](name)
+- can you give me how much money does cost [Himalaya White Tea](name)
+- can you give to us how much does it costs
+- can you give to us how much does it costs this [Wild Berry Black Tea](name)
+- can you give to us how much euros are needed for this [Amarettino Black Tea](name)
+- can you give to us how much euros does costs [Rooibos Almond](name)
+- can you give us how much are needed for
+- can you give us how much money are needed for please
+- can you report how much are needed for [Tibetan Monks' Black Tea](name)
+- can you report how much are needed for please
+- can you report how much does cost [Russian Caravan Black Tea mixture](name)
+- can you report how much does costs
+- can you report how much does costs [Amarettino Black Tea](name) please
+- can you report how much does costs please
+- can you report how much does it cost [Lapacho](name)
+- can you report how much euros does cost please
+- can you report how much money are needed for please
+- can you report how much money does it cost this [Lavender and Chamomile Herbal Tea](name) please
+- can you report how much money does it cost this [Sikkim Piantagione Temi Black Tea](name) please
+- can you report me how much are needed for this [Gunpowder Menthos Green Tea](name)
+- can you report me how much money does cost [Teaflower Sunshine White Tea](name)
+- can you report me how much money does it costs [Darjeeling Earl Grey Green Tea](name)
+- can you report to me how much does it costs please
+- can you report to me how much money are needed for this [Dong Ding Oolong](name) please
+- can you report to us how much euros does cost please
+- can you report to us how much money does it cost this [Sweet Symphony Fruit Infusion](name) please
+- can you show how much are needed for [Fennel Herbal Tea](name) please
+- can you show how much are needed for [Lapsang Souchong Crocodile Black Tea](name) please
+- can you show how much are needed for please
+- can you show how much are needed for that [Ceylon Orange Pekoe Blend Black Tea](name)
+- can you show how much does cost that [Mandarine Dream Fruit Infusion](name) please
+- can you show how much does costs please
+- can you show how much euros does it cost [Yamamoto Green Tea](name) please
+- can you show how much euros does it costs
+- can you show how much money does costs that [China Keemun Black Tea](name)
+- can you show how much money does it cost
+- can you show me how much are needed for please
+- can you show me how much euros does costs [Lemongrass organic Black Tea](name)
+- can you show me how much euros does it cost [Garden Eden Fruit Infusion](name)
+- can you show to me how much euros are needed for please
+- can you show to me how much money does cost please
+- can you show to us how much does cost
+- can you show us how much money are needed for
+- can you tell how much are needed for
+- can you tell how much are needed for please
+- can you tell how much are needed for that [Silk Road Green Tea](name)
+- can you tell how much are needed for this [Russian Caravan Black Tea mixture](name) please
+- can you tell how much does it cost [Copacabana Fruit Infusion](name)
+- can you tell how much does it costs please
+- can you tell how much euros does it cost please
+- can you tell how much money are needed for that [Slim Plus Herbal Tea](name) please
+- can you tell how much money does it cost please
+- can you tell me how much are needed for [Matcha Genmaicha Instant Green Tea BIO](name)
+- can you tell to me how much euros does it costs
+- can you tell to me how much money does it costs [Korakundah FOP Organic Green Tea](name) please
+- can you tell to us how much are needed for please
+- can you tell us how much are needed for [Magic Relax Herbal Tea](name)
+- can you tell us how much does it cost
+- can you tell us how much euros does cost [Merry Christmas Black Tea](name) please
+- can you tell us how much money does cost that [Lapacho](name) please
+- describe how much are needed for [Caramel Black Tea](name)
+- describe how much are needed for [Teaflower Moulin Rouge Black Tea](name)
+- describe how much does cost [Spicy Lemon Green Tea](name)
+- describe how much does it costs
+- describe how much does it costs [Tibetan Monks' Black Tea](name)
+- describe how much euros are needed for [Assam BPS Typhoo Black Tea](name)
+- describe how much euros are needed for please
+- describe how much euros does costs please
+- describe how much euros does it cost [Darjeeling Earl Grey Green Tea](name) please
+- describe how much euros does it cost [Special Golden Yunnan Spiral Black Tea](name)
+- describe me how much money does it cost [Japanese Cherry Green Tea](name)
+- describe to me how much are needed for
+- describe to me how much are needed for please
+- describe to us how much euros does costs this [Assam Genteel Black Tea](name)
+- describe us how much are needed for please
+- describe us how much does it cost
+- describe us how much money does it costs
+- explain how much are needed for [Teaflower Casanova Black Tea](name) please
+- explain how much does costs please
+- explain how much euros are needed for
+- explain how much euros are needed for [Indian Ocean Black Tea](name) please
+- explain how much euros are needed for please
+- explain how much euros does costs this [Rooibos Wild Pure](name)
+- explain how much money are needed for [Tibetan Monks' Black Tea](name)
+- explain how much money are needed for this [Pressed Green Tea Star](name)
+- explain me how much euros does costs
+- explain me how much money does it cost
+- explain to me how much euros are needed for [Mandarine Dream Fruit Infusion](name) please
+- explain to me how much euros does costs please
+- explain to us how much are needed for [Himalaya White Tea](name) please
+- explain to us how much money does it costs please
+- explain us how much are needed for [Spring Harmony White Tea BIO](name) please
+- explain us how much does it cost please
+- expose how much are needed for [Soft Berries Cocktail Fruit Infusion](name) please
+- expose how much are needed for that [Vitality Herbal Tea](name)
+- expose how much euros are needed for please
+- expose how much euros does costs please
+- expose how much euros does it costs that [Lapacho](name)
+- expose how much money are needed for
+- expose how much money does costs please
+- expose me how much are needed for that [Lapacho](name) please
+- expose me how much does costs this [Yellow Emperor Green Tea](name) please
+- expose me how much does it costs that [Pai Mu Tan White Tea BIO](name)
+- expose me how much euros are needed for
+- expose me how much euros does cost [Rooibos Orange](name) please
+- expose to me how much does cost this [Orange Ginger Fruit Infusion](name) please
+- expose to me how much money does cost [Kabusecha Green Tea](name)
+- expose to me how much money does it cost
+- expose us how much are needed for [Orange Poem Fruit Infusion](name) please
+- expose us how much does it cost [Meditation Herbal Tea](name)
+- give how much are needed for that [Assam Genteel Black Tea](name)
+- give how much does it costs [Matcha Asahi Green Tea Powder Ceremonial](name) please
+- give how much euros are needed for
+- give how much euros does it cost please
+- give how much money are needed for
+- give how much money are needed for please
+- give me how much are needed for a tea please
+- give me how much does costs
+- give me how much does it cost
+- give me how much money are needed for please
+- give to me how much euros are needed for
+- give to us how much are needed for please
+- give to us how much euros does costs [Moringa Life Tree Herbal Tea](name) please
+- give to us how much money does it cost please
+- give us how much are needed for [Pepita Fruit Infusion](name) please
+- report how much are needed for an tea please
+- report how much are needed for please
+- report how much does it costs [Lady Camilla Herbal Tea](name)
+- report how much euros are needed for
+- report how much euros are needed for please
+- report how much euros does cost that [Delicious Herbal Tea](name) please
+- report how much euros does cost this [Lightness from the Forest Fruit Infusion](name) please
+- report how much euros does it costs [China Keemun Black Tea](name)
+- report how much money are needed for please
+- report me how much does costs please
+- report me how much does it cost [Rooibos Vanilla](name)
+- report to me how much are needed for please
+- report to me how much euros does cost please
+- report to me how much money does it costs please
+- report to us how much does it cost that [Mango Tropical Fruit Infusion](name) please
+- report to us how much euros does it cost that [Darjeeling Earl Grey Green Tea](name)
+- report to us how much euros does it costs this [Exotic Dream white tea](name) please
+- report to us how much money does it costs please
+- report us how much are needed for
+- report us how much are needed for [Assam Satrupa Organic Black Tea](name)
+- report us how much are needed for [Rooibos Almond](name)
+- report us how much money are needed for please
+- show how much are needed for [Wellness Herbal Tea](name)
+- show how much are needed for this [Apple Strudel Black Tea](name) please
+- show how much does cost [Elisir Aloe Vera Herbal Tea](name)
+- show how much does costs it
+- show how much euros are needed for please
+- show how much euros does costs
+- show how much euros does it cost [Gunpowder Temple of Heaven Green Tea](name)
+- show how much euros does it cost please
+- show how much euros does it costs
+- show how much money does it costs please
+- show how much money does it costs that [Ginger Green Tea](name) please
+- show me how much are needed for that [Wild Berry Fruit Infusion](name)
+- show me how much does cost [Jun Shan Silver Needle White Tea](name) please
+- show me how much euros does it costs [English Breakfast Black Tea](name)
+- show me how much money does costs
+- show me how much money does it cost this [Bancha Green Tea](name)
+- show to me how much does it cost
+- show to me how much euros are needed for please
+- show to me how much euros does it cost
+- show to me how much money are needed for this [Russian Caravan Black Tea mixture](name)
+- show to me how much money does it costs that [Ice Crystal Green Tea](name)
+- show to us how much does cost
+- show to us how much does it cost that [Tanzania GFOP Luponde Organic Green Tea](name)
+- show us how much does it costs this [Green Rooibos Classic](name) please
+- show us how much euros are needed for it
+- show us how much money does it cost that [Darjeeling Himalaya Black Tea](name)
+- tell how much are needed for please
+- tell how much money are needed for [Chamomile Herbal Tea](name)
+- tell how much money does costs please
+- tell me how much are needed for this [Jun Shan Silver Needle White Tea](name) please
+- tell to me how much are needed for [Lung Ching Superior Green Tea](name) please
+- tell to us how much are needed for this [Spicy Lemon Green Tea](name)
+- tell to us how much does cost please
+- tell us how much does it costs [Rooibos Papaya and Cinnamon](name)
+
+## intent:ingredients
+- can you describe me which are the ingredients
+- can you describe me which are the ingredients this [Tropical Paradise fruit Infusion Bio](name) please
+- can you describe to me which are the components please
+- can you describe to me which components of this [Walnut Oolong Tea](name) please
+- can you describe to us which are ingredients please
+- can you describe to us which ingredients [Rooibos Vanilla](name)
+- can you describe us which are the ingredients of please
+- can you describe what are the ingredients of
+- can you describe which are the ingredients of please
+- can you explain me what are the components of
+- can you explain me what are the ingredients please
+- can you explain me what the components of this [China Keemun Black Tea](name)
+- can you explain me which ingredients of
+- can you explain to me which ingredients please
+- can you explain to me which the ingredients this [Rooibos Orange and Carrot](name)
+- can you explain to us what are ingredients of
+- can you explain to us what are the components that [Matcha Kukicha Instant Green Tea BIO](name) please
+- can you explain to us which are the components
+- can you explain us what the components
+- can you explain us what the components of
+- can you explain what are components of that [Spicy Lemon Green Tea](name) please
+- can you explain which are components this [Rooibos Orange and Carrot](name) please
+- can you explain which are the components of [Yamamoto Green Tea](name) please
+- can you explain which are the components of that [Winter Fairytale Fruit Infusion](name) please
+- can you explain which ingredients
+- can you explain which the components that [Herbal Dreams Herbal Tea](name) please
+- can you expose me which are ingredients
+- can you expose to me which ingredients a teas please
+- can you expose to me which the ingredients of
+- can you expose to us which are the components please
+- can you expose us what ingredients of that [Assam Satrupa Organic Black Tea](name) please
+- can you expose us what ingredients that [Magical Christmas fruit infusion](name) please
+- can you expose us which are components [Rooibos Papaya and Cinnamon](name) please
+- can you expose what are components of please
+- can you expose what are ingredients of
+- can you expose what are the ingredients [Irish Breakfast Black Tea](name)
+- can you expose what are the ingredients of
+- can you expose what the ingredients [Tanzania GFOP Luponde Organic Green Tea](name)
+- can you expose what the ingredients please
+- can you expose which are ingredients that [Jun Shan Silver Needle White Tea](name)
+- can you expose which are the ingredients of that [Mediterranean Herbal Tea](name)
+- can you give me what are ingredients please
+- can you give me which components [Nepal Jun Chiyabari Oolong BIO](name)
+- can you give to me what are components please
+- can you give to me what components of [Mint Ginger Freshness Herbal Tea](name) please
+- can you give to me what components of that [Mallowflowers Herbal Tea](name) please
+- can you give to me what components that [Rooibos Classic](name)
+- can you give to me which ingredients of this [Orange Poem Fruit Infusion](name) please
+- can you give to us what are ingredients please
+- can you give to us what are the ingredients please
+- can you give to us which are the ingredients of
+- can you give us what are the ingredients that [Walnut Oolong Tea](name) please
+- can you give us what components [Green Forest Green Tea](name)
+- can you give us what the components of
+- can you give us what the components that [Nuwara Eliya FOP Black Tea](name)
+- can you give us which are components of some tea
+- can you give us which are ingredients please
+- can you give us which the components this [Chocolate Black Tea](name) please
+- can you give what are components please
+- can you give what are the components please
+- can you give what are the ingredients of please
+- can you give what ingredients
+- can you give what the components
+- can you give which are the components that [Rooibos Vanilla](name) please
+- can you give which are the ingredients of
+- can you give which are the ingredients of [Apple Strudel Black Tea](name)
+- can you give which are the ingredients of please
+- can you report to me what are the components of
+- can you report to me which are the ingredients
+- can you report to me which are the ingredients it
+- can you report to me which the components [Sweet Dreams Herbal Tea](name)
+- can you report to us what ingredients
+- can you report to us what the ingredients
+- can you report to us which are the ingredients
+- can you report to us which components of [Violet White Tea](name) please
+- can you report to us which ingredients
+- can you report us what are the ingredients of this [Green Mate Herbal Tea](name)
+- can you report us which are ingredients of that [Mu Herbal Tea](name)
+- can you report us which the ingredients please
+- can you report what are the components of
+- can you report what ingredients please
+- can you report which are ingredients of [Gunpowder Menthos Green Tea](name) please
+- can you report which are the components of that [Gyokuro Green Tea](name) please
+- can you report which are the ingredients
+- can you report which components of this [Hibiscus Flower Herbal Tea](name)
+- can you report which ingredients
+- can you report which ingredients [Kashmir Chai Walla Green Tea](name)
+- can you report which ingredients [Mulled Wine Spices](name)
+- can you report which ingredients of that [Sweet and Spicy Organic Herbal Tea](name)
+- can you report which ingredients that [Indian Ocean Black Tea](name)
+- can you show me what are ingredients [Indian Ocean Black Tea](name)
+- can you show me what are ingredients this [Rooibos Wild Pure](name)
+- can you show me which are the ingredients of please
+- can you show to me which the ingredients of this [Thousand and One Night Fruit Infusion](name)
+- can you show to us which are components of please
+- can you show to us which the ingredients that [Coconut Kiss Fruit Infusion](name)
+- can you show us what components please
+- can you show what are components please
+- can you show what are the components of
+- can you show what the ingredients of this [Sun of the East Green Tea](name) please
+- can you show what the ingredients that [Ceylon St James Black tea](name) please
+- can you show which are components
+- can you show which the components
+- can you show which the ingredients
+- can you show which the ingredients this [Rooibos Flower Dance](name)
+- can you show which the ingredients this [Rooibos Lemon](name)
+- can you tell me what are components of please
+- can you tell me what are ingredients of this [Golden Yunnan Black Tea](name)
+- can you tell to me what components
+- can you tell to me which are ingredients [Teaflower Orient Flame Black Tea](name) please
+- can you tell to me which are ingredients that [Orange Poem Fruit Infusion](name)
+- can you tell to me which are the ingredients some tea
+- can you tell to me which components [Jasmine Green Tea](name)
+- can you tell to me which ingredients of please
+- can you tell to us what are components [Fennel Herbal Tea](name)
+- can you tell to us which components that [Japanese Cherry Green Tea](name) please
+- can you tell to us which ingredients of please
+- can you tell us what are ingredients of please
+- can you tell us which the components of
+- can you tell what are components [Santa Claus Fruit Infusion](name)
+- can you tell what are the components please
+- can you tell what components of
+- can you tell which are components
+- can you tell which are the ingredients of [Indian Chai Organic Black Tea](name)
+- can you tell which the components please
+- describe me what ingredients please
+- describe me what ingredients that [China Keemun Black Tea](name)
+- describe me which the ingredients of that [Lemongrass organic Black Tea](name)
+- describe me which the ingredients please
+- describe to me what the components of [Sun of the East Green Tea](name) please
+- describe to me which the components
+- describe to us what ingredients of please
+- describe us what are ingredients please
+- describe us which are the components [Lemongrass organic Black Tea](name) please
+- describe what are the components of please
+- describe what are the ingredients of please
+- describe what the components please
+- describe what the ingredients [Pai Mu Tan White Tea BIO](name) please
+- describe which are the components that [Green Rooibos Peach](name)
+- describe which components of [Mallowflowers Herbal Tea](name)
+- describe which the components that [Kabusecha Green Tea](name) please
+- explain me what are the ingredients of
+- explain me what ingredients of
+- explain to me which components of that [Meditation Herbal Tea](name) please
+- explain to me which the ingredients
+- explain to us which the ingredients
+- explain us what ingredients
+- explain us which are the ingredients this [Jun Shan Silver Needle White Tea](name) please
+- explain what are ingredients
+- explain what ingredients of [Irish Breakfast Black Tea](name)
+- explain which are the components of [Golden Nepal Maloom Black Tea Bio](name) please
+- explain which the ingredients of
+- expose me what are ingredients that [Magical Christmas fruit infusion](name)
+- expose me what the ingredients of
+- expose me which ingredients [Lung Ching Superior Green Tea](name) please
+- expose me which ingredients that [Pressed Green Tea Star](name)
+- expose to me what components please
+- expose to me which components of [English Breakfast Black Tea](name) please
+- expose to me which ingredients
+- expose to us what are components of please
+- expose to us which components of that [Teaflower Sunshine White Tea](name) please
+- expose us what components please
+- expose us what ingredients of please
+- expose what are the components of that [Hawaii Cocktail Fruit Infusion](name) please
+- expose what components of that [Little Red Riding Hood Fruit Infusion](name) please
+- expose what the ingredients [Goji Berry Green Tea](name) please
+- expose what the ingredients of [Pressed Green Tea Heart](name)
+- expose what the ingredients of please
+- expose which are ingredients
+- expose which are the ingredients of this [Cinnamon Punch Fruit Infusion](name)
+- expose which components it please
+- expose which ingredients of
+- give me what are components a tea please
+- give to me what are the components of [Turkish Apple Fruit Infusion](name) please
+- give to me what the components please
+- give to us what are ingredients of [Bitter Orange Black Tea](name) please
+- give to us what ingredients [Rooibos Classic](name)
+- give to us which are components [Lightness Herbal Tea](name) please
+- give us what ingredients please
+- give us what the components please
+- give what are components of please
+- give what are ingredients
+- give what are ingredients of please
+- give what are the components of
+- give what are the components of that [Dong Ding Oolong](name) please
+- give what ingredients
+- give which are ingredients of [Marrakech Organic Green Mint Tea](name)
+- give which ingredients please
+- give which the components of this [Sweet Lemon Fruit Infusion](name)
+- report me what ingredients of [Spicy Lemon Green Tea](name) please
+- report me which the ingredients of [Lightness Herbal Tea](name)
+- report to me what are the components of please
+- report us what are the ingredients of [Winter Magic Black Tea](name) please
+- report us what ingredients please
+- report us what the components that [Turmeric Power Black Tea](name)
+- report us what the ingredients
+- report what are the ingredients please
+- report what components
+- report what components please
+- report what ingredients of
+- report what the components of [Tropical Moringa Fruit Infusion](name) please
+- report what the ingredients of please
+- report what the ingredients please
+- report which are components of please
+- report which are components please
+- report which components of this [Pink Summer Green Tea](name) please
+- show me what are the ingredients of [Rooibos Lemon](name) please
+- show to me what are the components of this [Kenya GFOP Tinderet Black Tea](name)
+- show to me what components that [English Rose Black Tea](name)
+- show to us what ingredients of
+- show to us which are ingredients of
+- show to us which the ingredients [Darjeeling Green Risheehat Green Tea](name) please
+- show us what are ingredients [Turmeric Power Black Tea](name)
+- show us what ingredients of
+- show us which components of that [Wild Berry Fruit Infusion](name) please
+- show us which the ingredients of please
+- show what are components of
+- show what ingredients of please
+- show which are components please
+- show which are ingredients of [Matcha Kukicha Instant Green Tea BIO](name) please
+- show which are ingredients of please
+- show which are the ingredients this [Magic Relax Herbal Tea](name) please
+- show which components of [Indonesia Java OP Green Tea BIO](name)
+- show which the components of
+- show which the components of please
+- show which the components that [Lemongrass organic Black Tea](name) please
+- tell me what are the components of [Rooibos Caramel](name)
+- tell me which ingredients [Cocoa and Dates Fruit Infusion](name) please
+- tell to me what are ingredients please
+- tell to me which are the components of
+- tell to me which are the ingredients that [Cinnamon Punch Fruit Infusion](name) please
+- tell to us which the ingredients that please
+- tell us what are components of please
+- tell us what are the components of
+- tell us which ingredients of
+- tell us which ingredients this [Assam Satrupa Organic Black Tea](name) please
+- tell what are components [China Hojicha Green Tea](name) please
+- tell what are ingredients please
+- tell what are the components
+- tell what are the ingredients of [Chamomile Organic Herbal Tea](name) please
+- tell what are the ingredients of that please
+- tell what components of [Jun Shan Silver Needle White Tea](name) please
+- tell what the components
+- tell what the ingredients of
+- tell what the ingredients of please
+- tell which are the components
+- tell which are the ingredients please
+- tell which ingredients of please
+- tell which ingredients this [Rooibos Vanilla](name) please
+- tell which the components of that [Wild Berry Black Tea](name)
+
+## intent:availability
+- can you describe if [Fresh Peach Fruit Infusion](name) is available please
+- can you describe if [Perfumes of Lavender Black Tea BIO](name) available please
+- can you describe if [Tanzania GFOP Luponde Organic Green Tea](name) is available
+- can you describe if [Wild Berry Fruit Infusion](name) is available please
+- can you describe if available
+- can you describe if is available
+- can you describe if is available please
+- can you describe if that [Hawaii Cocktail Fruit Infusion](name) is in stock please
+- can you describe if that [Matcha for Cooking Green Tea Powder](name) is available
+- can you describe if that [Matcha green Tea Roses](name) is in stock please
+- can you describe if that [Rooibos Vanilla](name) in stock
+- can you describe if that [Thai Black Tea black tea](name) available
+- can you describe if this [Mandarine Dream Fruit Infusion](name) is in stock
+- can you describe if this [Yunnan Green Tea](name) available please
+- can you describe me if available
+- can you describe me if is available
+- can you describe to me if is available please
+- can you describe to us if available please
+- can you describe us if is available please
+- can you describe us if that [Amarettino Black Tea](name) is available
+- can you describe us if this is available please
+- can you explain if [Sweet and Spicy Organic Herbal Tea](name) in stock please
+- can you explain if available please
+- can you explain if in stock
+- can you explain if in stock please
+- can you explain if that [Perfumes of Lavender Black Tea BIO](name) in stock please
+- can you explain if this [Mallowflowers Herbal Tea](name) in stock
+- can you explain me if in stock please
+- can you explain me if is available please
+- can you explain to me if that [Green Rooibos Classic](name) is in stock please
+- can you explain to us if in stock
+- can you explain to us if that [Maori Dance Black Tea](name) in stock
+- can you explain us if that [Ceylon Curl Green Green Tea](name) is in stock
+- can you explain us if this [Copacabana Fruit Infusion](name) is in stock please
+- can you expose if [Mini Tuocha China Pu Erh Black Tea](name) is in stock
+- can you expose if available please
+- can you expose if in stock
+- can you expose if is available please
+- can you expose if is in stock
+- can you expose if is in stock please
+- can you expose if that [Copacabana Fruit Infusion](name) in stock please
+- can you expose if that [Earl Grey Black Tea](name) is available please
+- can you expose if this [Golden Nepal Maloom Black Tea Bio](name) is in stock
+- can you expose if this [Mango Tropical Fruit Infusion](name) available please
+- can you expose me if available
+- can you expose to me if [Beauty Herbal Tea](name) available
+- can you expose to me if available please
+- can you expose to me if in stock
+- can you expose to me if is in stock
+- can you expose to me if that [Lung Ching Green Tea](name) in stock please
+- can you expose to me if that [Special Golden Yunnan Spiral Black Tea](name) in stock please
+- can you expose to me if this [Caribbean Oolong](name) available
+- can you expose to us if [Rooibos Orange and Mint](name) available please
+- can you expose to us if in stock
+- can you expose us if [Marrakech Organic Green Mint Tea](name) in stock
+- can you expose us if that [Cranberry Queen Fruit Infusion](name) is available
+- can you give if [Darjeeling Gold GFOP Black Tea](name) is available
+- can you give if [English Rose Black Tea](name) is available please
+- can you give if [Matcha Asahi Green Tea Powder Ceremonial](name) available
+- can you give if available
+- can you give if in stock
+- can you give if in stock please
+- can you give if is in stock please
+- can you give if this [Goji Berry Green Tea](name) available please
+- can you give me if is available please
+- can you give me if that [Thai Black Tea black tea](name) available
+- can you give to me if is in stock
+- can you give to us if [Greek Mountain Herbal Tea](name) is in stock please
+- can you give to us if an tea available please
+- can you give to us if that [Kabusecha Green Tea](name) available
+- can you give to us if that [White Green Monkey Green Tea](name) is available
+- can you give us if [Cinnamon Punch Fruit Infusion](name) is available please
+- can you give us if [Garden Eden Fruit Infusion](name) is available
+- can you give us if [Rooibos Papaya and Cinnamon](name) in stock
+- can you give us if is available please
+- can you report if [Elisir Aloe Vera Herbal Tea](name) is available please
+- can you report if [Indian Ocean Black Tea](name) available
+- can you report if [Pomegranate Fruit Infusion](name) in stock please
+- can you report if [Rooibos Orange and Mint](name) in stock please
+- can you report if [Rwanda Rukeri Black tea](name) available
+- can you report if available
+- can you report if available please
+- can you report if is in stock please
+- can you report if this [Chocolate Black Tea](name) is available please
+- can you report me if available please
+- can you report me if in stock please
+- can you report to me if [Nuwara Eliya FOP Black Tea](name) available please
+- can you report to me if available please
+- can you report to me if is available please
+- can you report to us if available
+- can you report to us if in stock please
+- can you report to us if is available please
+- can you report to us if is in stock please
+- can you report to us if this [Elisir Aloe Vera Herbal Tea](name) available please
+- can you report us if [Darjeeling Earl Grey Green Tea](name) in stock
+- can you report us if [White Green Monkey Green Tea](name) is available
+- can you report us if that [Honeymoon Green Tea BIO](name) is in stock please
+- can you show if [Good Evening Herbal Tea](name) in stock
+- can you show if [Teaflower Monte Bianco White Tea](name) is in stock
+- can you show me if [Caribbean Oolong](name) is available please
+- can you show me if in stock please
+- can you show me if is available please
+- can you show me if this [Melon Splash Fruit Infusion](name) available please
+- can you show to me if is available
+- can you show to me if is available please
+- can you show us if that [Gunpowder Temple of Heaven Green Tea](name) available
+- can you tell if [Amarettino Black Tea](name) is available
+- can you tell if [Tea Brick Compressed Black Tea](name) is available please
+- can you tell if available please
+- can you tell if in stock
+- can you tell if in stock please
+- can you tell if is in stock please
+- can you tell if that [Bitter Orange Black Tea](name) is in stock please
+- can you tell me if [Darjeeling Standard FOP Black Tea](name) is in stock
+- can you tell to me if available please
+- can you tell to me if that [Good Luck Charm Fruit Infusion](name) is in stock
+- can you tell to me if that [Irish Breakfast Black Tea](name) available
+- can you tell to us if available
+- can you tell to us if in stock
+- can you tell to us if is available
+- can you tell to us if is available please
+- can you tell us if in stock
+- can you tell us if this [Elisir Aloe Vera Herbal Tea](name) is in stock
+- describe if [Ginger Green Tea](name) is in stock please
+- describe if [Himalaya White Tea](name) in stock
+- describe if [Indonesia Java OP Green Tea BIO](name) is available please
+- describe if [Orient Rose Green Tea](name) available please
+- describe if in stock
+- describe if is in stock
+- describe if some tea is in stock please
+- describe if that [Assam Goldtips Black Tea](name) is in stock
+- describe if that [Mini Tuocha China Pu Erh Black Tea](name) is in stock please
+- describe if this [Cocoa and Dates Fruit Infusion](name) available
+- describe if this [Exotic Harmony Green Tea](name) is in stock
+- describe me if [English Breakfast Black Tea](name) is in stock please
+- describe me if available
+- describe me if in stock please
+- describe to me if [Caramel Black Tea](name) is in stock please
+- describe to me if available
+- describe to us if [Oolong Se Chung](name) in stock please
+- describe to us if is available
+- describe to us if is in stock
+- describe us if available please
+- describe us if this [Wuyuan Jasmin Organic Green Tea](name) is available
+- explain if [English Breakfast Black Tea](name) is available please
+- explain if in stock please
+- explain if is available
+- explain if is available please
+- explain if is in stock please
+- explain if this [Hawaii Cocktail Fruit Infusion](name) is in stock
+- explain if this [Teaflower Casanova Black Tea](name) available please
+- explain me if is available
+- explain me if is available please
+- explain me if that [Mandarine Dream Fruit Infusion](name) in stock please
+- explain me if that [Yellow Emperor Green Tea](name) in stock please
+- explain to me if is in stock
+- explain to me if is in stock please
+- explain to me if this [Indian Chai Organic Black Tea](name) is available
+- explain to us if available please
+- explain to us if in stock please
+- explain to us if tea is in stock please
+- explain us if available please
+- explain us if in stock
+- explain us if is in stock please
+- explain us if this [Rooibos Lemon](name) is available
+- expose if [Anji White White Tea](name) available
+- expose if [Assam BPS Typhoo Black Tea](name) available
+- expose if [Ceylon St James Black tea](name) is available please
+- expose if [Good Luck Charm Fruit Infusion](name) is in stock please
+- expose if [Jasmine Pearl White Tea](name) available please
+- expose if [Sweet and Spicy Organic Herbal Tea](name) available
+- expose if available please
+- expose if is available
+- expose if it is in stock
+- expose if tea in stock
+- expose if that [Matcha for Cooking Green Tea Powder](name) is available please
+- expose if this tea is in stock please
+- expose me if that [White Dragon Organic White Tea BIO](name) is available please
+- expose to me if is available please
+- expose us if [Jasmine Green Tea](name) in stock
+- expose us if tea available please
+- expose us if that [Dong Ding Oolong](name) in stock
+- give if [Ceylon Orange Pekoe Blend Black Tea](name) is available
+- give if [Highland Toffee Black Tea](name) in stock
+- give if [Mango Tropical Fruit Infusion](name) in stock
+- give if [Spicy Lemon Green Tea](name) available
+- give if [Yunnan Green Tea](name) in stock please
+- give if available
+- give if available please
+- give if in stock please
+- give if is available
+- give if is available please
+- give if is in stock
+- give if is in stock please
+- give if that [Mallowflowers Herbal Tea](name) is available
+- give if this [Winter Fairytale Fruit Infusion](name) available please
+- give to me if [Chocolate Black Tea](name) available please
+- give to me if is available
+- give to us if is in stock please
+- give us if available please
+- give us if in stock
+- give us if is in stock please
+- report if [Rooibos Wild Berry](name) is in stock
+- report if available
+- report if is available
+- report if is available please
+- report if it is available please
+- report if this [Kabusecha Green Tea](name) is available please
+- report if this [Russian Caravan Black Tea mixture](name) is in stock
+- report me if [Korakundah FOP Organic Green Tea](name) is in stock
+- report me if in stock please
+- report to me if that [Cinnamon Punch Fruit Infusion](name) in stock please
+- report to us if available
+- report to us if that [Gunpowder Temple of Heaven Green Tea](name) is available
+- report us if [Depurapiù Herbal Tea](name) is available please
+- report us if is available
+- show if [Hawaii Cocktail Fruit Infusion](name) in stock please
+- show if [Merry Christmas Black Tea](name) is available please
+- show if [White Green Monkey Green Tea](name) available
+- show if available
+- show if is available please
+- show if is in stock please
+- show me if is available please
+- show to us if [Chocolate Black Tea](name) in stock please
+- show to us if in stock please
+- show to us if tea available please
+- show to us if that [Mallowflowers Herbal Tea](name) is in stock please
+- show us if is in stock please
+- tell if [Genmaicha Green Tea](name) is in stock
+- tell if [Gyokuro Green Tea](name) is available please
+- tell if [Indian Ocean Black Tea](name) is in stock
+- tell if [Lavender and Chamomile Herbal Tea](name) is available please
+- tell if available
+- tell if available please
+- tell if in stock
+- tell if is available please
+- tell if is in stock
+- tell if that [Spicy Lemon Green Tea](name) available
+- tell if this [Ceylon Curl Green Green Tea](name) available please
+- tell if this [Sikkim Piantagione Temi Black Tea](name) is available please
+- tell me if available
+- tell to me if [Caramel Black Tea](name) is in stock please
+- tell to me if [Irish Breakfast Black Tea](name) available
+- tell to me if in stock
+- tell to us if available please
+- tell to us if in stock
+- tell to us if is in stock
+- tell us if [Cumin Mint Herbal Tea](name) is available
+- tell us if [Darjeeling Green Risheehat Green Tea](name) available please
+- tell us if [White Dragon Organic White Tea BIO](name) in stock please
+
+## intent:similar_products
+- can you describe me similar products
+- can you describe me what similar products with respect to
+- can you describe me which are similar products with respect to [Yellow Emperor Green Tea](name)
+- can you describe similar products [Copacabana Fruit Infusion](name) please
+- can you describe similar products with respect to
+- can you describe similar products with respect to please
+- can you describe similar products with respect to that [Cumin Mint Herbal Tea](name) please
+- can you describe to me similar products [Gyokuro Green Tea](name) please
+- can you describe to us which are similar products with respect to please
+- can you describe us similar products that [Pink Summer Green Tea](name)
+- can you describe us similar products this [Korakundah FOP Organic Green Tea](name) please
+- can you describe us which are similar products that [Herbal Dreams Herbal Tea](name) please
+- can you describe what similar products to that [Pura Vida Fruit Infusion](name) please
+- can you describe what similar products with respect to please
+- can you describe which similar products with respect to
+- can you describe which similar products with respect to that [Indian Ocean Black Tea](name) please
+- can you explain similar products this [Kimono Green Tea](name)
+- can you explain similar products this [Kukicha Green Tea](name)
+- can you explain similar products to that [Teaflower Sunshine White Tea](name)
+- can you explain to me what similar products with respect to [Vanilla Bourbon Black Tea](name) please
+- can you explain to me which are similar products with respect to
+- can you explain to us similar products to
+- can you explain what similar products to [Forest Gifts Herbal Tea](name)
+- can you explain what similar products with respect to [Cinnamon Punch Fruit Infusion](name) please
+- can you expose me which similar products to [English Breakfast Black Tea](name)
+- can you expose similar products
+- can you expose similar products this [Pressed Green Tea Heart](name) please
+- can you expose similar products to
+- can you expose similar products with respect to please
+- can you expose to me what similar products that [Earl Grey Special Soft Black Tea](name)
+- can you expose to us what are similar products with respect to [Chun Mee Green Tea](name)
+- can you expose us which are similar products
+- can you expose what are similar products to please
+- can you expose what similar products [Ginger Green Tea](name) please
+- can you find similar products
+- can you find similar products [Rooibos Chocolate](name) please
+- can you find similar products please
+- can you find similar products this [Pagoda Summer Fruit Infusion](name)
+- can you find similar products to
+- can you find similar products to please
+- can you find similar products to that [Anji White White Tea](name) please
+- can you find similar products with respect to
+- can you find similar products with respect to please
+- can you find similar products with respect to that [Cinnamon Punch Fruit Infusion](name) please
+- can you give me what are similar products with respect to that [Matcha Haruka Green Tea Powder](name)
+- can you give similar products [Goji Berry Green Tea](name) please
+- can you give similar products please
+- can you give similar products with respect to that [Darjeeling Earl Grey Green Tea](name) please
+- can you give to me what are similar products [Teaflower Casanova Black Tea](name) please
+- can you give to us what are similar products with respect to
+- can you give what are similar products please
+- can you give what similar products to
+- can you give which similar products
+- can you give which similar products please
+- can you report similar products
+- can you report similar products with respect to
+- can you report to me similar products with respect to please
+- can you report to me which are similar products to
+- can you report to us what are similar products [Wild Berry Black Tea](name) please
+- can you report to us what similar products to please
+- can you report us which are similar products please
+- can you report us which similar products to that [Assam BPS Typhoo Black Tea](name)
+- can you report what similar products to please
+- can you report which are similar products with respect to
+- can you report which similar products with respect to this [Liquorice Black Tea](name) please
+- can you search for similar products
+- can you search for similar products please
+- can you search for similar products that [Souvenir de Printemps](name) please
+- can you search for similar products that teas
+- can you search for similar products this [Cranberry Queen Fruit Infusion](name) please
+- can you search for similar products to that [Peppermint Herbal Tea](name)
+- can you search for similar products with respect to [Lemongrass organic Black Tea](name) please
+- can you search for similar products with respect to this [Turkish Apple Fruit Infusion](name)
+- can you search similar products
+- can you search similar products [Orange Poem Fruit Infusion](name) please
+- can you search similar products [Rooibos ginger](name)
+- can you search similar products please
+- can you search similar products that [Melon Splash Fruit Infusion](name)
+- can you search similar products this [Pressed Green Tea Star](name) please
+- can you search similar products to
+- can you search similar products to that [Exotic Dream white tea](name)
+- can you search similar products to that [Organic Spring Herbal Tea](name)
+- can you search similar products with respect to [Matcha Haruka Green Tea Powder](name) please
+- can you search similar products with respect to this [Slim Plus Herbal Tea](name) please
+- can you show similar products please
+- can you show similar products this [Forest Gifts Herbal Tea](name)
+- can you show similar products with respect to teas
+- can you show to me similar products please
+- can you show to me similar products to [Bancha Green Tea](name) please
+- can you show to me what similar products please
+- can you show what similar products with respect to
+- can you show which are similar products it
+- can you show which are similar products please
+- can you show which are similar products with respect to that [Indian Ocean Black Tea](name)
+- can you show which similar products that [Mulled Wine Spices](name) please
+- can you similar products
+- can you similar products [Tropical Paradise fruit Infusion Bio](name)
+- can you similar products it please
+- can you similar products please
+- can you similar products this tea
+- can you similar products to
+- can you similar products to [Cocoa and Dates Fruit Infusion](name)
+- can you similar products to [Japan Shincha Organic Green Tea](name) please
+- can you similar products to [White Dragon Organic White Tea BIO](name) please
+- can you similar products to please
+- can you similar products to that [Matcha green Tea Roses](name)
+- can you similar products to this [Green Rooibos Vanilla and Lemon](name)
+- can you similar products to this [Matcha Kukicha Instant Green Tea BIO](name)
+- can you similar products with respect to
+- can you similar products with respect to [Cocoa and Dates Fruit Infusion](name) please
+- can you similar products with respect to [Cranberry Queen Fruit Infusion](name) please
+- can you similar products with respect to [Sweet Symphony Fruit Infusion](name) please
+- can you similar products with respect to [Turmeric and vanilla fruit Infusion](name) please
+- can you similar products with respect to please
+- can you tell me similar products with respect to that [Lightness Herbal Tea](name) please
+- can you tell me which are similar products with respect to [Starsdust Green Tea Limited Edition](name) please
+- can you tell similar products [Mulled Wine Spices](name) please
+- can you tell similar products to that [Chun Mee Green Tea](name)
+- can you tell similar products to that [Rwanda Rukeri Black tea](name)
+- can you tell similar products with respect to please
+- can you tell to me similar products [White Peony Organic White Tea](name)
+- can you tell to me what are similar products
+- can you tell to me which are similar products to this [Fresh Peach Fruit Infusion](name) please
+- can you tell us which are similar products with respect to
+- can you tell what are similar products
+- can you tell what similar products this [Mandarine and Cinnamon Black Tea](name)
+- can you tell which are similar products to
+- describe similar products this [Cinnamon Punch Fruit Infusion](name) please
+- describe similar products to
+- describe similar products with respect to [Teaflower Monte Bianco White Tea](name) please
+- describe similar products with respect to this [Rooibos Orange and Mint](name)
+- describe to me which similar products this [Mediterranean Herbal Tea](name)
+- describe to us similar products with respect to that [Darjeeling Margaret's Hope Black Tea](name) please
+- describe to us what are similar products
+- describe what are similar products with respect to that [Rooibos Chocolate](name)
+- describe what similar products
+- describe which similar products please
+- explain me what are similar products [Pai Mu Tan White Tea BIO](name) please
+- explain similar products please
+- explain to us similar products with respect to that [Meditation Herbal Tea](name) please
+- explain us what similar products please
+- explain us what similar products with respect to [Gyokuro Green Tea](name) please
+- explain us which similar products [Caribbean Oolong](name) please
+- expose me similar products to [Gunpowder Temple of Heaven Green Tea](name) please
+- expose similar products to
+- expose similar products with respect to this [Oolong Se Chung](name)
+- expose to me similar products [Indian Ocean Black Tea](name) please
+- expose to me similar products [Sikkim Piantagione Temi Black Tea](name)
+- expose to me similar products [Sweet Christmas Fruit Infusion](name)
+- expose to me what similar products with respect to please
+- expose to me which similar products please
+- expose to us which similar products [Mandarin Organic Green Tea](name) please
+- expose us what similar products [Liquorice Black Tea](name)
+- expose what are similar products with respect to
+- expose what are similar products with respect to this [Lapsang Souchong Crocodile Black Tea](name) please
+- expose what similar products please
+- expose which are similar products [Tropical Paradise fruit Infusion Bio](name)
+- find similar products
+- find similar products [China Yunnan Pu Erh Black Tea](name)
+- find similar products please
+- find similar products that [Lung Ching Green Tea](name)
+- find similar products to [Green Breakfsat Bio green Tea](name)
+- find similar products to [Mediterranean Herbal Tea](name) please
+- find similar products to [Wild Berry Black Tea](name) please
+- find similar products with respect to
+- find similar products with respect to [Golden Yunnan Black Tea](name) please
+- give me which are similar products to [Dong Ding Oolong](name)
+- give similar products please
+- give similar products to that [Pressed Green Tea Star](name) please
+- give similar products to this [Ice Crystal Green Tea](name) please
+- give similar products with respect to this [Caribbean Oolong](name)
+- give to me similar products to this [Merry Christmas Black Tea](name)
+- give us what are similar products [Winter Green Tea](name) please
+- give which similar products [Green Breakfsat Bio green Tea](name) please
+- give which similar products that [Mango Tropical Fruit Infusion](name)
+- report similar products [Chun Mee Green Tea](name)
+- report similar products please
+- report similar products to
+- report similar products to that [Indonesia Java OP Green Tea BIO](name)
+- report similar products with respect to
+- report to us similar products with respect to
+- report which are similar products please
+- search for similar products
+- search for similar products this [Yamamoto Green Tea](name) please
+- search for similar products to
+- search for similar products to that [Cumin Mint Herbal Tea](name)
+- search for similar products with respect to
+- search for similar products with respect to [English Breakfast Soft Black Tea](name) please
+- search for similar products with respect to that [Darjeeling Margaret's Hope Black Tea](name)
+- search similar products
+- search similar products that [Copacabana Fruit Infusion](name) please
+- search similar products this [Cumin Mint Herbal Tea](name)
+- search similar products to [Mango Tropical Fruit Infusion](name) please
+- search similar products to [Matcha Kukicha Instant Green Tea BIO](name) please
+- search similar products to [Silk Road Green Tea](name)
+- search similar products to please
+- search similar products with respect to [Rooibos Vanilla](name) please
+- search similar products with respect to please
+- search similar products with respect to that [Chamomile Herbal Tea](name) please
+- show me similar products [Nilgiri FOP Oothu Organic Black Tea](name) please
+- show me what are similar products please
+- show similar products please
+- show similar products to [Japan Shincha Organic Green Tea](name)
+- show to me what similar products please
+- show us what similar products to this
+- show which similar products
+- show which similar products to
+- similar products
+- similar products [Ginger Green Tea](name)
+- similar products [Good Evening Herbal Tea](name) please
+- similar products [Indonesia Java OP Green Tea BIO](name)
+- similar products [Moringa Life Tree Herbal Tea](name) please
+- similar products [Rooibos Caramel](name)
+- similar products [Thai Black Tea black tea](name)
+- similar products [White Dragon Organic White Tea BIO](name)
+- similar products it please
+- similar products please
+- similar products to
+- similar products to [Cranberry Queen Fruit Infusion](name)
+- similar products to [Nuwara Eliya FOP Black Tea](name)
+- similar products to [Perfumes of Lavender Black Tea BIO](name) please
+- similar products to please
+- similar products to that [Pai Mu Tan White Tea BIO](name) please
+- similar products to that [Teaflower Sunshine White Tea](name) please
+- similar products to this [Garden Eden Fruit Infusion](name) please
+- similar products to this [Orange Poem Fruit Infusion](name)
+- similar products with respect to
+- similar products with respect to [China Rose Black Tea](name) please
+- similar products with respect to [Hawaii Cocktail Fruit Infusion](name) please
+- similar products with respect to [Ice Crystal Green Tea](name) please
+- similar products with respect to [Rooibos Wild Pure](name)
+- similar products with respect to please
+- similar products with respect to that [Winter Fairytale Fruit Infusion](name)
+- similar products with respect to this [Sweet Christmas Fruit Infusion](name) please
+- tell me similar products [Tea Brick Compressed Black Tea](name)
+- tell me similar products with respect to [Assam Exquisite Black Tea](name)
+- tell me what are similar products please
+- tell me which are similar products
+- tell similar products this [Marrakech Organic Green Mint Tea](name) please
+- tell similar products to [Melon Splash Fruit Infusion](name) please
+- tell similar products with respect to a teas
+- tell to me similar products [Magical Christmas fruit infusion](name)
+- tell to me what similar products please
+- tell us similar products with respect to please
+- tell what are similar products please
+- tell what similar products please
+- tell which are similar products please
+- tell which similar products
+- tell which similar products with respect to [Exotic Harmony Green Tea](name)
+- tell which similar products with respect to [Turmeric and vanilla fruit Infusion](name) please
+
+## synonym:New
+- newly introduced
+- latest
+- brandnew
+- newly produced
+- new
+
+## synonym:Christmas
+- that are from the christmas selection
+-  for christmas
+- christmas
+- that are for christmas
+-  from the christmas selection
+
+## synonym:Not christmas
+- non christmas
+- not for christmas
+- not from the christmas selection
+
+## synonym:China
+- chinese
+- china
+
+## synonym:India
+- india
+- indian
+
+## synonym:Taiwan
+- taiwanese
+- taiwan
+
+## synonym:Korea
+- korea
+- korean
+
+## synonym:Tanzania
+- tanzania
+- tanzanian
+
+## synonym:South africa
+- southafrican
+- africa
+- african
+- southafrica
+
+## synonym:Black Teas
+- black tea
+- black teas
+
+## synonym:Oolong
+- oolong teas
+- oolong
+- oolong tea
+
+## synonym:Green Teas
+- green teas
+- green tea
+
+## synonym:White Teas
+- white tea
+- white teas
+
+## synonym:Gold Tea Selection
+- gold tea selection
+- gold teas selection
+- gold teas
+- gold teas selections
+- gold tea
+- gold tea selections
+
+## synonym:Fruit Infusions
+- fruit infusion
+- fruit infusions
+
+## synonym:Rooibos
+- rooibos tea
+- rooibos teas
+- rooibos
+
+## synonym:Herbal Teas
+- herbal tea
+- herbal teas
+
+## synonym:Matcha and Flower Teas
+- matcha flowers tea
+- flowers teas
+- matcha and flowers teas
+- matcha
+- flowers tea
+- matcha and flowers tea
+- matcha flowers teas
+
+

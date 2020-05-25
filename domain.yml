@@ -1,0 +1,151 @@
+slots:
+  name:
+    type: text
+  category:
+    type: text
+  origin:
+    type: text
+  organic:
+    type: text
+  christmas:
+    type: text
+  availability:
+    type: text
+  new:
+    type: text
+
+  unfeat_search_settings:
+    auto_fill: false
+    type: unfeaturized
+
+entities:
+- name
+- category
+- origin
+- organic
+- christmas
+- availabilty
+- new
+
+intents:
+ - greet
+ - search_affirm
+ - search_deny
+ - search
+ - filter
+ - details
+ - preparation
+ - cost
+ - ingredients
+ - availability
+ - similar_products
+ - goodbye
+ - thanks
+ - thanks_goodbye
+
+responses:
+  utter_greet:
+  - text: "Hey!"
+  - text: "Hello!"
+  - text: "Hey there!"
+
+  utter_how_can_i_help_you:
+  - text: "How can I help you?"
+  - text: "What can I do for you?"
+
+  utter_can_i_help_you_again:
+  - text: "Can I help you in something else?"
+  - text: "How can I help you more?"
+
+  utter_thanks_goodbye:
+    - text: "You're welcome, bye!"
+    - text: "It was a pleasure. Good bye!"
+
+  utter_goodbye:
+    - text: "Hope to hear you again, bye!"
+    - text: "Good bye!"
+    - text: "Bye-bye!"
+
+  utter_default:
+    - text: "Sorry, I didn’t understand that."
+
+  utter_not_available:
+    - text: "Sorry, this information is not available."
+
+  # action search
+  utter_checking:
+    - text: "I'm on it."
+    - text: "Let's see..."
+    - text: "I'm checking!"
+  # ----
+
+  # action suggest
+  utter_suggest:
+    - text: "Here's what I've found:"
+
+  utter_suggest_hasmore:
+    - text: "I have even more results if you want. Should I continue?"
+
+  utter_suggest_nomore:
+    - text: "And that's all!"
+
+  utter_suggest_empty:
+    - text: "I'm sorry, I'm not able to find products as you've described."
+
+  utter_ask_category:
+    - text: "Which type of tea do you like?"
+    - text: "Which type of tea are you looking for?"
+
+  utter_ask_category_grounding:
+    - text: "Ok, let's search for some good {category}..."
+
+  utter_reask_category:
+    - text: "Sorry, I don't know what you mean with \"{category}\". Possible categories are: Black Teas, Oolong, Green Teas, White Teas, Gold Tea Selection, Fruit Infusions, Rooibos, Herbal Teas, Matcha and Flower Teas. Which one you prefer?"
+
+  utter_reask_category_empty:
+    - text: "I need to know which type of tea do you like to help you in your research. Possible categories are: Black Teas, Oolong, Green Teas, White Teas, Gold Tea Selection, Fruit Infusions, Rooibos, Herbal Teas, Matcha and Flower Teas. Which one you prefer?"
+  # ----
+
+  # action details
+  utter_ask_name:
+    - text: "Which tea do you like?"
+    - text: "Which tea are you looking for?"
+
+  utter_ask_name_grounding:
+    - text: "Ok, let's see what I can found about {name}..."
+
+  utter_invalid_name:
+    - text: "Sorry, I don't know any tea with the name \"{name}\"."
+  # ----
+
+  utter_availability_available:
+    - text: "Yes, it's currently available."
+
+  utter_availability_notavailable:
+    - text: "No, I'm sorry, this product is not available right now."
+
+  utter_similar_products:
+    - text: "These are similar products that I've found:"
+
+  utter_similar_products_empty:
+    - text: "I'm sorry, I didn't find any similar product."
+
+
+actions:
+- action_search
+- action_filter
+- action_suggest
+
+forms:
+- form_action_search
+- form_action_details
+- form_action_preparation
+- form_action_cost
+- form_action_ingredients
+- form_action_availability
+- form_action_similar_products
+
+session_config:
+  session_expiration_time: 60  # value in minutes
+  carry_over_slots_to_new_session: true
+  
