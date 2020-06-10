@@ -1,3 +1,4 @@
+from math import ceil
 from random import randint
 
 sanitize = lambda s: ('"' + s + '"' if type(s) == str else str(s)) if str(s) != 'null' else 'null'
@@ -26,17 +27,31 @@ def get_filters_seq(origin, organic, christmas, availability, new):
 
 greet = lambda: (
         '* greet\n' +
+        '- action_deactivate_form\n' +
+        '- form{"name": null}\n' +
+        '- slot{"requested_slot": null}\n' +
         '- utter_greet\n' +
         '- utter_how_can_i_help_you\n'
 )
 
 bye = lambda: (
         '* goodbye\n' +
+        '- action_deactivate_form\n' +
+        '- form{"name": null}\n' +
+        '- slot{"requested_slot": null}\n' +
         '- utter_goodbye\n'
+)
+
+thanks = lambda: (
+        '* thanks\n' +
+        '- utter_thanks\n'
 )
 
 thanks_bye = lambda: (
         '* thanks_goodbye\n' +
+        '- action_deactivate_form\n' +
+        '- form{"name": null}\n' +
+        '- slot{"requested_slot": null}\n' +
         '- utter_thanks_goodbye\n'
 )
 
@@ -44,12 +59,16 @@ search_affirm = lambda category, origin, organic, christmas, availability, new, 
         '* search_affirm\n' +
         '- action_suggest\n' +
         '- slot{"name": null}\n' +
+        '- slot{"unfeat_name_cardinal": []}\n' +
         get_unfeat_search_settings(category, origin, organic, christmas, availability, new, offset)
 )
 
-search_deny = lambda: (
-        '* search_deny\n' +
-        '- utter_can_i_help_you_again\n'
+search_deny = lambda first_time: (
+        ('* form: ' if not first_time else '* ') + 'search_deny\n' +
+        '- followup{"name": "action_clear_form"}\n' +
+        '- action_clear_form\n' +
+        '- form{"name": null}\n' +
+        '- slot{"requested_slot": null}\n'
 )
 
 search_empty = lambda first_time: (
@@ -69,11 +88,35 @@ search_unknown = lambda first_time, category: (
         '- slot{"requested_slot": "category"}\n'
 )
 
+tea_name = lambda first_time, name: (
+         ('* form: ' if not first_time else '* ') + 'tea_name{"name": "' + name + '"}\n' +
+        '- slot{"name": "' + name + '"}\n'
+)
+
+cardinal = lambda first_time, cardinal, name, form: (
+        '* cardinal{"cardinal": "' + cardinal + '"}\n' +
+        '- slot{"cardinal": "' + cardinal + '"}\n' +
+        '- action_extract_name_from_cardinal\n' +
+        '- slot{"cardinal": null}\n' +
+        '- slot{"name": "' + name + '"}\n' +
+        '- form: followup{"name": "form_action_' + form + '"}\n' if not first_time else ''
+)
+
+cardinal_no_match = lambda first_time, cardinal, form: (
+        ('* form: ' if not first_time else '* ') + 'cardinal{"cardinal": "' + cardinal + '"}\n' +
+        '- slot{"cardinal": "' + cardinal + '"}\n' +
+        '- action_extract_name_from_cardinal\n' +
+        '- slot{"cardinal": null}\n' +
+        '- slot{"name": null}\n' +
+        '- form: followup{"name": "form_action_' + form + '"}\n' if not first_time else ''
+)
+
 search = lambda first_time, category: (
         ('* form: ' if not first_time else '* ') +
         'search{"category": "' + category + '"}\n' +
         '- slot{"category": "' + category + '"}\n' +
         ('- form: ' if not first_time else '- ') + 'form_action_search\n' +
+        ('- form{"name": "form_action_search"}\n' if first_time else '') +
         '- slot{"category": "' + category + '"}\n' +
         '- slot{"category": null}\n' +
         '- slot{"origin": null}\n' +
@@ -82,12 +125,15 @@ search = lambda first_time, category: (
         '- slot{"availability": null}\n' +
         '- slot{"new": null}\n' +
         '- slot{"name": null}\n' +
+        '- slot{"cardinal": null}\n' +
+        '- slot{"unfeat_name_cardinal": null}\n' +
         get_unfeat_search_settings(category, "null", "null", "null", "null", "null", 0) +
         '- form: followup{"name": "action_suggest"}\n' +
         '- form{"name": null}\n' +
         '- slot{"requested_slot": null}\n' +
         '- action_suggest\n' +
         '- slot{"name": null}\n' +
+        '- slot{"unfeat_name_cardinal": []}\n' +
         get_unfeat_search_settings(category, "null", "null", "null", "null", "null", 5)
 )
 
@@ -101,11 +147,14 @@ filter = lambda category, origin, organic, christmas, availability, new: (
         '- slot{"availability": null}\n' +
         '- slot{"new": null}\n' +
         '- slot{"name": null}\n' +
+        '- slot{"cardinal": null}\n' +
+        '- slot{"unfeat_name_cardinal": null}\n' +
         get_unfeat_search_settings(category, origin, organic, christmas, availability, new, 0) +
         ((
                  '- followup{"name": "action_suggest"}\n' +
                  '- action_suggest\n' +
                  '- slot{"name": null}\n' +
+                 '- slot{"unfeat_name_cardinal": []}\n' +
                  get_unfeat_search_settings(category, origin, organic, christmas, availability, new, 5)
          ) if category != 'null' else (
                 '- followup{"name": "form_action_search"}\n' +
@@ -115,242 +164,114 @@ filter = lambda category, origin, organic, christmas, availability, new: (
         ))
 )
 
-preparation_empty = lambda first_time: (
-        ('* form: ' if not first_time else '* ') +
-        'preparation\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_preparation\n' +
-        '- form{"name": "form_action_preparation"}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
 
-preparation_unknown = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'preparation{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_preparation\n' +
-        '- slot{"name": null}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
+def by_name_types(event_type):
+    empty = lambda first_time: (
+            ('* form: ' if not first_time else '* ') +
+            '' + event_type + '\n' +
+            ('- form: ' if not first_time else '- ') + 'form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"requested_slot": "name"}\n'
+    )
 
-preparation = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'preparation{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_preparation\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
+    unknown = lambda first_time, name: (
+            ('* form: ' if not first_time else '* ') +
+            '' + event_type + '{"name": "' + name + '"}\n' +
+            '- slot{"name": "' + name + '"}\n' +
+            ('- form: ' if not first_time else '- ') + 'form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"name": null}\n' +
+            '- slot{"requested_slot": "name"}\n'
+    )
 
-preparation_prev = lambda name: (
-        '* preparation\n' +
-        '- form_action_preparation\n' +
-        '- form{"name": "form_action_preparation"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
+    valid = lambda first_time, name: (
+            ('* form: ' if not first_time else '* ') +
+            '' + event_type + '{"name": "' + name + '"}\n' +
+            '- slot{"name": "' + name + '"}\n' +
+            ('- form: ' if not first_time else '- ') + 'form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"name": "' + name + '"}\n' +
+            '- form{"name": null}\n' +
+            '- slot{"requested_slot": null}\n' +
+            '- utter_can_i_help_you_again\n'
+    )
 
-details_empty = lambda first_time: (
-        ('* form: ' if not first_time else '* ') +
-        'details\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_details\n' +
-        '- form{"name": "form_action_details"}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
+    multiple_choices = lambda first_time, name: (
+            ('* form: ' if not first_time else '* ') + '' + event_type + '{"name": "' + name[:len(name) // 2] + '"}\n' +
+            '- slot{"name": "' + name[:len(name) // 2] + '"}\n' +
+            ('- form: ' if not first_time else '- ') + 'form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"name": "' + name[:len(name) // 2] + '"}\n' +
+            '- slot{"unfeat_name_cardinal": []}\n' +
+            '- slot{"name": null}\n' +
+            '- form: followup{"name": "form_action_' + event_type + '"}\n' +
+            '- form{"name": null}\n' +
+            '- slot{"requested_slot": null}\n' +
+            '- form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"requested_slot": "name"}\n'
+    )
 
-details_unknown = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'details{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_details\n' +
-        '- slot{"name": null}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
+    with_cardinal = lambda first_time, cardinal, name: (
+            ('* form: ' if not first_time else '* ') + event_type + '{"cardinal": "' + cardinal + '"}\n' +
+            '- slot{"cardinal": "' + cardinal + '"}\n' +
+            '- form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"name": "' + name + '"}\n' +
+            '- slot{"cardinal": null}\n' +
+            '- form: followup{"name": "form_action_' + event_type + '"}\n' +
+            '- form: form_action_' + event_type + '\n' +
+            '- form{"name": null}\n' +
+            '- slot{"requested_slot": null}\n' +
+            '- utter_can_i_help_you_again\n'
+    )
 
-details = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'details{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_details\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
+    prev = lambda first_time, name: (
+            ('* form: ' if not first_time else '* ') + '' + event_type + '\n' +
+            '- form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"name": "' + name + '"}\n' +
+            '- form{"name": null}\n' +
+            '- slot{"requested_slot": null}\n' +
+            '- utter_can_i_help_you_again\n'
+    )
 
-details_prev = lambda name: (
-        '* details\n' +
-        '- form_action_details\n' +
-        '- form{"name": "form_action_details"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
+    deny = lambda first_time: (
+            ('* form: ' if not first_time else '* ') + 'search_deny\n' +
+            '- action_deactivate_form\n' +
+            '- form{"name": null}\n' +
+            '- slot{"requested_slot": null}\n' +
+            '- utter_can_i_help_you_again\n'
+    )
 
-cost_empty = lambda first_time: (
-        ('* form: ' if not first_time else '* ') +
-        'cost\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_cost\n' +
-        '- form{"name": "form_action_cost"}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
+    cardinal_reask = lambda first_time: (
+            ('- form: ' if not first_time else '- ') + 'form_action_' + event_type + '\n' +
+            '- form{"name": "form_action_' + event_type + '"}\n' +
+            '- slot{"name": null}\n' +
+            '- slot{"requested_slot": "name"}\n'
+    )
 
-cost_unknown = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'cost{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_cost\n' +
-        '- slot{"name": null}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
+    cardinal_confirm = lambda first_time, name: (
+            ('- form: ' if not first_time else '- ') + 'form_action_' + event_type + '\n' +
+            '- form{"name": null}\n' +
+            '- slot{"requested_slot": null}\n' +
+            '- utter_can_i_help_you_again\n'
+    )
 
-cost = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'cost{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_cost\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
+    return empty, unknown, valid, multiple_choices, with_cardinal, prev, deny, cardinal_reask, cardinal_confirm
 
-cost_prev = lambda name: (
-        '* cost\n' +
-        '- form_action_cost\n' +
-        '- form{"name": "form_action_cost"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
 
-ingredients_empty = lambda first_time: (
-        ('* form: ' if not first_time else '* ') +
-        'ingredients\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_ingredients\n' +
-        '- form{"name": "form_action_ingredients"}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
-
-ingredients_unknown = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'ingredients{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_ingredients\n' +
-        '- slot{"name": null}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
-
-ingredients = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'ingredients{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_ingredients\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
-
-ingredients_prev = lambda name: (
-        '* ingredients\n' +
-        '- form_action_ingredients\n' +
-        '- form{"name": "form_action_ingredients"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
-
-availability_empty = lambda first_time: (
-        ('* form: ' if not first_time else '* ') +
-        'availability\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_availability\n' +
-        '- form{"name": "form_action_availability"}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
-
-availability_unknown = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'availability{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_availability\n' +
-        '- slot{"name": null}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
-
-availability = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'availability{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_availability\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
-
-availability_prev = lambda name: (
-        '* availability\n' +
-        '- form_action_availability\n' +
-        '- form{"name": "form_action_availability"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
-
-similar_products_empty = lambda first_time: (
-        ('* form: ' if not first_time else '* ') +
-        'similar_products\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_similar_products\n' +
-        '- form{"name": "form_action_similar_products"}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
-
-similar_products_unknown = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'similar_products{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_similar_products\n' +
-        '- slot{"name": null}\n' +
-        '- slot{"requested_slot": "name"}\n'
-)
-
-similar_products = lambda first_time, name: (
-        ('* form: ' if not first_time else '* ') +
-        'similar_products{"name": "' + name + '"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        ('- form: ' if not first_time else '- ') + 'form_action_similar_products\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
-
-similar_products_prev = lambda name: (
-        '* similar_products\n' +
-        '- form_action_similar_products\n' +
-        '- form{"name": "form_action_similar_products"}\n' +
-        '- slot{"name": "' + name + '"}\n' +
-        '- form{"name": null}\n' +
-        '- slot{"requested_slot": null}\n' +
-        '- utter_can_i_help_you_again\n'
-)
-
-values_category = ["Black Teas", "Oolong", "White Teas", "Gold Tea Selection", "Fruit Infusions", "Rooibos", "Herbal Teas",
-            "Matcha and Flower Teas"]
+values_category = ["Black Teas", "Oolong", "White Teas", "Gold Tea Selection", "Fruit Infusions", "Rooibos",
+                   "Herbal Teas",
+                   "Matcha and Flower Teas"]
 
 values_new = ["New"]
 values_organic = ["Organic", "Not organic"]
 values_christmas = ["Christmas", "Not christmas"]
 values_origin = ["Ceylon", "China", "India", "Taiwan", "Korea", "Tanzania", "South africa"]
 values_availability = ["Available", "Not available"]
+values_cardinal = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+values_invalid_cardinal = ['11', '12', '13', '14', '15', '-1', '-2', '-3', '-4', '-5', '0']
 
 products = ['Amarettino Black Tea', 'Assam BPS Typhoo Black Tea', 'Assam Exquisite TGFOP Black Tea',
             'Assam Genteel FTGFOP Black Tea', 'Assam Goldtips TGFOP Black Tea', 'Assam TGFOP Satrupa Organic Black Tea',
@@ -430,166 +351,259 @@ products = ['Amarettino Black Tea', 'Assam BPS Typhoo Black Tea', 'Assam Exquisi
             'Matcha-Genmaicha Instant Green Tea BIO 50g', 'Matcha-Kukicha Instant Green Tea BIO 50g']
 
 
-# possibilities = {
-#     "new": ["New"],
-#     "organic": ["Organic"],
-#     "christmas": ["Christmas"],
-#     "origin": ["China", "India"],
-#     "availability": ["Available", "Not available"],
-#     "category": ["Black Teas", "Oolong"],
-# }
+def prob(perc):
+    return randint(0, 99) < perc
+
+
+def split_prob(n):
+    p_each = ceil(100 / n)
+    v = randint(0, 99)
+    for i in range(0, n):
+        if v < p_each * (i + 1):
+            return i
+
+
+def affirm_sequence(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability, cur_new):
+    res = ''
+    if prob(50):
+        n_affirm = 1
+    else:
+        if prob(75):
+            n_affirm = 0
+        else:
+            n_affirm = randint(2, 3)
+
+    offset = 10
+    for j in range(0, n_affirm):
+        res += search_affirm(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability, cur_new, offset)
+        offset += 5
+
+    if prob(75):
+        res += search_deny(True)
+    return res
+
+
+def set_filters_sequence(cur_origin, cur_organic, cur_christmas, cur_availability, cur_new):
+    if prob(75):
+        n_filters = 1
+    else:
+        if prob(75):
+            n_filters = 2
+        else:
+            n_filters = 3
+    for _ in range(0, n_filters):
+        filter_type = split_prob(5)
+        if filter_type == 0:
+            cur_origin = values_origin[randint(0, len(values_origin) - 1)]
+        elif filter_type == 1:
+            cur_organic = values_organic[randint(0, len(values_organic) - 1)]
+        elif filter_type == 2:
+            cur_christmas = values_christmas[randint(0, len(values_christmas) - 1)]
+        elif filter_type == 3:
+            cur_availability = values_availability[randint(0, len(values_availability) - 1)]
+        elif filter_type == 4:
+            cur_new = values_new[randint(0, len(values_new) - 1)]
+    return cur_origin, cur_organic, cur_christmas, cur_availability, cur_new
+
 
 def produce_stories(n):
     res = ''
+    for story_index in range(1, n + 1):
+        res += f'## story {story_index}\n'
+        if prob(75):
+            res += greet()
 
-    for i in range(0, n):
         name_set = None
-        filter_wait_for_category = False
-
-        res += f'## story {i + 1}\n'
-
         cur_category = 'null'
-
         cur_origin = 'null'
         cur_organic = 'null'
         cur_christmas = 'null'
         cur_availability = 'null'
         cur_new = 'null'
 
-        if randint(0, 2) >= 1:
-            res += greet()
+        is_cardinal_possible = False
+        is_filter_asking_for_category = False
 
-        at_least_one_category = False
-        n_entities = randint(1, 5)
-        for j in range(0, n_entities):
-            rand_el = randint(0, 2)
-            if rand_el == 0:
-                name_set = None
-
-                for _ in range(0, randint(1, 3)):
-                    rand_el = randint(0, 4)
-                    if rand_el == 0:
-                        cur_origin = values_origin[randint(0, len(values_origin) - 1)]
-                    elif rand_el == 1:
-                        cur_organic = values_organic[randint(0, len(values_organic) - 1)]
-                    elif rand_el == 2:
-                        cur_christmas = values_christmas[randint(0, len(values_christmas) - 1)]
-                    elif rand_el == 3:
-                        cur_availability = values_availability[randint(0, len(values_availability) - 1)]
-                    elif rand_el == 4:
-                        cur_new = values_new[randint(0, len(values_new) - 1)]
-                res += filter(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability, cur_new)
-
-                if cur_category != 'null':
-                    n_affirm = randint(0, 5)
-                    offset = 10
-                    for j in range(0, n_affirm):
-                        res += search_affirm(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability,
-                                             cur_new,
-                                             offset)
-                        offset += 5
-                    n_deny = randint(0, 1)
-                    for j in range(0, n_deny):
-                        res += search_deny()
+        if prob(50):
+            n_elements = 1
+        else:
+            if prob(50):
+                n_elements = 2
+            else:
+                if prob(50):
+                    n_elements = 3
                 else:
-                    filter_wait_for_category = True
+                    n_elements = 4
 
-            elif rand_el == 1:
+        for _ in range(0, n_elements):
+            if _ > 0:
+                if prob(10):
+                    res += thanks()
+
+            sp = split_prob(3)
+            if sp == 0:
                 name_set = None
                 cur_category = 'null'
-
                 cur_origin = 'null'
                 cur_organic = 'null'
                 cur_christmas = 'null'
                 cur_availability = 'null'
                 cur_new = 'null'
+                is_cardinal_possible = False
 
-                max_rep = randint(1, 3)
+                if prob(75):
+                    max_rep = 0
+                else:
+                    max_rep = randint(1, 2)
+
                 for i in range(0, max_rep):
-                    if i == max_rep - 1:
-                        cur_category = values_category[randint(0, len(values_category) - 1)]
-                        res += search(not filter_wait_for_category and i == 0, cur_category)
+                    if prob(50):
+                        res += search_unknown(not is_filter_asking_for_category and i == 0, 'unknown')
                     else:
-                        rand_el = randint(0, 1)
-                        if rand_el == 0:
-                            res += search_unknown(not filter_wait_for_category and i == 0, 'unknown')
-                        else:
-                            res += search_empty(not filter_wait_for_category and i == 0)
-                filter_wait_for_category = False
+                        res += search_empty(not is_filter_asking_for_category and i == 0)
 
-                if cur_category != 'null':
-                    n_affirm = randint(0, 5)
-                    offset = 10
-                    for j in range(0, n_affirm):
-                        res += search_affirm(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability,
-                                             cur_new,
-                                             offset)
-                        offset += 5
-                    n_deny = randint(0, 1)
-                    for j in range(0, n_deny):
-                        res += search_deny()
-
-            else:
+                if max_rep == 0 or prob(75):
+                    cur_category = values_category[randint(0, len(values_category) - 1)]
+                    res += search(not is_filter_asking_for_category and max_rep == 0, cur_category)
+                    is_cardinal_possible = True
+                    res += affirm_sequence(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability,
+                                           cur_new)
+                    is_filter_asking_for_category = False
+                else:
+                    if prob(75):
+                        res += search_deny(False)
+            elif sp == 1:
+                name_set = None
+                cur_origin, cur_organic, cur_christmas, cur_availability, cur_new = set_filters_sequence(cur_origin,
+                                                                                                         cur_organic,
+                                                                                                         cur_christmas,
+                                                                                                         cur_availability,
+                                                                                                         cur_new)
+                res += filter(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability, cur_new)
+                if cur_category == 'null':
+                    is_cardinal_possible = False
+                    is_filter_asking_for_category = True
+                else:
+                    is_cardinal_possible = True
+                    res += affirm_sequence(cur_category, cur_origin, cur_organic, cur_christmas, cur_availability,
+                                           cur_new)
+            elif sp == 2:
                 # details, preparations, ingredients, cost, availability, similar_products
-                def by_name(name_set, unknown, empty, normal, prev):
+                def by_name(form_name, is_cardinal_possible, name_set, functs):
                     res = ''
-                    if name_set is not None:
-                        if randint(0, 3) == 0:
-                            n_pre = randint(0, 2)
-                            for i in range(0, n_pre):
-                                if i == 0:
-                                    res += unknown(True, 'unknown')
-                                else:
-                                    if randint(0, 1) == 0:
-                                        res += unknown(False, 'unknown')
-                                    else:
-                                        res += empty(False)
-                            name_set = products[randint(0, len(products) - 1)]
-                            res += normal(n_pre == 0, name_set)
+                    empty, unknown, valid, multiple_choices, with_cardinal, prev, deny, cardinal_reask, cardinal_confirm = functs
+
+                    if name_set is None or prob(33):
+                        if prob(50):
+                            n_pre = 0
                         else:
-                            res += prev(name_set)
-                    else:
-                        n_pre = randint(0, 3)
+                            n_pre = randint(1, 2)
                         for i in range(0, n_pre):
-                            if randint(0, 1) == 0:
+                            if i == 0:
                                 res += unknown(i == 0, 'unknown')
                             else:
-                                res += empty(i == 0)
+                                if prob(50):
+                                    res += unknown(i == 0, 'unknown')
+                                else:
+                                    res += empty(i == 0)
+                        if n_pre > 0 and prob(75):
+                            res += deny(n_pre == 0)
+                        else:
+                            name_set = products[randint(0, len(products) - 1)]
 
-                        name_set = products[randint(0, len(products) - 1)]
-                        res += normal(n_pre == 0, name_set)
-                    return name_set, res
+                            if is_cardinal_possible:
+                                if n_pre > 0:
+                                    type_of_reply = split_prob(4)
+                                    if type_of_reply == 0:
+                                        res += multiple_choices(n_pre == 0, name_set)
+                                        is_cardinal_possible = True
+                                        if prob(25):
+                                            res += cardinal_no_match(False, values_invalid_cardinal[
+                                                randint(0, len(values_invalid_cardinal) - 1)], form_name)
+                                            res += cardinal_reask(True)
+                                        res += cardinal(False, values_cardinal[randint(0, len(values_cardinal) - 1)],
+                                                        name_set, form_name)
+                                        res += cardinal_confirm(True, name_set)
+                                    elif type_of_reply == 1:
+                                        res += valid(n_pre == 0, name_set)
+                                    elif type_of_reply == 2:
+                                        res += tea_name(False, name_set)
+                                        res += cardinal_confirm(False, name_set)
+                                    else:
+                                        res += with_cardinal(n_pre == 0,
+                                                             values_cardinal[randint(0, len(values_cardinal) - 1)],
+                                                             name_set)
+                                else:
+                                    type_of_reply = split_prob(3)
+                                    if type_of_reply == 0:
+                                        res += multiple_choices(n_pre == 0, name_set)
+                                        is_cardinal_possible = True
+                                        if prob(25):
+                                            res += cardinal_no_match(False, values_invalid_cardinal[
+                                                randint(0, len(values_invalid_cardinal) - 1)], form_name)
+                                            res += cardinal_reask(True)
+                                        res += cardinal(False, values_cardinal[randint(0, len(values_cardinal) - 1)],
+                                                        name_set, form_name)
+                                        res += cardinal_confirm(True, name_set)
+                                    elif type_of_reply == 1:
+                                        res += valid(n_pre == 0, name_set)
+                                    else:
+                                        res += with_cardinal(n_pre == 0,
+                                                             values_cardinal[randint(0, len(values_cardinal) - 1)],
+                                                             name_set)
+                            else:
+                                type_of_reply = split_prob(2)
+                                if type_of_reply == 0:
+                                    res += multiple_choices(n_pre == 0, name_set)
+                                    is_cardinal_possible = True
+                                    if prob(25):
+                                        res += cardinal_no_match(False, values_invalid_cardinal[
+                                            randint(0, len(values_invalid_cardinal) - 1)], form_name)
+                                        res += cardinal_reask(True)
+                                    res += cardinal(False, values_cardinal[randint(0, len(values_cardinal) - 1)],
+                                                    name_set, form_name)
+                                    res += cardinal_confirm(False, name_set)
+                                elif type_of_reply == 1:
+                                    res += valid(n_pre == 0, name_set)
+                    else:
+                        res += prev(True, name_set)
 
-                n_times = randint(1, 3)
+                    return is_cardinal_possible, name_set, res
+
+                if prob(75):
+                    n_times = 1
+                else:
+                    if prob(75):
+                        n_times = 2
+                    else:
+                        n_times = 3
+
                 for _ in range(0, n_times):
-                    rand_el = randint(0, 5)
-                    if rand_el == 0:
-                        name_set, r = by_name(name_set, details_unknown, details_empty, details, details_prev)
-                        res += r
-                    elif rand_el == 1:
-                        name_set, r = by_name(name_set, preparation_unknown, preparation_empty, preparation,
-                                              preparation_prev)
-                        res += r
-                    elif rand_el == 2:
-                        name_set, r = by_name(name_set, ingredients_unknown, ingredients_empty, ingredients,
-                                              ingredients_prev)
-                        res += r
-                    elif rand_el == 3:
-                        name_set, r = by_name(name_set, cost_unknown, cost_empty, cost, cost_prev)
-                        res += r
-                    elif rand_el == 4:
-                        name_set, r = by_name(name_set, availability_unknown, availability_empty, availability,
-                                              availability_prev)
-                        res += r
-                    elif rand_el == 5:
-                        name_set, r = by_name(name_set, similar_products_unknown, similar_products_empty, similar_products,
-                                              similar_products_prev)
-                        res += r
+                    action = split_prob(6)
+                    r = ''
+                    if action == 0:
+                        is_cardinal_possible, name_set, r = by_name('details', is_cardinal_possible, name_set,
+                                                                    by_name_types('details'))
+                    elif action == 1:
+                        is_cardinal_possible, name_set, r = by_name('preparation', is_cardinal_possible, name_set,
+                                                                    by_name_types('preparation'))
+                    elif action == 2:
+                        is_cardinal_possible, name_set, r = by_name('ingredients', is_cardinal_possible, name_set,
+                                                                    by_name_types('ingredients'))
+                    elif action == 3:
+                        is_cardinal_possible, name_set, r = by_name('cost', is_cardinal_possible, name_set,
+                                                                    by_name_types('cost'))
+                    elif action == 4:
+                        is_cardinal_possible, name_set, r = by_name('availability', is_cardinal_possible, name_set,
+                                                                    by_name_types('availability'))
+                    elif action == 5:
+                        is_cardinal_possible, name_set, r = by_name('similar_products', is_cardinal_possible, name_set,
+                                                                    by_name_types('similar_products'))
+                    res += r
 
-        rand_bye = randint(0, 4)
-        if rand_bye >= 3:
+        if prob(75):
             res += bye()
-        elif rand_bye >= 1:
+        else:
             res += thanks_bye()
         res += '\n'
 
@@ -600,4 +614,4 @@ def produce_stories(n):
 
 
 if __name__ == '__main__':
-    print(produce_stories(100))
+    print(produce_stories(1000))

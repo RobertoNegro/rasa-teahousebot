@@ -3,7 +3,7 @@ import re
 from abc import ABC, abstractmethod
 
 from rasa_sdk import Action
-from rasa_sdk.events import SlotSet, FollowupAction, EventType
+from rasa_sdk.events import SlotSet, FollowupAction, EventType, AllSlotsReset, Form
 from fuzzywuzzy import fuzz
 from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 
@@ -151,32 +151,45 @@ class FormActionSearch(FormAction):
                         SlotSet("availability", None),
                         SlotSet("new", None),
                         SlotSet("name", None),
+                        SlotSet("cardinal", None),
+                        SlotSet("unfeat_name_cardinal", None),
                         SlotSet("unfeat_search_settings", (category, origin, organic, christmas, availability, new, 0)),
                         FollowupAction("action_suggest")]
+        else:
+            return [SlotSet("category", None),
+                    SlotSet("origin", None),
+                    SlotSet("organic", None),
+                    SlotSet("christmas", None),
+                    SlotSet("availability", None),
+                    SlotSet("new", None),
+                    SlotSet("name", None),
+                    SlotSet("unfeat_name_cardinal", None),
+                    SlotSet("unfeat_search_settings", (None, None, None, None, None, None, 0))]
 
-        return [SlotSet("category", None),
-                SlotSet("origin", None),
-                SlotSet("organic", None),
-                SlotSet("christmas", None),
-                SlotSet("availability", None),
-                SlotSet("new", None),
-                SlotSet("name", None),
-                FollowupAction("form_action_search")]
 
-    def validate(self, dispatcher, tracker, domain):
-        slot_values = self.extract_other_slots(dispatcher, tracker, domain)
-        slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
-        if slot_to_fill:
-            slot_values.update(self.extract_requested_slot(dispatcher, tracker, domain))
+def validate(self, dispatcher, tracker, domain):
+    slot_values = self.extract_other_slots(dispatcher, tracker, domain)
+    slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
+    if slot_to_fill:
+        slot_values.update(self.extract_requested_slot(dispatcher, tracker, domain))
 
-        category = slot_values['category'] if 'category' in slot_values else None
-        if category is not None:
-            sanitized_category, ratio_category = self.api.get_category_by_name(category)
-            if ratio_category <= 70:
-                dispatcher.utter_message(template=f"utter_reask_category")
-                slot_values['category'] = None
+    category = slot_values['category'] if 'category' in slot_values else None
+    if category is not None:
+        sanitized_category, ratio_category = self.api.get_category_by_name(category)
+        if ratio_category <= 70:
+            dispatcher.utter_message(template=f"utter_reask_category")
+            slot_values['category'] = None
 
-        return [SlotSet(slot, value) for slot, value in slot_values.items()]
+    return [SlotSet(slot, value) for slot, value in slot_values.items()]
+
+
+class ClearForm(Action):
+    def name(self):
+        return "action_clear_form"
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message(template="utter_can_i_help_you_again")
+        return [Form(None), SlotSet(REQUESTED_SLOT, None)]
 
 
 class ActionSuggest(Action):
@@ -195,6 +208,8 @@ class ActionSuggest(Action):
 
         matches_txt = ''
 
+        name_cardinal = []
+
         limit += offset
         i = offset
         for id, m in list(matches.items())[offset:]:
@@ -203,6 +218,7 @@ class ActionSuggest(Action):
             elif i == limit - 1:
                 matches_txt += ' and '
             matches_txt += m['name']
+            name_cardinal.append(m)
 
             i += 1
             if i >= limit:
@@ -220,6 +236,7 @@ class ActionSuggest(Action):
             dispatcher.utter_message(template="utter_suggest_empty")
 
         return [SlotSet("name", None),
+                SlotSet("unfeat_name_cardinal", None if len(name_cardinal) == 0 else name_cardinal),
                 SlotSet("unfeat_search_settings", (category, origin, organic, christmas, availability, new, limit))]
 
 
@@ -237,8 +254,17 @@ class ActionFilter(Action):
         christmas = tracker.get_slot("christmas")
         availability = tracker.get_slot("availability")
         new = tracker.get_slot("new")
-        prev_category, prev_origin, prev_organic, prev_christmas, prev_availability, prev_new, prev_offset = tracker.get_slot(
-            "unfeat_search_settings")
+        search_settings = tracker.get_slot("unfeat_search_settings")
+        if search_settings is not None:
+            prev_category, prev_origin, prev_organic, prev_christmas, prev_availability, prev_new, prev_offset = search_settings
+        else:
+            prev_category = None
+            prev_origin = None
+            prev_organic = None
+            prev_christmas = None
+            prev_availability = None
+            prev_new = None
+            prev_offset = None
 
         if prev_category is not None:
             return [SlotSet("origin", None),
@@ -247,6 +273,8 @@ class ActionFilter(Action):
                     SlotSet("availability", None),
                     SlotSet("new", None),
                     SlotSet("name", None),
+                    SlotSet("cardinal", None),
+                    SlotSet("unfeat_name_cardinal", None),
                     SlotSet("unfeat_search_settings", (prev_category,
                                                        origin if origin is not None else prev_origin,
                                                        organic if organic is not None else prev_organic,
@@ -256,12 +284,15 @@ class ActionFilter(Action):
                                                        0)),
                     FollowupAction("action_suggest")]
         else:
+            dispatcher.utter_message(template='utter_filter_before_category')
             return [SlotSet("origin", None),
                     SlotSet("organic", None),
                     SlotSet("christmas", None),
                     SlotSet("availability", None),
                     SlotSet("new", None),
                     SlotSet("name", None),
+                    SlotSet("cardinal", None),
+                    SlotSet("unfeat_name_cardinal", None),
                     SlotSet("unfeat_search_settings", (prev_category,
                                                        origin if origin is not None else prev_origin,
                                                        organic if organic is not None else prev_organic,
@@ -270,10 +301,44 @@ class ActionFilter(Action):
                                                        new if new is not None else prev_new,
                                                        0)),
                     FollowupAction("form_action_search")]
+
+
 # endregion ---------------
 
 
 # region  ----- BY NAME -----
+class ActionExtractNameFromCardinal(Action):
+    def __init__(self) -> None:
+        super().__init__()
+        self.api = PetersTeaHouseAPI()
+
+    def name(self):
+        return "action_extract_name_from_cardinal"
+
+    def run(self, dispatcher, tracker, domain):
+        cardinal = tracker.get_slot("cardinal")
+        cardinal = int(cardinal) - 1
+        unfeat_name_cardinal = tracker.get_slot("unfeat_name_cardinal")
+
+        if tracker.active_form is not None and 'name' in tracker.active_form:
+            followup = [FollowupAction(tracker.active_form['name'])]
+
+            if unfeat_name_cardinal is not None and 0 <= cardinal < len(unfeat_name_cardinal):
+                return [
+                           SlotSet("cardinal", None),
+                           SlotSet("name", unfeat_name_cardinal[cardinal]['name'])] + followup
+            return [
+                       SlotSet("cardinal", None),
+                       SlotSet("name", None)
+                   ] + followup
+        else:
+            dispatcher.utter_message(template="utter_can_i_help_you_again", **tracker.slots)
+            return [
+                SlotSet("cardinal", None),
+                SlotSet("name", None)
+            ]
+
+
 class FormActionByName(FormAction, ABC):
     def __init__(self) -> None:
         super().__init__()
@@ -284,11 +349,24 @@ class FormActionByName(FormAction, ABC):
         return ["name"]
 
     def request_next_slot(self, dispatcher, tracker, domain):
+        additional_rets = []
         for slot in self.required_slots(tracker):
             if self._should_request_slot(tracker, slot):
-                dispatcher.utter_message(template=f"utter_ask_{slot}", **tracker.slots)
-                return [SlotSet(REQUESTED_SLOT, slot)]
-        return None
+                if slot == 'name':
+                    cardinal = tracker.get_slot('cardinal')
+                    if cardinal is not None:
+                        cardinal = int(cardinal) - 1
+                        unfeat_name_cardinal = tracker.get_slot('unfeat_name_cardinal')
+                        if unfeat_name_cardinal is not None:
+                            additional_rets = [SlotSet("name", unfeat_name_cardinal[cardinal]['name']),
+                                               SlotSet("cardinal", None),
+                                               FollowupAction(self.name())]
+                    else:
+                        dispatcher.utter_message(template=f"utter_ask_{slot}", **tracker.slots)
+                        return [SlotSet(REQUESTED_SLOT, slot)] + additional_rets
+                else:
+                    return [SlotSet(REQUESTED_SLOT, slot)] + additional_rets
+        return None if len(additional_rets) == 0 else additional_rets
 
     @abstractmethod
     async def done(self, product, dispatcher, tracker, domain):
@@ -302,9 +380,23 @@ class FormActionByName(FormAction, ABC):
             dispatcher.utter_message(template=f"utter_invalid_name")
             return [SlotSet("name", None)]
 
-        for id in matches_by_name:
-            await self.done(matches_by_name[id], dispatcher, tracker, domain)
-            break
+        if len(matches_by_name) == 1:
+            for id in matches_by_name:
+                await self.done(matches_by_name[id], dispatcher, tracker, domain)
+        else:
+            txt = 'I\'ve found: '
+            unfeat_name_cardinal = []
+            for i, id in enumerate(matches_by_name):
+                txt += f'{matches_by_name[id]["name"]}'
+                if i < len(matches_by_name) - 2:
+                    txt += f', '
+                elif i < len(matches_by_name) - 1:
+                    txt += f' or '
+                unfeat_name_cardinal.append(matches_by_name[id])
+            txt += '.'
+            dispatcher.utter_message(text=txt)
+            return [SlotSet("unfeat_name_cardinal", unfeat_name_cardinal), SlotSet("name", None),
+                    FollowupAction(self.name())]
 
         return []
 
@@ -320,7 +412,15 @@ class FormActionByName(FormAction, ABC):
             if len(matches_by_name) == 0 or ratio_by_name <= 70:
                 dispatcher.utter_message(template=f"utter_invalid_name")
                 slot_values['name'] = None
-
+        else:
+            cardinal = slot_values["cardinal"] if 'cardinal' in slot_values else None
+            if cardinal is not None:
+                cardinal = int(cardinal) - 1
+                unfeat_name_cardinal = slot_values[
+                    "unfeat_name_cardinal"] if 'unfeat_name_cardinal' in slot_values else None
+                if unfeat_name_cardinal is not None:
+                    slot_values['name'] = unfeat_name_cardinal[cardinal]['name']
+                slot_values['cardinal'] = None
         return [SlotSet(slot, value) for slot, value in slot_values.items()]
 
 

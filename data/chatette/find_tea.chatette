@@ -1,4 +1,4 @@
-%[search](1000)
+%[search](5000)
     ~[article?] ~[adjective?] ~[search_tea] ~[please?]
     i want ~[article?] ~[adjective?] ~[search_tea] ~[please?]
     [i?] would like ~[article?] ~[adjective?] ~[search_tea] ~[please?]
@@ -17,16 +17,29 @@
     are you ~[selling] ~[article?] ~[adjective?] ~[search_tea]
 
 ~[search_tea]
-    ~[adjective2?] @[origin#adj?origin] @[christmas#adj?christmas] ~[category_or_generic] ~[from_origin?!origin] @[christmas#noun?!christmas]
-    ~[adjective2?] @[christmas#adj?christmas] ~[category_or_generic] @[christmas#noun?!christmas]
-    ~[adjective2?] @[origin#adj?origin] ~[category_or_generic] ~[from_origin?!origin]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
+    ~[category_or_generic]
     ~[adjective2?] ~[category_or_generic]
+    ~[adjective2?] @[origin#adj?origin] @[christmas#adj?christmas] ~[category_or_generic] ~[from_origin?!origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] @[origin#adj?origin] ~[category_or_generic] ~[from_origin?!origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[origin#adj?origin] @[christmas#adj?christmas] ~[category_or_generic] @[christmas#noun?!christmas] ~[from_origin?!origin]
+    ~[adjective2?] @[christmas#adj?christmas] @[origin#adj?origin] ~[category_or_generic] @[christmas#noun?!christmas] ~[from_origin?!origin]
 
 ~[category_or_generic]
     @[category]
     ~[tea]
 
-%[filter](1000)
+%[filter](5000)
     ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
     i want ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
     [i?] would like ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
@@ -47,11 +60,39 @@
     [filter|show me|show?] only [those?] ~[article?] ~[adjective?] ~[generic_tea_with_filter] ~[please?]
 
 ~[generic_tea_with_filter]
-    ~[adjective2] @[origin#adj?origin] @[christmas#adj?christmas] ~[tea] ~[from_origin?!origin] @[christmas#noun?!christmas]
-    ~[adjective2?] @[origin#adj] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
-    ~[adjective2?] @[origin#adj?origin] @[christmas#adj] ~[tea] ~[from_origin?!origin]
-    ~[adjective2?] @[christmas#adj?christmas] ~[tea] ~[from_origin] @[christmas#noun?!christmas]
-    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin] @[christmas#noun]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2] ~[tea]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] ~[tea] ~[from_origin?!origin]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas]
+    ~[adjective2?] @[origin#adj?origin] @[christmas#adj?christmas] ~[tea] ~[from_origin?!origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] @[origin#adj?origin] ~[tea] ~[from_origin?!origin] @[christmas#noun?!christmas]
+    ~[adjective2?] @[christmas#adj?christmas] @[origin#adj?origin] ~[tea] @[christmas#noun?!christmas] ~[from_origin?!origin]
+    ~[adjective2?] @[origin#adj?origin] @[christmas#adj?christmas] ~[tea] @[christmas#noun?!christmas] ~[from_origin?!origin]
 
 %[search_affirm](100)
     ~[affirm]
@@ -130,6 +171,8 @@
 ~[tea]
     tea
     teas
+    product
+    products
 
 ~[article]
     a
@@ -144,7 +187,6 @@
 ~[adjective2]
     @[organic]
     @[new]
-
 
 ~[sell]
     sell

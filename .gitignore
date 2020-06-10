@@ -133,3 +133,4 @@ __pycache__/*
 gactions
 models/*
 scraper/cache/*
+results/*

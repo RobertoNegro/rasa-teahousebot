@@ -18,8 +18,8 @@ pipeline:
     epochs: 100
 
 policies:
-  - name: KerasPolicy
-    epochs: 100
+  - name: TEDPolicy
+    epochs: 2
     batch_size: 50
   - name: MappingPolicy
   - name: AugmentedMemoizationPolicy

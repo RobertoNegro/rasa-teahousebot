@@ -13,13 +13,18 @@ slots:
     type: text
   new:
     type: text
+  cardinal:
+    type: text
 
+  unfeat_name_cardinal:
+    type: unfeaturized
   unfeat_search_settings:
     auto_fill: false
     type: unfeaturized
 
 entities:
 - name
+- cardinal
 - category
 - origin
 - organic
@@ -30,9 +35,13 @@ entities:
 intents:
  - greet
  - search_affirm
- - search_deny
+ - search_deny:
+     triggers: action_clear_form
  - search
  - filter
+ - tea_name
+ - cardinal:
+     triggers: action_extract_name_from_cardinal
  - details
  - preparation
  - cost
@@ -56,6 +65,9 @@ responses:
   utter_can_i_help_you_again:
   - text: "Can I help you in something else?"
   - text: "How can I help you more?"
+
+  utter_thanks:
+    - text: "You're welcome"
 
   utter_thanks_goodbye:
     - text: "You're welcome, bye!"
@@ -102,8 +114,8 @@ responses:
   utter_reask_category:
     - text: "Sorry, I don't know what you mean with \"{category}\". Possible categories are: Black Teas, Oolong, Green Teas, White Teas, Gold Tea Selection, Fruit Infusions, Rooibos, Herbal Teas, Matcha and Flower Teas. Which one you prefer?"
 
-  utter_reask_category_empty:
-    - text: "I need to know which type of tea do you like to help you in your research. Possible categories are: Black Teas, Oolong, Green Teas, White Teas, Gold Tea Selection, Fruit Infusions, Rooibos, Herbal Teas, Matcha and Flower Teas. Which one you prefer?"
+  utter_filter_before_category:
+    - text: "First I need to know which type of tea do you like to help you in your research. Possible categories are: Black Teas, Oolong, Green Teas, White Teas, Gold Tea Selection, Fruit Infusions, Rooibos, Herbal Teas, Matcha and Flower Teas."
   # ----
 
   # action details
@@ -130,11 +142,12 @@ responses:
   utter_similar_products_empty:
     - text: "I'm sorry, I didn't find any similar product."
 
-
 actions:
 - action_search
 - action_filter
 - action_suggest
+- action_extract_name_from_cardinal
+- action_clear_form
 
 forms:
 - form_action_search

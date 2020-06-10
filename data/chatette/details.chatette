@@ -1,26 +1,37 @@
-%[details](250)
-    @[name] ~[please?]
-    [can you?] ~[tell] ~[me?] ~[tea_or_generic?] ~[please?]
-    [can you?] ~[tell] ~[me?] [the] ~[details] ~[tea_or_generic?] ~[please?]
-    [can you?] ~[tell] ~[me?] [more?] ~[details?] ~[about] ~[tea_or_generic?] ~[please?]
+%[details](1000)
+    ~[can_you_tell?] [the?] ~[details] ~[about?] ~[tea_or_generic] ~[please?]
+    ~[can_you_tell?] more ~[details?] ~[about] ~[tea_or_generic] ~[please?]
+    [can you?] describe ~[tea_or_generic] ~[please?]
 
-%[preparation](250)
-    [can you?] ~[tell] ~[me?] how [to|can i|can] ~[prepare] ~[tea_or_generic?] ~[please?]
-    [can you?] ~[tell] ~[me?] how much [time is needed|time takes|does it takes?] to ~[prepare] ~[tea_or_generic?] ~[please?]
+%[preparation](1000)
+    ~[can_you_tell?] how [to|can i|can] ~[prepare] ~[tea_or_generic] ~[please?]
+    ~[can_you_tell?] how much [time is needed|time takes|does it takes] [to?p] ~[prepare?p] ~[tea_or_generic] ~[please?]
+    ~[can_you_tell?] how many [leaves?] [are needed?] to ~[prepare] ~[tea_or_generic] ~[please?]
+    ~[can_you_tell?] [which|the?] temperature [of the water?] [is needed?] [to?p] ~[prepare?p] ~[tea_or_generic] ~[please?]
 
-%[cost](250)
-    [can you?] ~[tell] ~[me?] how much [money|euros?] does [it?] [cost|costs] ~[tea_or_generic?] ~[please?]
-    [can you?] ~[tell] ~[me?] how much [money|euros?] are needed for ~[tea_or_generic?] ~[please?]
+%[cost](1000)
+    ~[can_you_tell?] how much [money|euros?] does ~[tea_or_generic] [cost|costs] ~[please?]
+    ~[can_you_tell?] how much [money|euros?] are needed for ~[tea_or_generic] ~[please?]
 
-%[ingredients](250)
-    [can you?] ~[tell] ~[me?] [what|which] [are?] [the?] [ingredients|components] [of?] ~[tea_or_generic?] ~[please?]
+%[ingredients](1000)
+    ~[can_you_tell?] [what|which] [are?] [the?] [ingredients|components] [of?] ~[tea_or_generic] ~[please?]
+    ~[can_you_tell?] [what|which] [are?] ~[tea_or_generic] [ingredients|components] ~[please?]
+    ~[can_you_tell?] [what|which] [ingredients|components] [are?] [contained|in|inside|part of] ~[tea_or_generic] ~[please?]
 
-%[availability](250)
-    [can you?] ~[tell] ~[me?] if ~[tea_or_generic?] [is?] [available|in stock] ~[please?]
+%[availability](1000)
+    ~[can_you_tell?] [if?] ~[tea_or_generic] [is?] [available|in stock] ~[please?]
+    is ~[tea_or_generic] [available|in stock] ~[please?]
 
-%[similar_products](250)
-    [can you?] ~[tell] ~[me?] [which|what|which are|what are?] similar products [to|with respect to?] ~[tea_or_generic?] ~[please?]
-    [can you?] [find|search|search for?] similar products [to|with respect to?] ~[tea_or_generic?] ~[please?]
+%[similar_products](1000)
+    ~[can_you_tell?] [which|what|which are|what are?] similar ~[tea] [of|to|with respect to?] ~[tea_or_generic] ~[please?]
+    ~[can_you_tell?] [which|what] ~[tea] are similar [to|with respect to?] ~[tea_or_generic] ~[please?]
+    [can you?] [find|search|search for?] similar ~[tea] [of|to|with respect to?] ~[tea_or_generic] ~[please?]
+
+%[tea_name]
+    @[name]
+
+~[can_you_tell]
+    [can you?] ~[tell]
 
 @[name]
     Amarettino Black Tea
@@ -305,8 +316,37 @@
     ~[pronoun?] @[name]
     ~[pronoun?] @[name]
     ~[pronoun?] @[name]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
+    @[cardinal] [one?]
+    [the?p]~[pronoun?!p] @[cardinal] [one?]
     ~[article?] ~[tea]
     ~[pronoun] ~[tea?]
+    it
+    it
+    it
     it
 
 ~[pronoun]
@@ -318,18 +358,15 @@
     regarding
 
 ~[tell]
-    tell
-    explain
-    expose
-    describe
-    show
-    report
-    give
+    tell ~[me?]
+    explain ~[me?]
+    show ~[me?]
+    give ~[me?]
 
 ~[me]
     me
-    to me
     us
+    to me
     to us
 
 ~[details]

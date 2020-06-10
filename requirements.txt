@@ -1,3 +1,6 @@
 rasa==1.10.0
 rasa-sdk==1.10.1
 fuzzywuzzy[speedup]==0.18.0
+tensorflow==2.1.0
+tensorflow-text==2.1.0rc0
+questionary==1.5.2

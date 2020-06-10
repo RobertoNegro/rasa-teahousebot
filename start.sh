@@ -1,3 +1,8 @@
+cd data/chatette && python -m chatette -a rasa-md main.chatette && cd ../.. # /data/chatette/output/train/output.md -> /data/nlu.md
+
+python story_generator.py # /stories.txt -> /data/stories.md
+
+
 rasa run actions
 rasa run -m models --enable-api --endpoints endpoints.yml
 ngrok http 5005
@@ -9,3 +14,9 @@ gactions test --action_package action.json --project tea-house-bot
 
 # Alexa
 # update address on https://developer.amazon.com/alexa/console/ask
+
+#docker build . -t teahouseactions:1.0
+# docker run teahouseactions:1.0
+#sudo docker-compose up -d
+
+
